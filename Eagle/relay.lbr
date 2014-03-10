@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7783,7 +7783,8 @@ Source: http://www.mew-europe.com/.. en_ds_61313_0000.pdf</description>
 </package>
 <package name="SF2">
 <description>&lt;b&gt;POLARISED, MONOSTABLE RELAY WITH FORCIBLY GUIDED CONTACTS&lt;/b&gt; NAiS&lt;p&gt;
-Source: http://www.mew-europe.com/.. en_ds_61404_0001.pdf</description>
+Source: http://www.mew-europe.com/.. en_ds_61404_0001.pdf&lt;br&gt;
+&lt;a href="http://www.panasonic-electric-works.com/catalogues/downloads/relays/en_ds_61404_0001.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <wire x1="-26.55" y1="12.4" x2="26.25" y2="12.4" width="0.2032" layer="21"/>
 <wire x1="26.25" y1="12.4" x2="26.25" y2="-12.4" width="0.2032" layer="21"/>
 <wire x1="26.25" y1="-12.4" x2="-26.55" y2="-12.4" width="0.2032" layer="21"/>
@@ -7796,8 +7797,8 @@ Source: http://www.mew-europe.com/.. en_ds_61404_0001.pdf</description>
 <pad name="6" x="-6.35" y="-6.35" drill="1.4"/>
 <pad name="9" x="-19.05" y="6.35" drill="1.4"/>
 <pad name="5" x="-19.05" y="-6.35" drill="1.4"/>
-<pad name="2" x="-24.638" y="5.08" drill="1.4"/>
-<pad name="1" x="-24.638" y="-5.08" drill="1.4"/>
+<pad name="2" x="-24.638" y="3.81" drill="1.4"/>
+<pad name="1" x="-24.638" y="-3.81" drill="1.4"/>
 <text x="-16.51" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-16.51" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -7816,8 +7817,8 @@ Source: http://www.mew-europe.com/.. en_ds_61407_0002.pdf</description>
 <pad name="6" x="-6.35" y="-6.35" drill="1.4"/>
 <pad name="9" x="-19.05" y="6.35" drill="1.4"/>
 <pad name="5" x="-19.05" y="-6.35" drill="1.4"/>
-<pad name="2" x="-24.638" y="5.08" drill="1.4"/>
-<pad name="1" x="-24.638" y="-5.08" drill="1.4"/>
+<pad name="2" x="-24.638" y="3.81" drill="1.4"/>
+<pad name="1" x="-24.638" y="-3.81" drill="1.4"/>
 <pad name="13" x="-19.05" y="-13.97" drill="1.4"/>
 <pad name="14" x="-6.35" y="-13.97" drill="1.4"/>
 <pad name="15" x="6.35" y="-13.97" drill="1.4"/>
@@ -9945,6 +9946,63 @@ Source: &lt;a href="http://www.clare.com/home/pdfs.nsf/www/CPC1708.pdf/$file/CPC
 <pad name="4" x="7.62" y="0" drill="1.6" diameter="2.3"/>
 <text x="-9.525" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="FTR-B4S">
+<description>&lt;b&gt;ULTRA MINIATURE RELAY 2 POLES - 2 A&lt;/b&gt; (Slim Profile Signal Relay)&lt;p&gt;
+FUJITSU FTR-B4 SERIES&lt;br&gt;
+Source: FTR-B4.pdf</description>
+<wire x1="-4.95" y1="2.75" x2="4.95" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="4.95" y1="2.75" x2="4.95" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="4.95" y1="-2.75" x2="-4.95" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-4.95" y1="-2.75" x2="-4.95" y2="2.75" width="0.2032" layer="21"/>
+<smd name="1" x="-3.8" y="-3.345" dx="0.8" dy="2.25" layer="1"/>
+<smd name="2" x="-0.6" y="-3.345" dx="0.8" dy="2.25" layer="1"/>
+<smd name="3" x="1.6" y="-3.345" dx="0.8" dy="2.25" layer="1"/>
+<smd name="4" x="3.8" y="-3.345" dx="0.8" dy="2.25" layer="1"/>
+<smd name="8" x="-3.8" y="3.345" dx="0.8" dy="2.25" layer="1"/>
+<smd name="7" x="-0.6" y="3.345" dx="0.8" dy="2.25" layer="1"/>
+<smd name="6" x="1.6" y="3.345" dx="0.8" dy="2.25" layer="1"/>
+<smd name="5" x="3.8" y="3.345" dx="0.8" dy="2.25" layer="1"/>
+<text x="-5.715" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.985" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="FTR-B4G">
+<description>&lt;b&gt;ULTRA MINIATURE RELAY 2 POLES - 2 A&lt;/b&gt; (Slim Profile Signal Relay)&lt;p&gt;
+FUJITSU FTR-B4 SERIES&lt;br&gt;
+Source: FTR-B4.pdf</description>
+<wire x1="-4.95" y1="2.75" x2="4.95" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="4.95" y1="2.75" x2="4.95" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="4.95" y1="-2.75" x2="-4.95" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-4.95" y1="-2.75" x2="-4.95" y2="2.75" width="0.2032" layer="21"/>
+<smd name="1" x="-3.8" y="-2.65" dx="0.8" dy="3.1" layer="1"/>
+<smd name="2" x="-0.6" y="-2.65" dx="0.8" dy="3.1" layer="1"/>
+<smd name="3" x="1.6" y="-2.65" dx="0.8" dy="3.1" layer="1"/>
+<smd name="4" x="3.8" y="-2.65" dx="0.8" dy="3.1" layer="1"/>
+<smd name="8" x="-3.8" y="2.65" dx="0.8" dy="3.1" layer="1"/>
+<smd name="7" x="-0.6" y="2.65" dx="0.8" dy="3.1" layer="1"/>
+<smd name="6" x="1.6" y="2.65" dx="0.8" dy="3.1" layer="1"/>
+<smd name="5" x="3.8" y="2.65" dx="0.8" dy="3.1" layer="1"/>
+<text x="-5.715" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.985" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="FTR-B4C">
+<description>&lt;b&gt;ULTRA MINIATURE RELAY 2 POLES - 2 A&lt;/b&gt; (Slim Profile Signal Relay)&lt;p&gt;
+FUJITSU FTR-B4 SERIES&lt;br&gt;
+Source: FTR-B4.pdf</description>
+<wire x1="-4.95" y1="2.75" x2="4.95" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="4.95" y1="2.75" x2="4.95" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="4.95" y1="-2.75" x2="-4.95" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-4.95" y1="-2.75" x2="-4.95" y2="2.75" width="0.2032" layer="21"/>
+<text x="-5.715" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.985" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<pad name="1" x="-3.8" y="-1.6" drill="0.9" diameter="1.4224"/>
+<pad name="2" x="-0.6" y="-1.6" drill="0.9" diameter="1.4224"/>
+<pad name="3" x="1.6" y="-1.6" drill="0.9" diameter="1.4224"/>
+<pad name="4" x="3.8" y="-1.6" drill="0.9" diameter="1.4224"/>
+<pad name="5" x="3.8" y="1.6" drill="0.9" diameter="1.4224"/>
+<pad name="6" x="1.6" y="1.6" drill="0.9" diameter="1.4224"/>
+<pad name="7" x="-0.6" y="1.6" drill="0.9" diameter="1.4224"/>
+<pad name="8" x="-3.8" y="1.6" drill="0.9" diameter="1.4224"/>
 </package>
 </packages>
 <symbols>
@@ -35222,6 +35280,63 @@ Source: &lt;a href="http://www.clare.com/home/pdfs.nsf/www/CPC1708.pdf/$file/CPC
 <connect gate="G$1" pin="DS1" pad="1"/>
 <connect gate="G$1" pin="DS2" pad="2"/>
 <connect gate="G$1" pin="K" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FTR-B4" prefix="K">
+<description>&lt;b&gt;ULTRA MINIATURE RELAY 2 POLES - 2 A&lt;/b&gt; (Slim Profile Signal Relay)&lt;p&gt;
+FUJITSU FTR-B4 SERIES&lt;br&gt;
+Source: FTR-B4.pdf</description>
+<gates>
+<gate name="K" symbol="K+-" x="0" y="0" addlevel="must"/>
+<gate name="-1" symbol="U" x="17.78" y="5.08" addlevel="always"/>
+<gate name="-2" symbol="U" x="17.78" y="-7.62" addlevel="always"/>
+</gates>
+<devices>
+<device name="C" package="FTR-B4C">
+<connects>
+<connect gate="-1" pin="O" pad="2"/>
+<connect gate="-1" pin="P" pad="3"/>
+<connect gate="-1" pin="S" pad="4"/>
+<connect gate="-2" pin="O" pad="7"/>
+<connect gate="-2" pin="P" pad="6"/>
+<connect gate="-2" pin="S" pad="5"/>
+<connect gate="K" pin="+" pad="1"/>
+<connect gate="K" pin="-" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G" package="FTR-B4G">
+<connects>
+<connect gate="-1" pin="O" pad="2"/>
+<connect gate="-1" pin="P" pad="3"/>
+<connect gate="-1" pin="S" pad="4"/>
+<connect gate="-2" pin="O" pad="7"/>
+<connect gate="-2" pin="P" pad="6"/>
+<connect gate="-2" pin="S" pad="5"/>
+<connect gate="K" pin="+" pad="1"/>
+<connect gate="K" pin="-" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S" package="FTR-B4S">
+<connects>
+<connect gate="-1" pin="O" pad="2"/>
+<connect gate="-1" pin="P" pad="3"/>
+<connect gate="-1" pin="S" pad="4"/>
+<connect gate="-2" pin="O" pad="7"/>
+<connect gate="-2" pin="P" pad="6"/>
+<connect gate="-2" pin="S" pad="5"/>
+<connect gate="K" pin="+" pad="1"/>
+<connect gate="K" pin="-" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>

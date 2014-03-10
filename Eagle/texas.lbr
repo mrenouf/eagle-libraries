@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -31758,7 +31758,7 @@ changed 2011-11-09</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BQ2054PN" prefix="U" uservalue="yes">
+<deviceset name="BQ2054PN" prefix="U">
 <description>&lt;b&gt;CHARGE MANAGEMENT IC&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BQ2054" x="0" y="0"/>
@@ -31794,7 +31794,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BQ2054SN" prefix="U" uservalue="yes">
+<deviceset name="BQ2054SN" prefix="U">
 <description>&lt;b&gt;CHARGE MANAGEMENT IC&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BQ2054" x="0" y="0"/>
@@ -31830,7 +31830,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BQ2058T" prefix="U" uservalue="yes">
+<deviceset name="BQ2058T" prefix="U">
 <description>&lt;b&gt;CHARGE MANAGEMENT IC&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BQ2058" x="0" y="0"/>
@@ -31866,7 +31866,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BQ2002TS" prefix="IC" uservalue="yes">
+<deviceset name="BQ2002TS" prefix="IC">
 <description>&lt;b&gt;CHARGE MANAGEMENT IC&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BQ2002" x="0" y="0"/>
@@ -31894,7 +31894,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BQ2002TP" prefix="IC" uservalue="yes">
+<deviceset name="BQ2002TP" prefix="IC">
 <description>&lt;b&gt;CHARGE MANAGEMENT IC&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BQ2002" x="0" y="0"/>
@@ -32086,7 +32086,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLV320AC56" prefix="IC" uservalue="yes">
+<deviceset name="TLV320AC56" prefix="IC">
 <description>&lt;b&gt;VOICE BAND AUDIO PROCESSOR&lt;/b&gt;</description>
 <gates>
 <gate name="N" symbol="TLV320AC" x="0" y="0"/>
@@ -32127,7 +32127,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLV320ACDW" prefix="IC" uservalue="yes">
+<deviceset name="TLV320ACDW" prefix="IC">
 <description>&lt;b&gt;DSP DEVICE&lt;/b&gt;</description>
 <gates>
 <gate name="DW" symbol="TLV320AC" x="0" y="0"/>
@@ -32168,7 +32168,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLV320AC-P" prefix="IC" uservalue="yes">
+<deviceset name="TLV320AC-P" prefix="IC">
 <description>&lt;b&gt;DSP DEVICE&lt;/b&gt;</description>
 <gates>
 <gate name="PT" symbol="TLV320AC" x="0" y="0"/>
@@ -32483,7 +32483,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BQ2000TPN" prefix="IC" uservalue="yes">
+<deviceset name="BQ2000TPN" prefix="IC">
 <description>&lt;b&gt;CHARGE MANAGEMENT IC&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BQ2000" x="0" y="0"/>
@@ -32511,7 +32511,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BQ2000TSN" prefix="IC" uservalue="yes">
+<deviceset name="BQ2000TSN" prefix="IC">
 <description>&lt;b&gt;CHARGE MANAGEMENT IC&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BQ2000" x="0" y="0"/>
@@ -32539,7 +32539,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BQ2000TTS" prefix="IC" uservalue="yes">
+<deviceset name="BQ2000TTS" prefix="IC">
 <description>&lt;b&gt;CHARGE MANAGEMENT IC&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BQ2000" x="0" y="0"/>
@@ -32567,7 +32567,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="UC1526Q" prefix="IC" uservalue="yes">
+<deviceset name="UC1526Q" prefix="IC">
 <description>&lt;b&gt;PULSE WIDTH MODULATOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="UC1526" x="0" y="0"/>
@@ -32609,7 +32609,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="UC1526DW" prefix="IC" uservalue="yes">
+<deviceset name="UC1526DW" prefix="IC">
 <description>&lt;b&gt;PULSE WIDTH MODULATOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="UC1526" x="0" y="0"/>
@@ -32647,7 +32647,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="UC1843DW" prefix="IC" uservalue="yes">
+<deviceset name="UC1843DW" prefix="IC">
 <description>&lt;b&gt;PULSE WIDTH MODULATOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="UC1843" x="0" y="0"/>
@@ -32685,7 +32685,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="UC1843D8" prefix="IC" uservalue="yes">
+<deviceset name="UC1843D8" prefix="IC">
 <description>&lt;b&gt;PULSE WIDTH MODULATOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="UC1843-8" x="0" y="0"/>
@@ -32713,7 +32713,7 @@ changed 2011-11-09</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="UC1843Q" prefix="IC" uservalue="yes">
+<deviceset name="UC1843Q" prefix="IC">
 <description>&lt;b&gt;PULSE WIDTH MODULATOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="UC1843" x="0" y="0"/>

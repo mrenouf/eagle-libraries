@@ -1,6 +1,154 @@
 EAGLE Library ChangeLog
 =======================
 
+2012-04-11
+  * maxim.lbr: Eagle 6.1.5
+    added:
+    MAX8559.DEV
+    TDFN8-3X3MM.PAC
+
+2012-04-11
+  * transistor-power.lbr: Eagle 6.1.5
+    added:
+    BSZ105N04NS.DEV
+
+2012-04-04
+  * cirrus-logic.lbr: Eagle 6.1.5
+    added:
+    CD161*-FSZ.DEV
+    SOIC16.PAC
+
+2012-04-02
+  * con-amp-te.lbr: Eagle 6.1.5
+    added:
+    5749069-1.DEV
+    5749069-2.DEV
+    5749069-4.DEV
+    5749069-5.DEV
+    5749069-7.DEV
+    5749069-8.DEV
+    5749069-9.DEV
+    5749069-1.PAC
+    5749069-2.PAC
+    5749069-4.PAC
+    5749069-5.PAC
+    5749069-7.PAC
+    5749069-8.PAC
+    5749069-9.PAC
+
+2012-03-28
+  * led.lbr: Eagle 6.1.5
+    delete HOLE: NFSG036BT.PAC
+
+2012-03-21
+  * linear-technology.lbr: Eagle 6.1.4
+    added:
+    LTC2444.DEV
+    LTC2445.DEV
+    LTC2448.DEV
+    LTC2449.DEV
+    QFN38-5X7.PAC
+
+2012-03-19
+  * transistor.lbr: Eagle 6.1.3
+    corrected technologie/package variant TO92-EBC of *-NPN-.PAC / *-PNP.PAC:
+    MPSA04
+    MPSA13
+    MPSA14
+    MPSA18
+    MPSA28
+    MPSA29
+    MPSA42
+    MPSA44
+    MPSA92
+    MPSA92
+
+2012-03-15
+  * optocoupler.lbr: Eagle 6.1.3
+    added:
+    PLT133/T9.DEV
+    PLT133/T9.PAC
+
+2012-03-16
+  * con-amphenol.lbr: Eagle 6.1.3
+    added:
+    RCA-4-117-01.DEV
+    RCA-4-117-01.PAC
+
+2012-03-16
+  * con-conrad.lbr: Eagle 6.1.3
+    added:
+    RCA-4-117-01.DEV
+    RCA-4-117-01.PAC
+
+2012-03-16
+  * con-lumberg.lbr: Eagle 6.1.3
+    added:
+    RC-5231.DEV
+    RC-5231.PAC
+
+2012-03-15
+  * transformer-pulse.lbr: Eagle 6.1.3
+    added:
+    PE-65612.DEV
+    PE-65612.PAC
+
+2012-03-14
+  * micro-philips.lbr: Eagle 6.1.3
+    added:
+    LPC1102.DEV
+    WLCSP16.PAC
+
+2012-03-12
+  * holes.lbr: Eagle 6.1.3
+    deleted: circle and wire in layer t/bRestrict of PAD-packages
+
+2012-03-12
+  * texas.lbr: Eagle 6.1.3
+    corrected: set device value on.
+    BQ20*
+    TLV*
+    UC1*
+
+2012-02-23
+  * allegro.lbr: Eagle 6.1.3
+    added:
+    A3946.DEV
+    TSSOP16E.PAC
+
+2012-02-16
+  * relay.lbr: Eagle 6.1.2
+    added:
+    FTR-B4.DEV
+    FTR-B4C.PAC
+    FTR-B4G.PAC
+    FTR-B4S.PAC
+
+2012-02-07
+  * 74xx-little-de.lbr: Eagle 6.1.2
+    added: 74*1G79.DEV finished
+
+2012-01-25
+  * relay.lbr: Eagle 6.1.1
+    pad coordinate corrected:
+    SF2D.PAC
+    SF4D.PAC
+
+2012-01-17
+  * optocoupler.lbr: Eagle 6.1.0
+    package corrected in Variant:
+    SFH6186-2
+    SFH6186-3
+    SFH6186-4
+    SFH6186-5
+
+2012-01-17
+  * avago.lbr: Eagle 6.1.0
+    added:
+    HCNR20*.DEV
+    DIL08-400.PAC
+    DIP8-400.PAC
+
 2012-01-11
   * transistor.lbr: Eagle 6.0.2
     removed:

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4102,6 +4102,56 @@ Source: http://pdfserv.maxim-ic.com/package_dwgs/21-0140.PDF</description>
 <vertex x="1.3" y="-1.3"/>
 <vertex x="-1.3" y="-1.3"/>
 </polygon>
+</package>
+<package name="TDFN8-3X3MM">
+<description>&lt;b&gt;TDFN 8 pol.  3x3 mm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX8559.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="51"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="51"/>
+<smd name="1" x="-1.3" y="0.975" dx="0.7" dy="0.4" layer="1" stop="no" cream="no"/>
+<rectangle x1="-1.5" y1="0.825" x2="-1.1" y2="1.125" layer="31"/>
+<rectangle x1="-1.7" y1="0.75" x2="-0.9" y2="1.2" layer="29"/>
+<smd name="2" x="-1.3" y="0.325" dx="0.7" dy="0.4" layer="1" stop="no" cream="no"/>
+<rectangle x1="-1.5" y1="0.175" x2="-1.1" y2="0.475" layer="31"/>
+<rectangle x1="-1.7" y1="0.1" x2="-0.9" y2="0.55" layer="29"/>
+<smd name="3" x="-1.3" y="-0.325" dx="0.7" dy="0.4" layer="1" stop="no" cream="no"/>
+<rectangle x1="-1.5" y1="-0.475" x2="-1.1" y2="-0.175" layer="31"/>
+<rectangle x1="-1.7" y1="-0.55" x2="-0.9" y2="-0.1" layer="29"/>
+<smd name="4" x="-1.3" y="-0.975" dx="0.7" dy="0.4" layer="1" stop="no" cream="no"/>
+<rectangle x1="-1.5" y1="-1.125" x2="-1.1" y2="-0.825" layer="31"/>
+<rectangle x1="-1.7" y1="-1.2" x2="-0.9" y2="-0.75" layer="29"/>
+<smd name="5" x="1.3" y="-0.975" dx="0.7" dy="0.4" layer="1" rot="R180" stop="no" cream="no"/>
+<rectangle x1="1.1" y1="-1.125" x2="1.5" y2="-0.825" layer="31" rot="R180"/>
+<rectangle x1="0.9" y1="-1.2" x2="1.7" y2="-0.75" layer="29" rot="R180"/>
+<smd name="6" x="1.3" y="-0.325" dx="0.7" dy="0.4" layer="1" rot="R180" stop="no" cream="no"/>
+<rectangle x1="1.1" y1="-0.475" x2="1.5" y2="-0.175" layer="31" rot="R180"/>
+<rectangle x1="0.9" y1="-0.55" x2="1.7" y2="-0.1" layer="29" rot="R180"/>
+<smd name="7" x="1.3" y="0.325" dx="0.7" dy="0.4" layer="1" rot="R180" stop="no" cream="no"/>
+<rectangle x1="1.1" y1="0.175" x2="1.5" y2="0.475" layer="31" rot="R180"/>
+<rectangle x1="0.9" y1="0.1" x2="1.7" y2="0.55" layer="29" rot="R180"/>
+<smd name="8" x="1.3" y="0.975" dx="0.7" dy="0.4" layer="1" rot="R180" stop="no" cream="no"/>
+<rectangle x1="1.1" y1="0.825" x2="1.5" y2="1.125" layer="31" rot="R180"/>
+<rectangle x1="0.9" y1="0.75" x2="1.7" y2="1.2" layer="29" rot="R180"/>
+<smd name="TH" x="0" y="0" dx="1" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
+<polygon width="0.25" layer="29">
+<vertex x="0.65" y="-1.05"/>
+<vertex x="-0.65" y="-1.05"/>
+<vertex x="-0.65" y="0.65"/>
+<vertex x="-0.25" y="1.05"/>
+<vertex x="0.65" y="1.05"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="0.65" y="-1.05"/>
+<vertex x="-0.65" y="-1.05"/>
+<vertex x="-0.65" y="0.65"/>
+<vertex x="-0.25" y="1.05"/>
+<vertex x="0.65" y="1.05"/>
+</polygon>
+<rectangle x1="-1.4" y1="0" x2="0" y2="1.4" layer="51"/>
+<text x="-1.7" y="1.6286" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.7" y="-2.9" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -14784,6 +14834,22 @@ Source: http://pdfserv.maxim-ic.com/package_dwgs/21-0140.PDF</description>
 <pin name="PGND@3" x="12.7" y="-12.7" length="short" direction="out" rot="R180"/>
 <pin name="LX@2" x="12.7" y="10.16" length="short" direction="oc" rot="R180"/>
 <pin name="LX@3" x="12.7" y="7.62" length="short" direction="oc" rot="R180"/>
+</symbol>
+<symbol name="MAX8559">
+<pin name="INA" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="INB" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="!SHDNA" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="!SHDNB" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="GND" x="15.24" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="BP" x="15.24" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="OUTB" x="15.24" y="0" length="short" direction="out" rot="R180"/>
+<pin name="OUTA" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="12.7" y2="5.08" width="0.25" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-7.62" width="0.25" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="-10.16" y2="-7.62" width="0.25" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.25" layer="94"/>
+<text x="-10.16" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -28037,7 +28103,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/ICL7612-ICL764X.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MAX488" prefix="IC">
-<description>&lt;b&gt;RS485 TRANSEIVER&lt;/b&gt;</description>
+<description>&lt;b&gt;RS485 TRANSEIVER&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX1487-MAX491.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX488" x="0" y="0"/>
 <gate name="P" symbol="VCC-GND" x="20.32" y="0" addlevel="request"/>
@@ -33765,6 +33832,30 @@ Source: MAX618.pdf</description>
 <attribute name="OC_FARNELL" value="1379776" constant="no"/>
 <attribute name="OC_NEWARK" value="67K5972" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX8559" prefix="IC">
+<description>&lt;b&gt;Dual, 300mA, Low-Noise Linear Regulator with Independent Shutdown&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX8559.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX8559" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TDFN8-3X3MM">
+<connects>
+<connect gate="G$1" pin="!SHDNA" pad="2"/>
+<connect gate="G$1" pin="!SHDNB" pad="3"/>
+<connect gate="G$1" pin="BP" pad="7"/>
+<connect gate="G$1" pin="GND" pad="6 TH"/>
+<connect gate="G$1" pin="INA" pad="1"/>
+<connect gate="G$1" pin="INB" pad="4"/>
+<connect gate="G$1" pin="OUTA" pad="8"/>
+<connect gate="G$1" pin="OUTB" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
