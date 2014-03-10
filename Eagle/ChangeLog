@@ -1,6 +1,2569 @@
 EAGLE Library ChangeLog
 =======================
 
+2011-08-22
+  * con-lumberg.lbr: Eagle 5.11.1
+    corrected pad and hole position: 1501_06.PAC
+
+2011-06-15
+  * e-schuetze-relais.lbr: Eagle 5.11.1
+    added:
+    RELAIS_2-POL-UM.DEV
+    RELAIS_4-POL-UM.DEV
+    RELAIS_2-POL-UM.PAC
+    RELAIS_4-POL-UM.PAC
+
+2011-06-10
+  * cirrus-logic.lbr: Eagle 5.11.1
+    corrected library description: Digital Audio Receiver
+
+2011-06-08
+  * allegro.lbr: Eagle 5.11.1
+    added:
+    A3906.DEV
+    QFN20.PAC
+
+2011-06-01
+  * e-schalter.lbr: Eagle 5.11.1
+    added:
+    LASTTRENNSCHALTER_4-POL.DEV
+    LEISTUNGSSCHALTER_4-POL.DEV
+    LASTTRENNSCHALTER_4-POL.PAC
+    LEISTUNGSSCHALTER_4-POL.PAC
+
+2011-05-31
+  * inductor-nkl.lbr: Eagle 5.11.1
+    renamed packages:
+    B5ุ.PAC to B5O.PAC
+    B6ุ-PAC to B6O.PAC
+
+2011-05-26
+  * texas.lbr: Eagle 5.11.1
+    added:
+    TMS320C5515.DEV
+    UC*84.DEV
+    UC*84?.DEV
+    ZCH(S-PBGA-N196).PAC
+
+2011-05-13
+  * con-phoenix-500.lbr: Eagle 5.11.1
+    corrected grid of all packages 5.08mm
+
+2011-05-11
+  * crystal.lbr: Eagle 5.11.1
+    added:
+    RV-3029-C2.DEV
+    2450BL15B100.PAC
+    SON-10.PAC
+
+2011-05-04
+  * diode.lbr: Eagle 5.11.1
+    connection corrected: BAT54S.DEV
+
+2011-05-04
+  * microchip.lbr: Eagle 5.11.1
+    added:
+    PIC18F2*J53.DEV
+    PIC18F4*J53ML.DEV
+    PIC18F47J53PT.DEV
+
+2011-05-02
+  * wuerth-elektronik.lbr: Eagle 5.11.1
+    deleted: please use actual library from www.cadsoft.de - download - libraries
+
+2011-05-02
+  * led.lbr: Eagle 5.11.1
+    added:
+    MX6-ALU.DEV
+    MX6-ALU.PAC
+
+2011-04-06
+  * led.lbr: Eagle 5.11.1
+    added:
+    MX3.DEV
+    MX6.DEV
+    PB3XX301V050A.DEV
+    MX6.PAC
+    PB3XX301V050A.PAC
+
+2011-04-05
+  * st-microelectronics.lbr: Eagle 5.11.1
+    added:
+    L293DD.DEV
+
+2011-03-21
+  * maxim.lbr: Eagle 5.11.1
+    corrected pin direction: MAX6520.SYM
+
+2011-03-17
+  * avago.lbr: Eagle 5.11.1
+    added:
+    ACPL-790.DEV
+
+2011-03-16
+  * pot.lbr: Eagle 5.11.1
+    added:
+    EVU.DEV
+    US-EVU.DEV
+    EVUE.PAC
+    EVUEXK.PAC
+    EVUEXXJ.PAC
+    EVUF.PAC
+    EVUFXJ.PAC
+    EVUFXK.PAC
+    EVUFXL.PAC
+    EVUFXM.PAC
+
+2011-03-15
+  * con-kycon.lbr: Eagle 5.11.1
+    added:
+    KUSBVX-BS1N.DEV
+    KUSBVX-BS1N.PAC
+
+2011-03-15
+  * con-fci.lbr: Eagle 5.11.1
+    added:
+    FSE310074.DEV
+    FSE310074.PAC
+
+2011-03-11
+  * linear-technology.lbr: Eagle 5.11.1
+    corrected pad coordinats: SSOP16.PAC
+
+2011-03-09
+  * 40xx.lbr: Eagle 5.11.1
+    added:
+    HEF40098B.DEV
+
+2011-03-09
+  * infineon.lbr: Eagle 5.11.1
+    corrected package: P-TO220-7-11.PAC
+
+2011-03-07
+  * microchip.lbr: Eagle 5.11.1
+    corrected package:
+    PIC17C75XPT.DEV
+    PIC32MX420F032H.DEV
+
+2011-03-07
+  * microchip.lbr: Eagle 5.11.1
+    added:
+    TQFP64-10X10X1MM.PAC
+
+2011-03-01
+  * relay.lbr: Eagle 5.11.1
+    added:
+    AQW27.DEV
+    AQZ26.DEV
+    CPC1708J.DEV
+    I4-PAC.PAC
+
+2011-02-28
+  * con-wago.lbr: Eagle 5.11.1
+    added:
+    236.DEV
+    236-4XX.PAC
+    236-5XX.PAC
+    236-6XX.PAC
+    236-ABSCHLUSSPLATTE.PAC
+
+2011-02-28
+  * national-semiconductor.lbr: Eagle 5.11.1
+    added:
+    LME49600.DEV
+    TS5B.PAC
+
+2011-02-25
+  * con-shallin.lbr: Eagle 5.11.1
+    added:
+    K375M.DEV
+    K375M.PAC
+
+2011-02-24
+  * con-kycon.lbr: Eagle 5.11.1
+    added:
+    KUSBVX.DEV
+    KUSBVX.PAC
+
+2011-02-24
+  * on-semiconductor.lbr: Eagle 5.11.1
+    added:
+    NCP2820.DEV
+    FLIP-CHIP9.PAC
+
+2011-02-15
+  * led.lbr: Eagle 5.11.0
+    added:
+    Z-POWER-LED.DEV
+
+2011-02-15
+  * relay.lbr: Eagle 5.11.0
+    corrcted: pin pad connection
+    FTR-K1C.DEV
+
+2011-01-31
+  * led.lbr: Eagle 5.11.0
+    added:
+    CLN6A.DEV
+    CLN6A.PAC
+    CP41B.PAC
+
+2011-01-26
+  * rcl.lbr: Eagle 5.11.0
+    corrected: pad names
+    RTRIM3314J.PAC
+    added:
+    RTRIM3314G.PAC
+
+2011-01-18
+  * e-klemmen.lbr: Eagle 5.11.0
+    added:
+    KLEMME-2_50-BRUECKE.DEV
+    KLEMME-2_50-BRUECKE.PAC
+
+2011-01-17
+  * trimble.lbr: Eagle 5.11.0
+    added / created by: Trimble Germany GmbH - Christian Voit
+    C1011.DEV
+    C1216.DEV
+    C1722.DEV
+    C1919A.DEV
+    C1919B.DEV
+    C1919C.DEV
+    COPERNICUS.DEV
+    COPERNICUS-II.DEV
+    ICM-SMT_10MHZ.DEV
+    ICM-SMT_40MHZ.DEV
+    RESOLUTION-SMT.DEV
+    TRIMBLE-LOGO.DEV
+    1011.PAC
+    1216.PAC
+    1722.PAC
+    1919.PAC
+    TRIMBLE-LOGO.PAC
+
+2011-01-05
+  * infineon.lbr: Eagle 5.11.0
+    pin offgrtid corrected:
+    TLE5205-2.SYM
+
+2010-12-23
+  * zetex.lbr: Eagle 5.11.0
+    added:
+    ZXLD1350.DEV
+    DMN3024LSD.DEV
+    ZXMD63N03X.DEV
+    renamed:
+    PMOS2MSOP8.DEV to PMOS2.DEV
+    NMOS2MSOP8.DEV to NMOS2.DEV
+    pin connection corrected:
+    NMOS2.DEV (NMOS2MSOP8.DEV)
+
+2010-12-22
+  * ftdichip.lbr: Eagle 5.11.0
+    added:
+    FT232B.DEV
+    LQFP32-7X7.PAC
+
+2010-12-15
+  * con-kycon.lbr: Eagle 5.11.0
+    added:
+    GLX-S-88M.DEV
+    GLX-S-88M.PAC
+
+2010-12-08
+  * atmel.lbr: Eagle 5.10.3
+    move pins in default grid:
+    XMEGA16A4.SYM
+    XMEGA128A1.SYM
+
+2010-12-02
+  * altera.lbr: Eagle 5.10.3
+    added:
+    EPM240F100.DEV
+    EPM240M100.DEV
+    EPM240T100C4.DEV
+    FBGA100.PAC
+    MBGA100.PAC
+
+2010-12-02
+  * con-coax.lbr: Eagle 5.10.3
+    added:
+    MC-921.DEV
+    MC-921.PAC
+    SMA-142-0701-871.PAC
+
+2010-12-02
+  * crystal.lbr: Eagle 5.10.3
+    added:
+    ASE.DEV
+    ASE.PAC
+
+2010-12-02
+  * national-semiconductor.lbr: Eagle 5.10.3
+    added:
+    LM2936?*.DEV
+    LM2936M?*.DEV
+    LM2936MP?*.DEV
+    MINI-SO8.PAC
+    SOT223.PAC
+
+2010-12-01
+  * altera-cyclone-II.lbr: Eagle 5.10.2
+  * con-amp-champ.lbr: Eagle 5.10.2
+  * con-amp-micromatch.lbr: Eagle 5.10.2
+  * con-amp-mt.lbr: Eagle 5.10.2
+  * con-amp-mt6.lbr: Eagle 5.10.2
+  * con-amp-quick.lbr: Eagle 5.10.2
+  * con-amp.lbr: Eagle 5.10.2
+  * con-amphenol.lbr: Eagle 5.10.2
+  * con-avx.lbr: Eagle 5.10.2
+  * con-weidmueller-sl35.lbr: Eagle 5.10.2
+    added Farnell and Newark order codes
+
+2010-11-30
+  * con-wago.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-30
+  * microchip.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-30
+  * con-kyocera-elco.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-30
+  * con-wago255.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-25
+  * crystal.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-25
+  * switch-misc.lbr: Eagle 5.10.3
+    9077-1.DEV
+    9077-2.DEV
+    added: Distributor
+
+2010-11-25
+  * con-4ucon.lbr: Eagle 5.10.3
+  * con-3m.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-24
+  * con-berg.lbr: Eagle 5.10.2
+  * con-bosch.lbr: Eagle 5.10.2
+  * con-chipcard-iso7816.lbr: Eagle 5.10.2
+  * con-coax.lbr: Eagle 5.10.2
+  * con-commcon.lbr: Eagle 5.10.2
+  * con-cpci.lbr: Eagle 5.10.2
+  * con-cui.lbr: Eagle 5.10.2
+  * con-cypressindustries.lbr: Eagle 5.10.2
+  * con-deutsch.lbr: Eagle 5.10.2
+  * con-ebyelectro.lbr: Eagle 5.10.2
+  * con-elco.lbr: Eagle 5.10.2
+  * con-erni.lbr: Eagle 5.10.2
+  * con-faston.lbr: Eagle 5.10.2
+  * con-fci.lbr: Eagle 5.10.2
+  * con-friwo.lbr: Eagle 5.10.2
+  * con-harting-h.lbr: Eagle 5.10.2
+  * con-harting-ml.lbr: Eagle 5.10.2
+  * con-harting-v.lbr: Eagle 5.10.2
+  * con-harting.lbr: Eagle 5.10.2
+  * con-hirose.lbr: Eagle 5.10.2
+  * con-hirschmann.lbr: Eagle 5.10.2
+  * con-jack.lbr: Eagle 5.10.2
+  * con-jae.lbr: Eagle 5.10.2
+  * con-jst.lbr: Eagle 5.10.2
+  * con-kycon.lbr: Eagle 5.10.2
+  * con-lemo.lbr: Eagle 5.10.2
+  * con-leotronics.lbr: Eagle 5.10.2
+  * con-lsta.lbr: Eagle 5.10.2
+  * con-lstb.lbr: Eagle 5.10.2
+  * con-lumberg.lbr: Eagle 5.10.2
+  * con-ml.lbr: Eagle 5.10.2
+  * con-molex.lbr: Eagle 5.10.2
+  * con-neutrik_ag.lbr: Eagle 5.10.2
+  * con-omron.lbr: Eagle 5.10.2
+  * con-panasonic.lbr: Eagle 5.10.2
+  * con-panduit.lbr: Eagle 5.10.2
+  * con-phoenix-254.lbr: Eagle 5.10.2
+  * con-phoenix-3.81.lbr: Eagle 5.10.2
+  * con-phoenix-350.lbr: Eagle 5.10.2
+  * con-phoenix-500.lbr: Eagle 5.10.2
+  * con-phoenix-508.lbr: Eagle 5.10.2
+  * con-phoenix-762.lbr: Eagle 5.10.2
+  * con-phoenix-me_max.lbr: Eagle 5.10.2
+  * con-phoenix-mkds_5.lbr: Eagle 5.10.2
+  * con-phoenix-smkdsp.lbr: Eagle 5.10.2
+  * con-ptr500.lbr: Eagle 5.10.2
+  * con-pulse.lbr: Eagle 5.10.2
+  * con-rib.lbr: Eagle 5.10.2
+  * con-samtec.lbr: Eagle 5.10.2
+  * con-shiua-chyuan.lbr: Eagle 5.10.2
+  * con-stewart.lbr: Eagle 5.10.2
+  * con-stocko.lbr: Eagle 5.10.2
+  * con-subd.lbr: Eagle 5.10.2
+  * con-sullinselectronics.lbr: Eagle 5.10.2
+  * con-thomas-betts.lbr: Eagle 5.10.2
+  * con-tyco.lbr: Eagle 5.10.2
+  * con-tycoelectronics.lbr: Eagle 5.10.2
+  * con-wago-500.lbr: Eagle 5.10.2
+  * con-wago-508.lbr: Eagle 5.10.2
+  * con-weidmueller-sl35.lbr: Eagle 5.10.2
+  * con-wenzhou-yihua.lbr: Eagle 5.10.2
+  * con-yamaichi.lbr: Eagle 5.10.2
+    added Farnell and Newark order codes
+
+2010-11-16
+  * texas.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-16
+  * relay.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-16
+  * philips-semiconductors.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-16
+  * on-semiconductor.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-16
+  * linear-technology.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-16
+  * maxim.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-12
+  * crystal.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes
+
+2010-11-12
+  * atmel.lbr: Eagle 5.10.3
+    added Farnell and Newark order codes:
+    AT45DB161D.DEV
+
+2010-11-12
+  * altera-stratix-iv.lbr: Eagle 5.10.2
+  * analog-devices.lbr: Eagle 5.10.2
+  * burr-brown.lbr: Eagle 5.10.2
+  * buzzer.lbr: Eagle 5.10.2
+  * display-lcd.lbr: Eagle 5.10.2
+  * exar.lbr: Eagle 5.10.2
+  * inductor-nkl.lbr: Eagle 5.10.2
+  * memory-idt.lbr: Eagle 5.10.2
+  * micro-fujitsu.lbr: Eagle 5.10.2
+  * microchip.lbr: Eagle 5.10.2
+  * opto-transmittter-hp.lbr: Eagle 5.10.2
+  * optocoupler.lbr: Eagle 5.10.2
+  * resistor-power.lbr: Eagle 5.10.2
+  * resistor-sil.lbr: Eagle 5.10.2
+  * sipex.lbr: Eagle 5.10.2
+  * switch-dil.lbr: Eagle 5.10.2
+  * traco-electronic.lbr: Eagle 5.10.2
+  * trafo-xicon.lbr: Eagle 5.10.2
+    added Farnell and Newark order codes
+
+
+2010-11-11
+  * sim-technology.lbr: Eagle 5.10.3
+    added:
+    SIM340DZ.DEV
+    SIM340DZ.PAC
+
+2010-11-11
+  * optocoupler.lbr: Eagle 5.10.3
+    renamed package: DIL16/4-1\7.PAC -> DIL16-4_1_7_10_16.PAC
+
+2010-11-10
+  * rcl.lbr: Eagle 5.10.3
+    added:
+    C1808.PAC
+    C3640.PAC
+
+2010-11-10
+  * halo-electronics.lbr: Eagle 5.10.3
+    added:
+    TG110-E*N5.DEV
+    TG110-E050N5.DEV
+    N5.PAC
+
+2010-11-10
+  * linear-technology.lbr: Eagle 5.10.3
+    added:
+    LT3434.DEV
+
+2010-11-10
+  * con-kyocera-elco.lbr: Eagle 5.10.3
+    renamed:
+    5036-008-210-862.DEV
+    5036_006_2?_862.DEV
+    5036_006_223_862.DEV
+    5036_006_200_862.PAC
+    5036_006_201_862.PAC
+    5036_006_223_862.PAC
+    5036_006_299_862.PAC
+    5036_008_210_862.PAC
+
+2010-11-05
+  * con-kyocera-elco.lbr: Eagle 5.10.2
+    added:
+    5035_006_2?_862.DEV
+    5035_006_223_862.DEV
+    5036-008-210-862.DEV
+    5035_006_200_862.PAC
+    5035_006_201_862.PAC
+    5035_006_223_862.PAC
+    5035_006_299_862.PAC
+    5035_008_210_862.PAC
+
+2010-11-05
+  * advanced-test-technologies.lbr: Eagle 5.10.2
+  * agilent-technologies.lbr: Eagle 5.10.2
+  * allegro.lbr: Eagle 5.10.2
+  * altera-cyclone-II.lbr: Eagle 5.10.2
+  * altera-cyclone-III.lbr: Eagle 5.10.2
+  * altera-stratix-iv.lbr: Eagle 5.10.2
+  * altera.lbr: Eagle 5.10.2
+  * amd-mach.lbr: Eagle 5.10.2
+  * amis.lbr: Eagle 5.10.2
+  * austriamicrosystems.lbr: Eagle 5.10.2
+  * avago.lbr: Eagle 5.10.2
+  * c-trimm.lbr: Eagle 5.10.2
+  * california-micro-devices.lbr: Eagle 5.10.2
+  * chipcard-siemens.lbr: Eagle 5.10.2
+  * cirrus-logic.lbr: Eagle 5.10.2
+  * csr.lbr: Eagle 5.10.2
+  * cypress.lbr: Eagle 5.10.2
+  * davicom.lbr: Eagle 5.10.2
+  * dc-dc-converter.lbr: Eagle 5.10.2
+  * display-hp.lbr: Eagle 5.10.2
+  * display-kingbright.lbr: Eagle 5.10.2
+  * fairchild-semic.lbr: Eagle 5.10.2
+  * fiber-optic-hp.lbr: Eagle 5.10.2
+  * fiber-optic-siemens.lbr: Eagle 5.10.2
+  * fifo.lbr: Eagle 5.10.2
+  * flexipanel.lbr: Eagle 5.10.2
+  * fox-electronics.lbr: Eagle 5.10.2
+  * freescale.lbr: Eagle 5.10.2
+  * ftdichip.lbr: Eagle 5.10.2
+  * fujitsu.lbr: Eagle 5.10.2
+  * fuse.lbr: Eagle 5.10.2
+  * gennum.lbr: Eagle 5.10.2
+  * holtek.lbr: Eagle 5.10.2
+  * inductor-coilcraft.lbr: Eagle 5.10.2
+  * inductor-neosid.lbr: Eagle 5.10.2
+  * infineon-tricore.lbr: Eagle 5.10.2
+  * infineon.lbr: Eagle 5.10.2
+  * intersil.lbr: Eagle 5.10.2
+  * ir.lbr: Eagle 5.10.2
+  * isd.lbr: Eagle 5.10.2
+  * lantronix.lbr: Eagle 5.10.2
+  * lattice.lbr: Eagle 5.10.2
+  * lc-filter.lbr: Eagle 5.10.2
+  * led-7-segment.lbr: Eagle 5.10.2
+  * led-citizen-electronics.lbr: Eagle 5.10.2
+  * led-lumiled.lbr: Eagle 5.10.2
+  * lem.lbr: Eagle 5.10.2
+  * linx.lbr: Eagle 5.10.2
+  * lprs.lbr: Eagle 5.10.2
+  * lumiled.lbr: Eagle 5.10.2
+  * maxstream.lbr: Eagle 5.10.2
+  * melexis.lbr: Eagle 5.10.2
+  * memory-hitachi.lbr: Eagle 5.10.2
+  * memory-micron.lbr: Eagle 5.10.2
+  * memory-motorola-dram.lbr: Eagle 5.10.2
+  * memory-nec.lbr: Eagle 5.10.2
+  * memory-samsung.lbr: Eagle 5.10.2
+  * micrel.lbr: Eagle 5.10.2
+  * micro-cyrod.lbr: Eagle 5.10.2
+  * micro-harris.lbr: Eagle 5.10.2
+  * micro-hitachi.lbr: Eagle 5.10.2
+  * micro-infineon.lbr: Eagle 5.10.2
+  * micro-intel.lbr: Eagle 5.10.2
+  * micro-mc68000.lbr: Eagle 5.10.2
+  * micro-motorola.lbr: Eagle 5.10.2
+  * micro-philips.lbr: Eagle 5.10.2
+  * micro-renesas.lbr: Eagle 5.10.2
+  * micro-samsung.lbr: Eagle 5.10.2
+  * micro-siemens.lbr: Eagle 5.10.2
+  * micron.lbr: Eagle 5.10.2
+  * micronas.lbr: Eagle 5.10.2
+  * microwave.lbr: Eagle 5.10.2
+  * midori-sensor.lbr: Eagle 5.10.2
+  * minicircuits.lbr: Eagle 5.10.2
+  * motorola-sensor-driver.lbr: Eagle 5.10.2
+  * murata-filter.lbr: Eagle 5.10.2
+  * murata-sensor.lbr: Eagle 5.10.2
+  * nanotec.lbr: Eagle 5.10.2
+  * national-instruments.lbr: Eagle 5.10.2
+  * national-semiconductor.lbr: Eagle 5.10.2
+  * nec.lbr: Eagle 5.10.2
+  * nrj-semiconductor.lbr: Eagle 5.10.2
+  * omnivision.lbr: Eagle 5.10.2
+  * opto-honeywell-3000.lbr: Eagle 5.10.2
+  * opto-honeywell-4000.lbr: Eagle 5.10.2
+  * opto-honeywell.lbr: Eagle 5.10.2
+  * opto-micro-linear.lbr: Eagle 5.10.2
+  * opto-trans-siemens.lbr: Eagle 5.10.2
+  * opto-vishay.lbr: Eagle 5.10.2
+  * pal.lbr: Eagle 5.10.2
+  * piher.lbr: Eagle 5.10.2
+  * pld-intel.lbr: Eagle 5.10.2
+  * plxtech.lbr: Eagle 5.10.2
+  * pot-vitrohm.lbr: Eagle 5.10.2
+  * pot-xicor.lbr: Eagle 5.10.2
+  * ptc-ntc.lbr: Eagle 5.10.2
+  * quantum-research-group.lbr: Eagle 5.10.2
+  * recom-international.lbr: Eagle 5.10.2
+  * renesas.lbr: Eagle 5.10.2
+  * resistor-bourns.lbr: Eagle 5.10.2
+  * resistor-dil.lbr: Eagle 5.10.2
+  * resistor-net.lbr: Eagle 5.10.2
+  * resistor-ruf.lbr: Eagle 5.10.2
+  * resistor-shunt.lbr: Eagle 5.10.2
+  * rf-micro-devices.lbr: Eagle 5.10.2
+  * rf-solutions.lbr: Eagle 5.10.2
+  * rohm.lbr: Eagle 5.10.2
+  * sensor-comus-group.lbr: Eagle 5.10.2
+  * sensor-heraeus.lbr: Eagle 5.10.2
+  * sensor-infratec.lbr: Eagle 5.10.2
+  * sharp.lbr: Eagle 5.10.2
+  * silabs.lbr: Eagle 5.10.2
+  * solomon-systech.lbr: Eagle 5.10.2
+  * st-microelectronics.lbr: Eagle 5.10.2
+  * supertex.lbr: Eagle 5.10.2
+  * switch-alps.lbr: Eagle 5.10.2
+  * switch-omron.lbr: Eagle 5.10.2
+  * telcom.lbr: Eagle 5.10.2
+  * telecontrolli.lbr: Eagle 5.10.2
+  * telefunken.lbr: Eagle 5.10.2
+  * toshiba.lbr: Eagle 5.10.2
+  * trafo-bei.lbr: Eagle 5.10.2
+  * trafo-siemens.lbr: Eagle 5.10.2
+  * tripas.lbr: Eagle 5.10.2
+  * u-blox.lbr: Eagle 5.10.2
+  * v-reg-micrel.lbr: Eagle 5.10.2
+  * wafer-scale-psd.lbr: Eagle 5.10.2
+  * xicor.lbr: Eagle 5.10.2
+  * xilinx-virtex-v5.lbr: Eagle 5.10.2
+  * xilinx-xc18v.lbr: Eagle 5.10.2
+  * xilinx-xc9.lbr: Eagle 5.10.2
+  * xilinx-xcv.lbr: Eagle 5.10.2
+  * zetex.lbr: Eagle 5.10.2
+    added Farnell and Newark order codes
+
+2010-11-04
+  * rectifier.lbr: Eagle 5.10.2
+    added:
+    LC03-6.DEV
+    SO08.PAC
+
+2010-11-04
+  * rcl.lbr: Eagle 5.10.2
+    added:
+    1812X7R.PAC
+
+2010-11-04
+  * discrete.lbr: Eagle 5.10.2
+    added:
+    T23-A230X.DEV
+    T23-A230X.PAC
+
+2010-11-04
+  * linear.lbr: Eagle 5.10.2
+    added:
+    OP1177.DEV
+    OP1277.DEV
+    OP1477.DEV
+    TSSOP14-RU.PAC
+
+2010-10-29
+  * mitsubishi-semiconductor.lbr: Eagle 5.10.2
+    added:
+    PS21962-ST.DEV
+    PS21962-ST.PAC
+
+2010-10-27
+  * philips-semiconductors.lbr: Eagle 5.10.2
+    added:
+    TDA8029.DEV
+    LQFP32-7X7MM.PAC
+
+2010-10-27
+  * linear.lbr: Eagle 5.10.2
+    added:
+    MC79M.DEV
+    MC78M.DEV
+    NCV78M.DEV
+
+2010-10-27
+  * diode.lbr: Eagle 5.10.2
+    added:
+    SMF5.0AT1.DEV
+    SOD123FL.PAC
+
+2010-10-27
+  * switch-raychem.lbr: Eagle 5.10.2
+    added:
+    SMD*F.DEV
+    SMDH120.DEV
+    SMD050F.PAC
+
+2010-10-12
+  * inductors.lbr: Eagle 5.10.2
+    added:
+    P0762.*NL.DEV
+    P0762NL.PAC
+
+2010-10-12
+  * lsi-computer-systems.lbr: Eagle 5.10.2
+    added:
+    LS7766DH.DEV
+    LS7766DO.DEV
+    LS7766SH.DEV
+    LS7766SO.DEV
+    DIL48.PAC
+    SOIC16LWB.PAC
+    SOIC18L.PAC
+    SOIC20L.PAC
+    SOIC24L.PAC
+    SOIC28L.PAC
+    TSSOP14.PAC
+    TSSOP20.PAC
+    TSSOP24.PAC
+    TSSOP28.PAC
+    TSSOP38.PAC
+    TSSOP48.PAC
+
+2010-10-11
+  * em-microelectronic.lbr: Eagle 5.10.2
+    added:
+    EM4095.DEV
+    SO16.PAC
+
+2010-10-11
+  * crystal.lbr: Eagle 5.10.2
+    added:
+    8M10AHC49T.DEV
+    10.DEV
+    10G.DEV
+    10M*A.DEV
+    10M*B.DEV
+    10M*C.DEV
+    10M?D.DEV
+    12M10AHC49HT.DEV
+    12M10BHC49T.DEV
+    14M20BHC49T.DEV
+    16M20AUM1.DEV
+    17M15AUM1.DEV
+    21M*A.DEV
+    21M*B.DEV
+    21M*C.DEV
+    21M15D.DEV
+    45M*A.DEV
+    45M*B.DEV
+    46M15AUM1.DEV
+    46M15BUM5.DEV
+    49M8AHC49T.DEV
+    54M10AUM1.DEV
+    54M10AUM5.DEV
+    64M10AUM1.DEV
+    64M10AUM5.DEV
+    69M7AUM1.DEV
+    70M*.DEV
+    90M15A.DEV
+    ECS.DEV
+    ECS-.DEV
+    F90M.DEV
+    IXF.DEV
+    MF_.DEV
+    F11/8A.PAC
+    F13/8A.PAC
+    F15/12B.PAC
+    F18/12P.PAC
+    HC49U.PAC
+    M-1.PAC
+    M-2.PAC
+    M-3.PAC
+    M-4.PAC
+    M-5.PAC
+    M-6.PAC
+    M-A.PAC
+    SC-1.PAC
+    SC-2.PAC
+    SC-3.PAC
+    SC-4.PAC
+    SC-5.PAC
+    UM-1S.PAC
+    UM-4S.PAC
+    UM-5S.PAC
+    UM1.PAC
+    UM4.PAC
+    UM5.PAC
+
+2010-10-07
+  * atmel.lbr: Eagle 5.10.2
+    added:
+    AT45DB161D.DEV
+    VDFN-8.PAC
+
+2010-10-06
+  * linear-technology.lbr: Eagle 5.10.2
+    corrected package: LGA50.PAC
+
+2010-10-04
+  * texas.lbr: Eagle 5.10.2
+    added:
+    BQ78PL114.DEV
+    P-QFP48-7X7MM.PAC
+
+2010-09-30
+  * maxim.lbr: Eagle 5.10.2
+    added:
+    MAX618.DEV
+
+2010-09-30
+  * transistor-power.lbr: Eagle 5.10.2
+    added:
+    IRF4905.DEV
+    IRFP25*.DEV
+    IRFZ48.DEV
+    IRLZ44Z.DEV
+    RD06HVF1.DEV
+    RD15HVF1.DEV
+    ST*60N10.DEV
+    ISOWATT218.PAC
+    RD06HVF1.PAC
+
+2010-09-29
+  * con-wago.lbr: Eagle 5.10.2
+    added:
+    254-84*.DEV
+    254-200.PAC
+    254-842.PAC
+
+2010-09-29
+  * con-wago255.lbr: Eagle 5.10.2
+    added:
+    255-401-5.DEV
+    255-402-5.DEV
+    255-403-5.DEV
+    255-404-5.DEV
+    255-405-5.DEV
+    255-406-5.DEV
+    255-407-5.DEV
+    255-408-5.DEV
+    255-409-5.DEV
+    255-410-5.DEV
+    255-412-5.DEV
+    255-416-5.DEV
+    255-424-5.DEV
+    255-436-5.DEV
+    255-448-5.DEV
+
+2010-09-24
+  * diode.lbr: Eagle 5.10.2
+    added:
+    MBRS3*0T3.DEV
+
+2010-09-24
+  * inductors.lbr: Eagle 5.10.2
+    renamed :
+    DR1010.DEV to DR1030.DEV
+    DR1010.PAC to DR1030.PAC
+
+2010-09-23
+  * relay.lbr: Eagle 5.10.2
+    renamed AQZ10OD.DEV  to AQZ10*D.DEV and add technoligies
+    renamed AQZ20OD.DEV to AQZ20*D.DEV and add technoligies
+   corrected Package AQZ-SIL04 with photomos_sil4.dxf from Panasonic
+
+2010-09-23
+  * optocoupler.lbr: Eagle 5.10.2
+    added:
+    MOCD20*M.DEV
+    SOIC08-FAIRCHILD.PAC
+
+2010-09-20
+  * inductors.lbr: Eagle 5.10.2
+    added:
+    DR1010.DEV
+    DR1010.PAC
+
+2010-09-17
+  * logo.lbr: Eagle 5.10.2
+    added:
+    CS-EAGLE-HOLE-LOGO-43MM.PAC
+    CS-LOGO-41MM.PAC
+    CS-LOGO-43MM.PAC
+    CS-LOGO-45MM.PAC
+    CS-LOGO-TOP-43MM.PAC
+    EAGLE-CS-LOGO-43.PAC
+    EAGLE-PLC-30MM.PAC
+
+2010-09-16
+  * on-semiconductor.lbr: Eagle 5.10.2
+    added:
+    A5191HRT.DEV
+    A5191HRTI.DEV
+    A5191HRTI.PAC
+    LQFP32-7X7MM.PAC
+    PLCC28.PAC
+
+2010-09-16
+  * led.lbr: Eagle 5.10.1
+    added:
+    L-59EGW-CA.DEV
+    TLLG4400.DEV
+    TLLR4400.DEV
+    TLLY4400.DEV
+    L-59EGW-CA.PAC
+
+2010-09-14
+  * con-wago-508.lbr: Eagle 5.10.1
+    added:
+    236-412.DEV
+    236-412.PAC
+
+2010-09-07
+  * on-semiconductor.lbr: Eagle 5.10.1
+    added:
+    MDC3105DMT1.DEV
+    MDC3105LT1.DEV
+    MDC3105XV6T1.DEV
+    SC-74.PAC
+    SOT-563.PAC
+    SOT23.PAC
+
+2010-09-07
+  * texas.lbr: Eagle 5.10.1
+    added:
+    TPS5410.DEV
+
+2010-09-07
+  * micro-philips.lbr: Eagle 5.10.1
+    added:
+    PCA9534.DEV
+    HVQFN16_3X3.PAC
+    HVQFN16_4X4.PAC
+    TSSOP16.PAC
+
+2010-09-07
+  * crystal.lbr: Eagle 5.10.1
+    added:
+    CSM-7X-DU.DEV
+    MC-306.DEV
+    MC-405.DEV
+    MC-406.DEV
+    CSM-7X-DU.PAC
+    MC-306.PAC
+    MC-405.PAC
+    MC-406.PAC
+
+2010-09-07
+  * linear.lbr: Eagle 5.10.1
+    added:
+    OPA333.DEV
+    OPA2333.DEV
+
+2010-09-07
+  * switch-coto.lbr: Eagle 5.10.1
+    added:
+    CT10-XXXX-.DEV
+    CT10-XXXX-A2.PAC
+    CT10-XXXX-G1.PAC
+    CT10-XXXX-G4.PAC
+
+2010-08-30
+  * optocoupler.lbr: Eagle 5.10.1
+    connected variant 'T' 'S': MOC30*.DEV
+
+2010-08-27
+  * battery.lbr: Eagle 5.10.1
+    corrected symbol and connection: CR2/3.DEV
+
+2010-08-18
+  * 74xx-us.lbr: Eagle 5.10.0
+    corrected name: 74671.SYM Pin 'CASC'
+
+2010-08-18
+  * 74xx-eu.lbr: Eagle 5.10.0
+    corrected name: 74671.SYM Pin 'CASC'
+
+2010-08-13
+  * con-vg.lbr: Eagle 5.10.0
+    corrected misspelled word in description: FAE32E.PAC
+
+2010-07-29
+  * 74xx-eu.lbr: Eagle 5.10.0
+    changed description: internal link add "DEVICE:"
+    74*51.DEV
+    74S51.DEV
+
+2010-07-29
+  * 74xx-us.lbr: Eagle 5.10.0
+    changed description: internal link add "DEVICE:"
+    74*51.DEV
+    74S51.DEV
+
+2010-07-29
+  * microchip.lbr: Eagle 5.10.0
+    changed description: internal link add "DEVICE:"
+    PIC16C*.DEV
+    PIC16F8*.DEV
+
+2010-07-09
+  * linear.lbr: Eagle 5.10.0
+    corrected symbol: ERA-*.DEV
+
+2010-07-08
+  * con-lumberg.lbr: Eagle 5.10.0
+    changed: CINCH_4.SYM moved pins '2@1' '2@2' '2@3'
+
+2010-07-08
+  * exar.lbr: Eagle 5.10.0
+    changed: XR-2100.SY; Pin name 'uC/!STD' to 'UC/!STD'
+
+2010-07-08
+  * con-hirschmann.lbr: Eagle 5.10.0
+    changed: 1O.SYM rename PIN 'รถ' to 'O'
+
+2010-06-14
+  * transistor.lbr: Eagle 5.10.0
+    corrected: all technologies of variant TO92-EBC
+
+2010-06-09
+  * texas.lbr: Eagle 5.10.0
+    added:
+    DS1232LP.DEV
+
+2010-06-09
+  * micro-cyrod.lbr: Eagle 5.10.0
+    added:
+    CRD89C51RD.DEV
+    CRD89C51RD-DIL40.DEV
+    CRD89C51RD-QFP44.DEV
+    DIL40.PAC
+    PLCC44.PAC
+    SQFP-S-10X10-44.PAC
+
+2010-06-09
+  * relay.lbr: Eagle 5.10.0
+    added:
+    6561-0300.DEV
+    6561-0300.PAC
+
+2010-05-26
+  * telefunken.lbr: Eagle 5.9.3
+    added:
+    U893BSE.DEV
+    SO08.PAC
+
+2010-05-26
+  * philips-semiconductors.lbr: Eagle 5.9.3
+    added:
+    SAB6456.DEV
+    DIL08.PAC
+    SO08.PAC
+
+2010-05-26
+  * on-semiconductor.lbr: Eagle 5.9.3
+    added:
+    MC12052A.DEV
+    MC12080.DEV
+    SO08.PAC
+
+2010-05-26
+  * fujitsu.lbr: Eagle 5.9.3
+    added:
+    MB50.DEV
+    SO08.PAC
+
+2010-05-26
+  * national-semiconductor.lbr: Eagle 5.9.3
+    added:
+    LMX2322.DEV
+    TSSOP16.PAC
+
+2010-05-26
+  * nec.lbr: Eagle 5.9.3
+    added:
+    UPB1505.DEV
+    SO08.PAC
+
+2010-05-26
+  * texas.lbr: Eagle 5.9.3
+    added:
+    ISO1176.DEV
+
+2010-05-26
+  * st-microelectronics.lbr: Eagle 5.9.3
+    added:
+    STM8S105C.DEV
+    STM8S105K.DEV
+    STM8S105K*B.DEV
+    STM8S105S.DEV
+    LQFP32-7X7.PAC
+    LQFP44-10X10.PAC
+    LQFP48-7X7.PAC
+    SPDIP32.PAC
+    UFQFPN32.PAC
+    VFQFPN32.PAC
+
+2010-05-21
+  * con-amphenol.lbr: Eagle 5.9.3
+    added:
+    SIMLOCK-C707_10M006_512_2.DEV
+    C707_10M006_512_2.PAC
+
+2010-05-20
+  * analog-devices.lbr: Eagle 5.9.3
+    added:
+    ADUC84*-52.DEV
+    ADUC84*-56.DEV
+    LFCSP56.PAC
+    MQFP52.PAC
+
+2010-05-20
+  * fuse.lbr: Eagle 5.9.3
+    added:
+    QPL.DEV
+    QPL.PAC
+
+2010-05-20
+  * con-phoenix-3.81.lbr: Eagle 5.9.3
+    added:
+    1727036.DEV
+    1727036.PAC
+
+2010-05-20
+  * con-hirose.lbr: Eagle 5.9.3
+    added:
+    FH12-08S-1S.DEV
+    FH12-10S-0.5S.DEV
+    FH12-11S-0.5S.DEV
+    FH12-12S-0.5S.DEV
+    FH12-13S-0.5S.DEV
+    FH12-14S-0.5S.DEV
+    FH12-15S-0.5S.DEV
+    FH12-16S-0.5S.DEV
+    FH12-16S-1S.DEV
+    FH12-17S-0.5S.DEV
+    FH12-18S-0.5S.DEV
+    FH12-19S-0.5S.DEV
+    FH12-20S-0.5S.DEV
+    FH12-20S-1S.DEV
+    FH12-22S-0.5S.DEV
+    FH12-24S-0.5S.DEV
+    FH12-25S-0.5S.DEV
+    FH12-26S-0.5S.DEV
+    FH12-28S-0.5S.DEV
+    FH12-30S-0.5S.DEV
+    FH12-32S-0.5S.DEV
+    FH12-33S-0.5S.DEV
+    FH12-34S-0.5S.DEV
+    FH12-35S-0.5S.DEV
+    FH12-36S-0.5S.DEV
+    FH12-40S-0.5S.DEV
+    FH12-45S-0.5S.DEV
+    FH12-50S-0.5S.DEV
+    FH12-53S-0.5S.DEV
+    FH12-60S-0.5SV.DEV
+    FH12-6S-0.5SH.PAC
+    FH12-08S-1SH.PAC
+    FH12-8S-0.5SH.PAC
+    FH12-10S-0.5SH.PAC
+    FH12-11S-0.5SH.PAC
+    FH12-12S-0.5SH.PAC
+    FH12-13S-0.5SH.PAC
+    FH12-14S-0.5SH.PAC
+    FH12-15S-0.5SH.PAC
+    FH12-15S-0.5SV.PAC
+    FH12-16S-0.5SH.PAC
+    FH12-16S-1SH.PAC
+    FH12-16S-1SV.PAC
+    FH12-17S-0.5SH.PAC
+    FH12-18S-0.5SH.PAC
+    FH12-19S-0.5SH.PAC
+    FH12-20S-0.5SH.PAC
+    FH12-20S-1SV.PAC
+    FH12-22S-0.5SH.PAC
+    FH12-24S-0.5SH.PAC
+    FH12-25S-0.5SH.PAC
+    FH12-26S-0.5SH.PAC
+    FH12-28S-0.5SH.PAC
+    FH12-30S-0.5SH.PAC
+    FH12-32S-0.5SH.PAC
+    FH12-33S-0.5SH.PAC
+    FH12-34S-0.5SH.PAC
+    FH12-35S-0.5SH.PAC
+    FH12-36S-0.5SH.PAC
+    FH12-40S-0.5SH.PAC
+    FH12-45S-0.5SH.PAC
+    FH12-50S-0.5SH.PAC
+    FH12-53S-0.5SH.PAC
+    FH12-60S-0.5SV.PAC
+
+2010-05-19
+  * maxim.lbr: Eagle 5.9.3
+    added:
+    DS8500.DEV
+    TQFN20-5X5.PAC
+
+2010-05-18
+  * led.lbr: Eagle 5.9.2
+    added:
+    *P4.DEV
+    P47F-BOTTOM.PAC
+    P47F-TOP.PAC
+
+2010-05-18
+  * con-samtec.lbr: Eagle 5.9.2
+    added:
+    SSW-101-02-S-D.DEV
+    SSW-101-02-S-Q.DEV
+    SSW-101-02-S-S.DEV
+    SSW-101-02-S-T.DEV
+    SSW-102-02-S-D.DEV
+    SSW-102-02-S-Q.DEV
+    SSW-102-02-S-S.DEV
+    SSW-102-02-S-T.DEV
+    SSW-103-02-S-D.DEV
+    SSW-103-02-S-Q.DEV
+    SSW-103-02-S-S.DEV
+    SSW-103-02-S-T.DEV
+    SSW-104-02-S-D.DEV
+    SSW-104-02-S-Q.DEV
+    SSW-104-02-S-S.DEV
+    SSW-104-02-S-T.DEV
+    SSW-105-02-S-D.DEV
+    SSW-105-02-S-Q.DEV
+    SSW-105-02-S-S.DEV
+    SSW-105-02-S-T.DEV
+    SSW-106-02-S-D.DEV
+    SSW-106-02-S-Q.DEV
+    SSW-106-02-S-S.DEV
+    SSW-106-02-S-T.DEV
+    SSW-107-02-S-D.DEV
+    SSW-107-02-S-Q.DEV
+    SSW-107-02-S-S.DEV
+    SSW-107-02-S-T.DEV
+    SSW-108-02-S-D.DEV
+    SSW-108-02-S-Q.DEV
+    SSW-108-02-S-S.DEV
+    SSW-108-02-S-T.DEV
+    SSW-109-02-S-D.DEV
+    SSW-109-02-S-Q.DEV
+    SSW-109-02-S-S.DEV
+    SSW-109-02-S-T.DEV
+    SSW-110-02-S-D.DEV
+    SSW-110-02-S-Q.DEV
+    SSW-110-02-S-S.DEV
+    SSW-110-02-S-T.DEV
+    SSW-111-02-S-D.DEV
+    SSW-111-02-S-Q.DEV
+    SSW-111-02-S-S.DEV
+    SSW-111-02-S-T.DEV
+    SSW-112-02-S-D.DEV
+    SSW-112-02-S-Q.DEV
+    SSW-112-02-S-S.DEV
+    SSW-112-02-S-T.DEV
+    SSW-113-02-S-D.DEV
+    SSW-113-02-S-Q.DEV
+    SSW-113-02-S-S.DEV
+    SSW-113-02-S-T.DEV
+    SSW-114-02-S-D.DEV
+    SSW-114-02-S-Q.DEV
+    SSW-114-02-S-S.DEV
+    SSW-114-02-S-T.DEV
+    SSW-115-02-S-D.DEV
+    SSW-115-02-S-Q.DEV
+    SSW-115-02-S-S.DEV
+    SSW-115-02-S-T.DEV
+    SSW-116-02-S-D.DEV
+    SSW-116-02-S-Q.DEV
+    SSW-116-02-S-S.DEV
+    SSW-116-02-S-T.DEV
+    SSW-117-02-S-D.DEV
+    SSW-117-02-S-Q.DEV
+    SSW-117-02-S-S.DEV
+    SSW-117-02-S-T.DEV
+    SSW-118-02-S-D.DEV
+    SSW-118-02-S-Q.DEV
+    SSW-118-02-S-S.DEV
+    SSW-118-02-S-T.DEV
+    SSW-119-02-S-D.DEV
+    SSW-119-02-S-Q.DEV
+    SSW-119-02-S-S.DEV
+    SSW-119-02-S-T.DEV
+    SSW-120-02-S-D.DEV
+    SSW-120-02-S-Q.DEV
+    SSW-120-02-S-S.DEV
+    SSW-120-02-S-T.DEV
+    SSW-121-02-S-D.DEV
+    SSW-121-02-S-Q.DEV
+    SSW-121-02-S-S.DEV
+    SSW-121-02-S-T.DEV
+    SSW-122-02-S-D.DEV
+    SSW-122-02-S-Q.DEV
+    SSW-122-02-S-S.DEV
+    SSW-122-02-S-T.DEV
+    SSW-123-02-S-D.DEV
+    SSW-123-02-S-Q.DEV
+    SSW-123-02-S-S.DEV
+    SSW-123-02-S-T.DEV
+    SSW-124-02-S-D.DEV
+    SSW-124-02-S-Q.DEV
+    SSW-124-02-S-S.DEV
+    SSW-124-02-S-T.DEV
+    SSW-125-02-S-D.DEV
+    SSW-125-02-S-Q.DEV
+    SSW-125-02-S-S.DEV
+    SSW-125-02-S-T.DEV
+    SSW-126-02-S-D.DEV
+    SSW-126-02-S-Q.DEV
+    SSW-126-02-S-S.DEV
+    SSW-126-02-S-T.DEV
+    SSW-127-02-S-D.DEV
+    SSW-127-02-S-Q.DEV
+    SSW-127-02-S-S.DEV
+    SSW-127-02-S-T.DEV
+    SSW-128-02-S-D.DEV
+    SSW-128-02-S-Q.DEV
+    SSW-128-02-S-S.DEV
+    SSW-128-02-S-T.DEV
+    SSW-129-02-S-D.DEV
+    SSW-129-02-S-Q.DEV
+    SSW-129-02-S-S.DEV
+    SSW-129-02-S-T.DEV
+    SSW-130-02-S-D.DEV
+    SSW-130-02-S-Q.DEV
+    SSW-130-02-S-S.DEV
+    SSW-130-02-S-T.DEV
+    SSW-131-02-S-D.DEV
+    SSW-131-02-S-Q.DEV
+    SSW-131-02-S-S.DEV
+    SSW-131-02-S-T.DEV
+    SSW-132-02-S-D.DEV
+    SSW-132-02-S-Q.DEV
+    SSW-132-02-S-S.DEV
+    SSW-132-02-S-T.DEV
+    SSW-133-02-S-D.DEV
+    SSW-133-02-S-Q.DEV
+    SSW-133-02-S-S.DEV
+    SSW-133-02-S-T.DEV
+    SSW-134-02-S-D.DEV
+    SSW-134-02-S-Q.DEV
+    SSW-134-02-S-S.DEV
+    SSW-134-02-S-T.DEV
+    SSW-135-02-S-D.DEV
+    SSW-135-02-S-Q.DEV
+    SSW-135-02-S-S.DEV
+    SSW-135-02-S-T.DEV
+    SSW-136-02-S-D.DEV
+    SSW-136-02-S-Q.DEV
+    SSW-136-02-S-S.DEV
+    SSW-136-02-S-T.DEV
+    SSW-137-02-S-D.DEV
+    SSW-137-02-S-Q.DEV
+    SSW-137-02-S-S.DEV
+    SSW-137-02-S-T.DEV
+    SSW-138-02-S-D.DEV
+    SSW-138-02-S-Q.DEV
+    SSW-138-02-S-S.DEV
+    SSW-138-02-S-T.DEV
+    SSW-139-02-S-D.DEV
+    SSW-139-02-S-Q.DEV
+    SSW-139-02-S-S.DEV
+    SSW-139-02-S-T.DEV
+    SSW-140-02-S-D.DEV
+    SSW-140-02-S-Q.DEV
+    SSW-140-02-S-S.DEV
+    SSW-140-02-S-T.DEV
+    SSW-141-02-S-D.DEV
+    SSW-141-02-S-Q.DEV
+    SSW-141-02-S-S.DEV
+    SSW-141-02-S-T.DEV
+    SSW-142-02-S-D.DEV
+    SSW-142-02-S-Q.DEV
+    SSW-142-02-S-S.DEV
+    SSW-142-02-S-T.DEV
+    SSW-143-02-S-D.DEV
+    SSW-143-02-S-Q.DEV
+    SSW-143-02-S-S.DEV
+    SSW-143-02-S-T.DEV
+    SSW-144-02-S-D.DEV
+    SSW-144-02-S-Q.DEV
+    SSW-144-02-S-S.DEV
+    SSW-144-02-S-T.DEV
+    SSW-145-02-S-D.DEV
+    SSW-145-02-S-Q.DEV
+    SSW-145-02-S-S.DEV
+    SSW-145-02-S-T.DEV
+    SSW-146-02-S-D.DEV
+    SSW-146-02-S-Q.DEV
+    SSW-146-02-S-S.DEV
+    SSW-146-02-S-T.DEV
+    SSW-147-02-S-D.DEV
+    SSW-147-02-S-Q.DEV
+    SSW-147-02-S-S.DEV
+    SSW-147-02-S-T.DEV
+    SSW-148-02-S-D.DEV
+    SSW-148-02-S-Q.DEV
+    SSW-148-02-S-S.DEV
+    SSW-148-02-S-T.DEV
+    SSW-149-02-S-D.DEV
+    SSW-149-02-S-Q.DEV
+    SSW-149-02-S-S.DEV
+    SSW-149-02-S-T.DEV
+    SSW-150-02-S-D.DEV
+    SSW-150-02-S-Q.DEV
+    SSW-150-02-S-S.DEV
+    SSW-150-02-S-T.DEV
+    TSW-101-02-S-D.DEV
+    TSW-101-02-S-Q.DEV
+    TSW-101-02-S-S.DEV
+    TSW-102-02-S-D.DEV
+    TSW-102-02-S-Q.DEV
+    TSW-102-02-S-S.DEV
+    TSW-103-02-S-D.DEV
+    TSW-103-02-S-Q.DEV
+    TSW-103-02-S-S.DEV
+    TSW-104-02-S-D.DEV
+    TSW-104-02-S-Q.DEV
+    TSW-104-02-S-S.DEV
+    TSW-105-02-S-D.DEV
+    TSW-105-02-S-Q.DEV
+    TSW-105-02-S-S.DEV
+    TSW-106-02-S-D.DEV
+    TSW-106-02-S-Q.DEV
+    TSW-106-02-S-S.DEV
+    TSW-107-02-S-D.DEV
+    TSW-107-02-S-Q.DEV
+    TSW-107-02-S-S.DEV
+    TSW-108-02-S-D.DEV
+    TSW-108-02-S-Q.DEV
+    TSW-108-02-S-S.DEV
+    TSW-109-02-S-D.DEV
+    TSW-109-02-S-Q.DEV
+    TSW-109-02-S-S.DEV
+    TSW-110-02-S-D.DEV
+    TSW-110-02-S-Q.DEV
+    TSW-110-02-S-S.DEV
+    TSW-111-02-S-D.DEV
+    TSW-111-02-S-Q.DEV
+    TSW-111-02-S-S.DEV
+    TSW-112-02-S-D.DEV
+    TSW-112-02-S-Q.DEV
+    TSW-112-02-S-S.DEV
+    TSW-113-02-S-D.DEV
+    TSW-113-02-S-Q.DEV
+    TSW-113-02-S-S.DEV
+    TSW-114-02-S-D.DEV
+    TSW-114-02-S-Q.DEV
+    TSW-114-02-S-S.DEV
+    TSW-115-02-S-D.DEV
+    TSW-115-02-S-Q.DEV
+    TSW-115-02-S-S.DEV
+    TSW-116-02-S-D.DEV
+    TSW-116-02-S-Q.DEV
+    TSW-116-02-S-S.DEV
+    TSW-117-02-S-D.DEV
+    TSW-117-02-S-Q.DEV
+    TSW-117-02-S-S.DEV
+    TSW-118-02-S-D.DEV
+    TSW-118-02-S-Q.DEV
+    TSW-118-02-S-S.DEV
+    TSW-119-02-S-D.DEV
+    TSW-119-02-S-Q.DEV
+    TSW-119-02-S-S.DEV
+    TSW-120-02-S-D.DEV
+    TSW-120-02-S-Q.DEV
+    TSW-120-02-S-S.DEV
+    TSW-121-02-S-D.DEV
+    TSW-121-02-S-Q.DEV
+    TSW-121-02-S-S.DEV
+    TSW-122-02-S-D.DEV
+    TSW-122-02-S-Q.DEV
+    TSW-122-02-S-S.DEV
+    TSW-123-02-S-D.DEV
+    TSW-123-02-S-Q.DEV
+    TSW-123-02-S-S.DEV
+    TSW-124-02-S-D.DEV
+    TSW-124-02-S-Q.DEV
+    TSW-124-02-S-S.DEV
+    TSW-125-02-S-D.DEV
+    TSW-125-02-S-Q.DEV
+    TSW-125-02-S-S.DEV
+    TSW-126-02-S-D.DEV
+    TSW-126-02-S-Q.DEV
+    TSW-126-02-S-S.DEV
+    TSW-127-02-S-D.DEV
+    TSW-127-02-S-Q.DEV
+    TSW-127-02-S-S.DEV
+    TSW-128-02-S-D.DEV
+    TSW-128-02-S-Q.DEV
+    TSW-128-02-S-S.DEV
+    TSW-129-02-S-D.DEV
+    TSW-129-02-S-Q.DEV
+    TSW-129-02-S-S.DEV
+    TSW-130-02-S-D.DEV
+    TSW-130-02-S-Q.DEV
+    TSW-130-02-S-S.DEV
+    TSW-131-02-S-D.DEV
+    TSW-131-02-S-Q.DEV
+    TSW-131-02-S-S.DEV
+    TSW-132-02-S-D.DEV
+    TSW-132-02-S-Q.DEV
+    TSW-132-02-S-S.DEV
+    TSW-133-02-S-D.DEV
+    TSW-133-02-S-Q.DEV
+    TSW-133-02-S-S.DEV
+    TSW-134-02-S-D.DEV
+    TSW-134-02-S-Q.DEV
+    TSW-134-02-S-S.DEV
+    TSW-135-02-S-D.DEV
+    TSW-135-02-S-Q.DEV
+    TSW-135-02-S-S.DEV
+    TSW-136-02-S-D.DEV
+    TSW-136-02-S-Q.DEV
+    TSW-136-02-S-S.DEV
+    TSW-137-02-S-D.DEV
+    TSW-137-02-S-Q.DEV
+    TSW-137-02-S-S.DEV
+    TSW-138-02-S-D.DEV
+    TSW-138-02-S-Q.DEV
+    TSW-138-02-S-S.DEV
+    TSW-139-02-S-D.DEV
+    TSW-139-02-S-Q.DEV
+    TSW-139-02-S-S.DEV
+    TSW-140-02-S-D.DEV
+    TSW-140-02-S-Q.DEV
+    TSW-140-02-S-S.DEV
+    TSW-141-02-S-D.DEV
+    TSW-141-02-S-Q.DEV
+    TSW-141-02-S-S.DEV
+    TSW-142-02-S-D.DEV
+    TSW-142-02-S-Q.DEV
+    TSW-142-02-S-S.DEV
+    TSW-143-02-S-D.DEV
+    TSW-143-02-S-Q.DEV
+    TSW-143-02-S-S.DEV
+    TSW-144-02-S-D.DEV
+    TSW-144-02-S-Q.DEV
+    TSW-144-02-S-S.DEV
+    TSW-145-02-S-D.DEV
+    TSW-145-02-S-Q.DEV
+    TSW-145-02-S-S.DEV
+    TSW-146-02-S-D.DEV
+    TSW-146-02-S-Q.DEV
+    TSW-146-02-S-S.DEV
+    TSW-147-02-S-D.DEV
+    TSW-147-02-S-Q.DEV
+    TSW-147-02-S-S.DEV
+    TSW-148-02-S-D.DEV
+    TSW-148-02-S-Q.DEV
+    TSW-148-02-S-S.DEV
+    TSW-149-02-S-D.DEV
+    TSW-149-02-S-Q.DEV
+    TSW-149-02-S-S.DEV
+    TSW-150-02-S-D.DEV
+    TSW-150-02-S-Q.DEV
+    TSW-150-02-S-S.DEV
+    TSW-150-02-S-T.DEV
+    SSW-101-02-S-D.PAC
+    SSW-101-02-S-D-RA.PAC
+    SSW-101-02-S-Q.PAC
+    SSW-101-02-S-Q-RA.PAC
+    SSW-101-02-S-S.PAC
+    SSW-101-02-S-S-RA.PAC
+    SSW-101-02-S-T.PAC
+    SSW-101-02-S-T-RA.PAC
+    SSW-102-02-S-D.PAC
+    SSW-102-02-S-D-RA.PAC
+    SSW-102-02-S-Q.PAC
+    SSW-102-02-S-Q-RA.PAC
+    SSW-102-02-S-S.PAC
+    SSW-102-02-S-S-RA.PAC
+    SSW-102-02-S-T.PAC
+    SSW-102-02-S-T-RA.PAC
+    SSW-103-02-S-D.PAC
+    SSW-103-02-S-D-RA.PAC
+    SSW-103-02-S-Q.PAC
+    SSW-103-02-S-Q-RA.PAC
+    SSW-103-02-S-S.PAC
+    SSW-103-02-S-S-RA.PAC
+    SSW-103-02-S-T.PAC
+    SSW-103-02-S-T-RA.PAC
+    SSW-104-02-S-D.PAC
+    SSW-104-02-S-D-RA.PAC
+    SSW-104-02-S-Q.PAC
+    SSW-104-02-S-Q-RA.PAC
+    SSW-104-02-S-S.PAC
+    SSW-104-02-S-S-RA.PAC
+    SSW-104-02-S-T.PAC
+    SSW-104-02-S-T-RA.PAC
+    SSW-105-02-S-D.PAC
+    SSW-105-02-S-D-RA.PAC
+    SSW-105-02-S-Q.PAC
+    SSW-105-02-S-Q-RA.PAC
+    SSW-105-02-S-S.PAC
+    SSW-105-02-S-S-RA.PAC
+    SSW-105-02-S-T.PAC
+    SSW-105-02-S-T-RA.PAC
+    SSW-106-02-S-D.PAC
+    SSW-106-02-S-D-RA.PAC
+    SSW-106-02-S-Q.PAC
+    SSW-106-02-S-Q-RA.PAC
+    SSW-106-02-S-S.PAC
+    SSW-106-02-S-S-RA.PAC
+    SSW-106-02-S-T.PAC
+    SSW-106-02-S-T-RA.PAC
+    SSW-107-02-S-D.PAC
+    SSW-107-02-S-D-RA.PAC
+    SSW-107-02-S-Q.PAC
+    SSW-107-02-S-Q-RA.PAC
+    SSW-107-02-S-S.PAC
+    SSW-107-02-S-S-RA.PAC
+    SSW-107-02-S-T.PAC
+    SSW-107-02-S-T-RA.PAC
+    SSW-108-02-S-D.PAC
+    SSW-108-02-S-D-RA.PAC
+    SSW-108-02-S-Q.PAC
+    SSW-108-02-S-Q-RA.PAC
+    SSW-108-02-S-S.PAC
+    SSW-108-02-S-S-RA.PAC
+    SSW-108-02-S-T.PAC
+    SSW-108-02-S-T-RA.PAC
+    SSW-109-02-S-D.PAC
+    SSW-109-02-S-D-RA.PAC
+    SSW-109-02-S-Q.PAC
+    SSW-109-02-S-Q-RA.PAC
+    SSW-109-02-S-S.PAC
+    SSW-109-02-S-S-RA.PAC
+    SSW-109-02-S-T.PAC
+    SSW-109-02-S-T-RA.PAC
+    SSW-110-02-S-D.PAC
+    SSW-110-02-S-D-RA.PAC
+    SSW-110-02-S-Q.PAC
+    SSW-110-02-S-Q-RA.PAC
+    SSW-110-02-S-S.PAC
+    SSW-110-02-S-S-RA.PAC
+    SSW-110-02-S-T.PAC
+    SSW-110-02-S-T-RA.PAC
+    SSW-111-02-S-D.PAC
+    SSW-111-02-S-D-RA.PAC
+    SSW-111-02-S-Q.PAC
+    SSW-111-02-S-Q-RA.PAC
+    SSW-111-02-S-S.PAC
+    SSW-111-02-S-S-RA.PAC
+    SSW-111-02-S-T.PAC
+    SSW-111-02-S-T-RA.PAC
+    SSW-112-02-S-D.PAC
+    SSW-112-02-S-D-RA.PAC
+    SSW-112-02-S-Q.PAC
+    SSW-112-02-S-Q-RA.PAC
+    SSW-112-02-S-S.PAC
+    SSW-112-02-S-S-RA.PAC
+    SSW-112-02-S-T.PAC
+    SSW-112-02-S-T-RA.PAC
+    SSW-113-02-S-D.PAC
+    SSW-113-02-S-D-RA.PAC
+    SSW-113-02-S-Q.PAC
+    SSW-113-02-S-Q-RA.PAC
+    SSW-113-02-S-S.PAC
+    SSW-113-02-S-S-RA.PAC
+    SSW-113-02-S-T.PAC
+    SSW-113-02-S-T-RA.PAC
+    SSW-114-02-S-D.PAC
+    SSW-114-02-S-D-RA.PAC
+    SSW-114-02-S-Q.PAC
+    SSW-114-02-S-Q-RA.PAC
+    SSW-114-02-S-S.PAC
+    SSW-114-02-S-S-RA.PAC
+    SSW-114-02-S-T.PAC
+    SSW-114-02-S-T-RA.PAC
+    SSW-115-02-S-D.PAC
+    SSW-115-02-S-D-RA.PAC
+    SSW-115-02-S-Q.PAC
+    SSW-115-02-S-Q-RA.PAC
+    SSW-115-02-S-S.PAC
+    SSW-115-02-S-S-RA.PAC
+    SSW-115-02-S-T.PAC
+    SSW-115-02-S-T-RA.PAC
+    SSW-116-02-S-D.PAC
+    SSW-116-02-S-D-RA.PAC
+    SSW-116-02-S-Q.PAC
+    SSW-116-02-S-Q-RA.PAC
+    SSW-116-02-S-S.PAC
+    SSW-116-02-S-S-RA.PAC
+    SSW-116-02-S-T.PAC
+    SSW-116-02-S-T-RA.PAC
+    SSW-117-02-S-D.PAC
+    SSW-117-02-S-D-RA.PAC
+    SSW-117-02-S-Q.PAC
+    SSW-117-02-S-Q-RA.PAC
+    SSW-117-02-S-S.PAC
+    SSW-117-02-S-S-RA.PAC
+    SSW-117-02-S-T.PAC
+    SSW-117-02-S-T-RA.PAC
+    SSW-118-02-S-D.PAC
+    SSW-118-02-S-D-RA.PAC
+    SSW-118-02-S-Q.PAC
+    SSW-118-02-S-Q-RA.PAC
+    SSW-118-02-S-S.PAC
+    SSW-118-02-S-S-RA.PAC
+    SSW-118-02-S-T.PAC
+    SSW-118-02-S-T-RA.PAC
+    SSW-119-02-S-D.PAC
+    SSW-119-02-S-D-RA.PAC
+    SSW-119-02-S-Q.PAC
+    SSW-119-02-S-Q-RA.PAC
+    SSW-119-02-S-S.PAC
+    SSW-119-02-S-S-RA.PAC
+    SSW-119-02-S-T.PAC
+    SSW-119-02-S-T-RA.PAC
+    SSW-120-02-S-D.PAC
+    SSW-120-02-S-D-RA.PAC
+    SSW-120-02-S-Q.PAC
+    SSW-120-02-S-Q-RA.PAC
+    SSW-120-02-S-S.PAC
+    SSW-120-02-S-S-RA.PAC
+    SSW-120-02-S-T.PAC
+    SSW-120-02-S-T-RA.PAC
+    SSW-121-02-S-D.PAC
+    SSW-121-02-S-D-RA.PAC
+    SSW-121-02-S-Q.PAC
+    SSW-121-02-S-Q-RA.PAC
+    SSW-121-02-S-S.PAC
+    SSW-121-02-S-S-RA.PAC
+    SSW-121-02-S-T.PAC
+    SSW-121-02-S-T-RA.PAC
+    SSW-122-02-S-D.PAC
+    SSW-122-02-S-D-RA.PAC
+    SSW-122-02-S-Q.PAC
+    SSW-122-02-S-Q-RA.PAC
+    SSW-122-02-S-S.PAC
+    SSW-122-02-S-S-RA.PAC
+    SSW-122-02-S-T.PAC
+    SSW-122-02-S-T-RA.PAC
+    SSW-123-02-S-D.PAC
+    SSW-123-02-S-D-RA.PAC
+    SSW-123-02-S-Q.PAC
+    SSW-123-02-S-Q-RA.PAC
+    SSW-123-02-S-S.PAC
+    SSW-123-02-S-S-RA.PAC
+    SSW-123-02-S-T.PAC
+    SSW-123-02-S-T-RA.PAC
+    SSW-124-02-S-D.PAC
+    SSW-124-02-S-D-RA.PAC
+    SSW-124-02-S-Q.PAC
+    SSW-124-02-S-Q-RA.PAC
+    SSW-124-02-S-S.PAC
+    SSW-124-02-S-S-RA.PAC
+    SSW-124-02-S-T.PAC
+    SSW-124-02-S-T-RA.PAC
+    SSW-125-02-S-D.PAC
+    SSW-125-02-S-D-RA.PAC
+    SSW-125-02-S-Q.PAC
+    SSW-125-02-S-Q-RA.PAC
+    SSW-125-02-S-S.PAC
+    SSW-125-02-S-S-RA.PAC
+    SSW-125-02-S-T.PAC
+    SSW-125-02-S-T-RA.PAC
+    SSW-126-02-S-D.PAC
+    SSW-126-02-S-D-RA.PAC
+    SSW-126-02-S-Q.PAC
+    SSW-126-02-S-Q-RA.PAC
+    SSW-126-02-S-S.PAC
+    SSW-126-02-S-S-RA.PAC
+    SSW-126-02-S-T.PAC
+    SSW-126-02-S-T-RA.PAC
+    SSW-127-02-S-D.PAC
+    SSW-127-02-S-D-RA.PAC
+    SSW-127-02-S-Q.PAC
+    SSW-127-02-S-Q-RA.PAC
+    SSW-127-02-S-S.PAC
+    SSW-127-02-S-S-RA.PAC
+    SSW-127-02-S-T.PAC
+    SSW-127-02-S-T-RA.PAC
+    SSW-128-02-S-D.PAC
+    SSW-128-02-S-D-RA.PAC
+    SSW-128-02-S-Q.PAC
+    SSW-128-02-S-Q-RA.PAC
+    SSW-128-02-S-S.PAC
+    SSW-128-02-S-S-RA.PAC
+    SSW-128-02-S-T.PAC
+    SSW-128-02-S-T-RA.PAC
+    SSW-129-02-S-D.PAC
+    SSW-129-02-S-D-RA.PAC
+    SSW-129-02-S-Q.PAC
+    SSW-129-02-S-Q-RA.PAC
+    SSW-129-02-S-S.PAC
+    SSW-129-02-S-S-RA.PAC
+    SSW-129-02-S-T.PAC
+    SSW-129-02-S-T-RA.PAC
+    SSW-130-02-S-D.PAC
+    SSW-130-02-S-D-RA.PAC
+    SSW-130-02-S-Q.PAC
+    SSW-130-02-S-Q-RA.PAC
+    SSW-130-02-S-S.PAC
+    SSW-130-02-S-S-RA.PAC
+    SSW-130-02-S-T.PAC
+    SSW-130-02-S-T-RA.PAC
+    SSW-131-02-S-D.PAC
+    SSW-131-02-S-D-RA.PAC
+    SSW-131-02-S-Q.PAC
+    SSW-131-02-S-Q-RA.PAC
+    SSW-131-02-S-S.PAC
+    SSW-131-02-S-S-RA.PAC
+    SSW-131-02-S-T.PAC
+    SSW-131-02-S-T-RA.PAC
+    SSW-132-02-S-D.PAC
+    SSW-132-02-S-D-RA.PAC
+    SSW-132-02-S-Q.PAC
+    SSW-132-02-S-Q-RA.PAC
+    SSW-132-02-S-S.PAC
+    SSW-132-02-S-S-RA.PAC
+    SSW-132-02-S-T.PAC
+    SSW-132-02-S-T-RA.PAC
+    SSW-133-02-S-D.PAC
+    SSW-133-02-S-D-RA.PAC
+    SSW-133-02-S-Q.PAC
+    SSW-133-02-S-Q-RA.PAC
+    SSW-133-02-S-S.PAC
+    SSW-133-02-S-S-RA.PAC
+    SSW-133-02-S-T.PAC
+    SSW-133-02-S-T-RA.PAC
+    SSW-134-02-S-D.PAC
+    SSW-134-02-S-D-RA.PAC
+    SSW-134-02-S-Q.PAC
+    SSW-134-02-S-Q-RA.PAC
+    SSW-134-02-S-S.PAC
+    SSW-134-02-S-S-RA.PAC
+    SSW-134-02-S-T.PAC
+    SSW-134-02-S-T-RA.PAC
+    SSW-135-02-S-D.PAC
+    SSW-135-02-S-D-RA.PAC
+    SSW-135-02-S-Q.PAC
+    SSW-135-02-S-Q-RA.PAC
+    SSW-135-02-S-S.PAC
+    SSW-135-02-S-S-RA.PAC
+    SSW-135-02-S-T.PAC
+    SSW-135-02-S-T-RA.PAC
+    SSW-136-02-S-D.PAC
+    SSW-136-02-S-D-RA.PAC
+    SSW-136-02-S-Q.PAC
+    SSW-136-02-S-Q-RA.PAC
+    SSW-136-02-S-S.PAC
+    SSW-136-02-S-S-RA.PAC
+    SSW-136-02-S-T.PAC
+    SSW-136-02-S-T-RA.PAC
+    SSW-137-02-S-D.PAC
+    SSW-137-02-S-D-RA.PAC
+    SSW-137-02-S-Q.PAC
+    SSW-137-02-S-Q-RA.PAC
+    SSW-137-02-S-S.PAC
+    SSW-137-02-S-S-RA.PAC
+    SSW-137-02-S-T.PAC
+    SSW-137-02-S-T-RA.PAC
+    SSW-138-02-S-D.PAC
+    SSW-138-02-S-D-RA.PAC
+    SSW-138-02-S-Q.PAC
+    SSW-138-02-S-Q-RA.PAC
+    SSW-138-02-S-S.PAC
+    SSW-138-02-S-S-RA.PAC
+    SSW-138-02-S-T.PAC
+    SSW-138-02-S-T-RA.PAC
+    SSW-139-02-S-D.PAC
+    SSW-139-02-S-D-RA.PAC
+    SSW-139-02-S-Q.PAC
+    SSW-139-02-S-Q-RA.PAC
+    SSW-139-02-S-S.PAC
+    SSW-139-02-S-S-RA.PAC
+    SSW-139-02-S-T.PAC
+    SSW-139-02-S-T-RA.PAC
+    SSW-140-02-S-D.PAC
+    SSW-140-02-S-D-RA.PAC
+    SSW-140-02-S-Q.PAC
+    SSW-140-02-S-Q-RA.PAC
+    SSW-140-02-S-S.PAC
+    SSW-140-02-S-S-RA.PAC
+    SSW-140-02-S-T.PAC
+    SSW-140-02-S-T-RA.PAC
+    SSW-141-02-S-D.PAC
+    SSW-141-02-S-D-RA.PAC
+    SSW-141-02-S-Q.PAC
+    SSW-141-02-S-Q-RA.PAC
+    SSW-141-02-S-S.PAC
+    SSW-141-02-S-S-RA.PAC
+    SSW-141-02-S-T.PAC
+    SSW-141-02-S-T-RA.PAC
+    SSW-142-02-S-D.PAC
+    SSW-142-02-S-D-RA.PAC
+    SSW-142-02-S-Q.PAC
+    SSW-142-02-S-Q-RA.PAC
+    SSW-142-02-S-S.PAC
+    SSW-142-02-S-S-RA.PAC
+    SSW-142-02-S-T.PAC
+    SSW-142-02-S-T-RA.PAC
+    SSW-143-02-S-D.PAC
+    SSW-143-02-S-D-RA.PAC
+    SSW-143-02-S-Q.PAC
+    SSW-143-02-S-Q-RA.PAC
+    SSW-143-02-S-S.PAC
+    SSW-143-02-S-S-RA.PAC
+    SSW-143-02-S-T.PAC
+    SSW-143-02-S-T-RA.PAC
+    SSW-144-02-S-D.PAC
+    SSW-144-02-S-D-RA.PAC
+    SSW-144-02-S-Q.PAC
+    SSW-144-02-S-Q-RA.PAC
+    SSW-144-02-S-S.PAC
+    SSW-144-02-S-S-RA.PAC
+    SSW-144-02-S-T.PAC
+    SSW-144-02-S-T-RA.PAC
+    SSW-145-02-S-D.PAC
+    SSW-145-02-S-D-RA.PAC
+    SSW-145-02-S-Q.PAC
+    SSW-145-02-S-Q-RA.PAC
+    SSW-145-02-S-S.PAC
+    SSW-145-02-S-S-RA.PAC
+    SSW-145-02-S-T.PAC
+    SSW-145-02-S-T-RA.PAC
+    SSW-146-02-S-D.PAC
+    SSW-146-02-S-D-RA.PAC
+    SSW-146-02-S-Q.PAC
+    SSW-146-02-S-Q-RA.PAC
+    SSW-146-02-S-S.PAC
+    SSW-146-02-S-S-RA.PAC
+    SSW-146-02-S-T.PAC
+    SSW-146-02-S-T-RA.PAC
+    SSW-147-02-S-D.PAC
+    SSW-147-02-S-D-RA.PAC
+    SSW-147-02-S-Q.PAC
+    SSW-147-02-S-Q-RA.PAC
+    SSW-147-02-S-S.PAC
+    SSW-147-02-S-S-RA.PAC
+    SSW-147-02-S-T.PAC
+    SSW-147-02-S-T-RA.PAC
+    SSW-148-02-S-D.PAC
+    SSW-148-02-S-D-RA.PAC
+    SSW-148-02-S-Q.PAC
+    SSW-148-02-S-Q-RA.PAC
+    SSW-148-02-S-S.PAC
+    SSW-148-02-S-S-RA.PAC
+    SSW-148-02-S-T.PAC
+    SSW-148-02-S-T-RA.PAC
+    SSW-149-02-S-D.PAC
+    SSW-149-02-S-D-RA.PAC
+    SSW-149-02-S-Q.PAC
+    SSW-149-02-S-Q-RA.PAC
+    SSW-149-02-S-S.PAC
+    SSW-149-02-S-S-RA.PAC
+    SSW-149-02-S-T.PAC
+    SSW-149-02-S-T-RA.PAC
+    SSW-150-02-S-D.PAC
+    SSW-150-02-S-D-RA.PAC
+    SSW-150-02-S-Q.PAC
+    SSW-150-02-S-Q-RA.PAC
+    SSW-150-02-S-S.PAC
+    SSW-150-02-S-S-RA.PAC
+    SSW-150-02-S-T.PAC
+    SSW-150-02-S-T-RA.PAC
+    TSW-101-02-S-D.PAC
+    TSW-101-02-S-D-RA.PAC
+    TSW-101-02-S-Q.PAC
+    TSW-101-02-S-Q-RA.PAC
+    TSW-101-02-S-S.PAC
+    TSW-101-02-S-S-RA.PAC
+    TSW-101-02-S-T.PAC
+    TSW-101-02-S-T-RA.PAC
+    TSW-102-02-S-D.PAC
+    TSW-102-02-S-D-RA.PAC
+    TSW-102-02-S-Q.PAC
+    TSW-102-02-S-Q-RA.PAC
+    TSW-102-02-S-S.PAC
+    TSW-102-02-S-S-RA.PAC
+    TSW-102-02-S-T.PAC
+    TSW-102-02-S-T-RA.PAC
+    TSW-103-02-S-D.PAC
+    TSW-103-02-S-D-RA.PAC
+    TSW-103-02-S-Q.PAC
+    TSW-103-02-S-Q-RA.PAC
+    TSW-103-02-S-S.PAC
+    TSW-103-02-S-S-RA.PAC
+    TSW-103-02-S-T.PAC
+    TSW-103-02-S-T-RA.PAC
+    TSW-104-02-S-D.PAC
+    TSW-104-02-S-D-RA.PAC
+    TSW-104-02-S-Q.PAC
+    TSW-104-02-S-Q-RA.PAC
+    TSW-104-02-S-S.PAC
+    TSW-104-02-S-S-RA.PAC
+    TSW-104-02-S-T.PAC
+    TSW-104-02-S-T-RA.PAC
+    TSW-105-02-S-D.PAC
+    TSW-105-02-S-D-RA.PAC
+    TSW-105-02-S-Q.PAC
+    TSW-105-02-S-Q-RA.PAC
+    TSW-105-02-S-S.PAC
+    TSW-105-02-S-S-RA.PAC
+    TSW-105-02-S-T.PAC
+    TSW-105-02-S-T-RA.PAC
+    TSW-106-02-S-D.PAC
+    TSW-106-02-S-D-RA.PAC
+    TSW-106-02-S-Q.PAC
+    TSW-106-02-S-Q-RA.PAC
+    TSW-106-02-S-S.PAC
+    TSW-106-02-S-S-RA.PAC
+    TSW-106-02-S-T.PAC
+    TSW-106-02-S-T-RA.PAC
+    TSW-107-02-S-D.PAC
+    TSW-107-02-S-D-RA.PAC
+    TSW-107-02-S-Q.PAC
+    TSW-107-02-S-Q-RA.PAC
+    TSW-107-02-S-S.PAC
+    TSW-107-02-S-S-RA.PAC
+    TSW-107-02-S-T.PAC
+    TSW-107-02-S-T-RA.PAC
+    TSW-108-02-S-D.PAC
+    TSW-108-02-S-D-RA.PAC
+    TSW-108-02-S-Q.PAC
+    TSW-108-02-S-Q-RA.PAC
+    TSW-108-02-S-S.PAC
+    TSW-108-02-S-S-RA.PAC
+    TSW-108-02-S-T.PAC
+    TSW-108-02-S-T-RA.PAC
+    TSW-109-02-S-D.PAC
+    TSW-109-02-S-D-RA.PAC
+    TSW-109-02-S-Q.PAC
+    TSW-109-02-S-Q-RA.PAC
+    TSW-109-02-S-S.PAC
+    TSW-109-02-S-S-RA.PAC
+    TSW-109-02-S-T.PAC
+    TSW-109-02-S-T-RA.PAC
+    TSW-110-02-S-D.PAC
+    TSW-110-02-S-D-RA.PAC
+    TSW-110-02-S-Q.PAC
+    TSW-110-02-S-Q-RA.PAC
+    TSW-110-02-S-S.PAC
+    TSW-110-02-S-S-RA.PAC
+    TSW-110-02-S-T.PAC
+    TSW-110-02-S-T-RA.PAC
+    TSW-111-02-S-D.PAC
+    TSW-111-02-S-D-RA.PAC
+    TSW-111-02-S-Q.PAC
+    TSW-111-02-S-Q-RA.PAC
+    TSW-111-02-S-S.PAC
+    TSW-111-02-S-S-RA.PAC
+    TSW-111-02-S-T.PAC
+    TSW-111-02-S-T-RA.PAC
+    TSW-112-02-S-D.PAC
+    TSW-112-02-S-D-RA.PAC
+    TSW-112-02-S-Q.PAC
+    TSW-112-02-S-Q-RA.PAC
+    TSW-112-02-S-S.PAC
+    TSW-112-02-S-S-RA.PAC
+    TSW-112-02-S-T.PAC
+    TSW-112-02-S-T-RA.PAC
+    TSW-113-02-S-D.PAC
+    TSW-113-02-S-D-RA.PAC
+    TSW-113-02-S-Q.PAC
+    TSW-113-02-S-Q-RA.PAC
+    TSW-113-02-S-S.PAC
+    TSW-113-02-S-S-RA.PAC
+    TSW-113-02-S-T.PAC
+    TSW-113-02-S-T-RA.PAC
+    TSW-114-02-S-D.PAC
+    TSW-114-02-S-D-RA.PAC
+    TSW-114-02-S-Q.PAC
+    TSW-114-02-S-Q-RA.PAC
+    TSW-114-02-S-S.PAC
+    TSW-114-02-S-S-RA.PAC
+    TSW-114-02-S-T.PAC
+    TSW-114-02-S-T-RA.PAC
+    TSW-115-02-S-D.PAC
+    TSW-115-02-S-D-RA.PAC
+    TSW-115-02-S-Q.PAC
+    TSW-115-02-S-Q-RA.PAC
+    TSW-115-02-S-S.PAC
+    TSW-115-02-S-S-RA.PAC
+    TSW-115-02-S-T.PAC
+    TSW-115-02-S-T-RA.PAC
+    TSW-116-02-S-D.PAC
+    TSW-116-02-S-D-RA.PAC
+    TSW-116-02-S-Q.PAC
+    TSW-116-02-S-Q-RA.PAC
+    TSW-116-02-S-S.PAC
+    TSW-116-02-S-S-RA.PAC
+    TSW-116-02-S-T.PAC
+    TSW-116-02-S-T-RA.PAC
+    TSW-117-02-S-D.PAC
+    TSW-117-02-S-D-RA.PAC
+    TSW-117-02-S-Q.PAC
+    TSW-117-02-S-Q-RA.PAC
+    TSW-117-02-S-S.PAC
+    TSW-117-02-S-S-RA.PAC
+    TSW-117-02-S-T.PAC
+    TSW-117-02-S-T-RA.PAC
+    TSW-118-02-S-D.PAC
+    TSW-118-02-S-D-RA.PAC
+    TSW-118-02-S-Q.PAC
+    TSW-118-02-S-Q-RA.PAC
+    TSW-118-02-S-S.PAC
+    TSW-118-02-S-S-RA.PAC
+    TSW-118-02-S-T.PAC
+    TSW-118-02-S-T-RA.PAC
+    TSW-119-02-S-D.PAC
+    TSW-119-02-S-D-RA.PAC
+    TSW-119-02-S-Q.PAC
+    TSW-119-02-S-Q-RA.PAC
+    TSW-119-02-S-S.PAC
+    TSW-119-02-S-S-RA.PAC
+    TSW-119-02-S-T.PAC
+    TSW-119-02-S-T-RA.PAC
+    TSW-120-02-S-D.PAC
+    TSW-120-02-S-D-RA.PAC
+    TSW-120-02-S-Q.PAC
+    TSW-120-02-S-Q-RA.PAC
+    TSW-120-02-S-S.PAC
+    TSW-120-02-S-S-RA.PAC
+    TSW-120-02-S-T.PAC
+    TSW-120-02-S-T-RA.PAC
+    TSW-121-02-S-D.PAC
+    TSW-121-02-S-D-RA.PAC
+    TSW-121-02-S-Q.PAC
+    TSW-121-02-S-Q-RA.PAC
+    TSW-121-02-S-S.PAC
+    TSW-121-02-S-S-RA.PAC
+    TSW-121-02-S-T.PAC
+    TSW-121-02-S-T-RA.PAC
+    TSW-122-02-S-D.PAC
+    TSW-122-02-S-D-RA.PAC
+    TSW-122-02-S-Q.PAC
+    TSW-122-02-S-Q-RA.PAC
+    TSW-122-02-S-S.PAC
+    TSW-122-02-S-S-RA.PAC
+    TSW-122-02-S-T.PAC
+    TSW-122-02-S-T-RA.PAC
+    TSW-123-02-S-D.PAC
+    TSW-123-02-S-D-RA.PAC
+    TSW-123-02-S-Q.PAC
+    TSW-123-02-S-Q-RA.PAC
+    TSW-123-02-S-S.PAC
+    TSW-123-02-S-S-RA.PAC
+    TSW-123-02-S-T.PAC
+    TSW-123-02-S-T-RA.PAC
+    TSW-124-02-S-D.PAC
+    TSW-124-02-S-D-RA.PAC
+    TSW-124-02-S-Q.PAC
+    TSW-124-02-S-Q-RA.PAC
+    TSW-124-02-S-S.PAC
+    TSW-124-02-S-S-RA.PAC
+    TSW-124-02-S-T.PAC
+    TSW-124-02-S-T-RA.PAC
+    TSW-125-02-S-D.PAC
+    TSW-125-02-S-D-RA.PAC
+    TSW-125-02-S-Q.PAC
+    TSW-125-02-S-Q-RA.PAC
+    TSW-125-02-S-S.PAC
+    TSW-125-02-S-S-RA.PAC
+    TSW-125-02-S-T.PAC
+    TSW-125-02-S-T-RA.PAC
+    TSW-126-02-S-D.PAC
+    TSW-126-02-S-D-RA.PAC
+    TSW-126-02-S-Q.PAC
+    TSW-126-02-S-Q-RA.PAC
+    TSW-126-02-S-S.PAC
+    TSW-126-02-S-S-RA.PAC
+    TSW-126-02-S-T.PAC
+    TSW-126-02-S-T-RA.PAC
+    TSW-127-02-S-D.PAC
+    TSW-127-02-S-D-RA.PAC
+    TSW-127-02-S-Q.PAC
+    TSW-127-02-S-Q-RA.PAC
+    TSW-127-02-S-S.PAC
+    TSW-127-02-S-S-RA.PAC
+    TSW-127-02-S-T.PAC
+    TSW-127-02-S-T-RA.PAC
+    TSW-128-02-S-D.PAC
+    TSW-128-02-S-D-RA.PAC
+    TSW-128-02-S-Q.PAC
+    TSW-128-02-S-Q-RA.PAC
+    TSW-128-02-S-S.PAC
+    TSW-128-02-S-S-RA.PAC
+    TSW-128-02-S-T.PAC
+    TSW-128-02-S-T-RA.PAC
+    TSW-129-02-S-D.PAC
+    TSW-129-02-S-D-RA.PAC
+    TSW-129-02-S-Q.PAC
+    TSW-129-02-S-Q-RA.PAC
+    TSW-129-02-S-S.PAC
+    TSW-129-02-S-S-RA.PAC
+    TSW-129-02-S-T.PAC
+    TSW-129-02-S-T-RA.PAC
+    TSW-130-02-S-D.PAC
+    TSW-130-02-S-D-RA.PAC
+    TSW-130-02-S-Q.PAC
+    TSW-130-02-S-Q-RA.PAC
+    TSW-130-02-S-S.PAC
+    TSW-130-02-S-S-RA.PAC
+    TSW-130-02-S-T.PAC
+    TSW-130-02-S-T-RA.PAC
+    TSW-131-02-S-D.PAC
+    TSW-131-02-S-D-RA.PAC
+    TSW-131-02-S-Q.PAC
+    TSW-131-02-S-Q-RA.PAC
+    TSW-131-02-S-S.PAC
+    TSW-131-02-S-S-RA.PAC
+    TSW-131-02-S-T.PAC
+    TSW-131-02-S-T-RA.PAC
+    TSW-132-02-S-D.PAC
+    TSW-132-02-S-D-RA.PAC
+    TSW-132-02-S-Q.PAC
+    TSW-132-02-S-Q-RA.PAC
+    TSW-132-02-S-S.PAC
+    TSW-132-02-S-S-RA.PAC
+    TSW-132-02-S-T.PAC
+    TSW-132-02-S-T-RA.PAC
+    TSW-133-02-S-D.PAC
+    TSW-133-02-S-D-RA.PAC
+    TSW-133-02-S-Q.PAC
+    TSW-133-02-S-Q-RA.PAC
+    TSW-133-02-S-S.PAC
+    TSW-133-02-S-S-RA.PAC
+    TSW-133-02-S-T.PAC
+    TSW-133-02-S-T-RA.PAC
+    TSW-134-02-S-D.PAC
+    TSW-134-02-S-D-RA.PAC
+    TSW-134-02-S-Q.PAC
+    TSW-134-02-S-Q-RA.PAC
+    TSW-134-02-S-S.PAC
+    TSW-134-02-S-S-RA.PAC
+    TSW-134-02-S-T.PAC
+    TSW-134-02-S-T-RA.PAC
+    TSW-135-02-S-D.PAC
+    TSW-135-02-S-D-RA.PAC
+    TSW-135-02-S-Q.PAC
+    TSW-135-02-S-Q-RA.PAC
+    TSW-135-02-S-S.PAC
+    TSW-135-02-S-S-RA.PAC
+    TSW-135-02-S-T.PAC
+    TSW-135-02-S-T-RA.PAC
+    TSW-136-02-S-D.PAC
+    TSW-136-02-S-D-RA.PAC
+    TSW-136-02-S-Q.PAC
+    TSW-136-02-S-Q-RA.PAC
+    TSW-136-02-S-S.PAC
+    TSW-136-02-S-S-RA.PAC
+    TSW-136-02-S-T.PAC
+    TSW-136-02-S-T-RA.PAC
+    TSW-137-02-S-D.PAC
+    TSW-137-02-S-D-RA.PAC
+    TSW-137-02-S-Q.PAC
+    TSW-137-02-S-Q-RA.PAC
+    TSW-137-02-S-S.PAC
+    TSW-137-02-S-S-RA.PAC
+    TSW-137-02-S-T.PAC
+    TSW-137-02-S-T-RA.PAC
+    TSW-138-02-S-D.PAC
+    TSW-138-02-S-D-RA.PAC
+    TSW-138-02-S-Q.PAC
+    TSW-138-02-S-Q-RA.PAC
+    TSW-138-02-S-S.PAC
+    TSW-138-02-S-S-RA.PAC
+    TSW-138-02-S-T.PAC
+    TSW-138-02-S-T-RA.PAC
+    TSW-139-02-S-D.PAC
+    TSW-139-02-S-D-RA.PAC
+    TSW-139-02-S-Q.PAC
+    TSW-139-02-S-Q-RA.PAC
+    TSW-139-02-S-S.PAC
+    TSW-139-02-S-S-RA.PAC
+    TSW-139-02-S-T.PAC
+    TSW-139-02-S-T-RA.PAC
+    TSW-140-02-S-D.PAC
+    TSW-140-02-S-D-RA.PAC
+    TSW-140-02-S-Q.PAC
+    TSW-140-02-S-Q-RA.PAC
+    TSW-140-02-S-S.PAC
+    TSW-140-02-S-S-RA.PAC
+    TSW-140-02-S-T.PAC
+    TSW-140-02-S-T-RA.PAC
+    TSW-141-02-S-D.PAC
+    TSW-141-02-S-D-RA.PAC
+    TSW-141-02-S-Q.PAC
+    TSW-141-02-S-Q-RA.PAC
+    TSW-141-02-S-S.PAC
+    TSW-141-02-S-S-RA.PAC
+    TSW-141-02-S-T.PAC
+    TSW-141-02-S-T-RA.PAC
+    TSW-142-02-S-D.PAC
+    TSW-142-02-S-D-RA.PAC
+    TSW-142-02-S-Q.PAC
+    TSW-142-02-S-Q-RA.PAC
+    TSW-142-02-S-S.PAC
+    TSW-142-02-S-S-RA.PAC
+    TSW-142-02-S-T.PAC
+    TSW-142-02-S-T-RA.PAC
+    TSW-143-02-S-D.PAC
+    TSW-143-02-S-D-RA.PAC
+    TSW-143-02-S-Q.PAC
+    TSW-143-02-S-Q-RA.PAC
+    TSW-143-02-S-S.PAC
+    TSW-143-02-S-S-RA.PAC
+    TSW-143-02-S-T.PAC
+    TSW-143-02-S-T-RA.PAC
+    TSW-144-02-S-D.PAC
+    TSW-144-02-S-D-RA.PAC
+    TSW-144-02-S-Q.PAC
+    TSW-144-02-S-Q-RA.PAC
+    TSW-144-02-S-S.PAC
+    TSW-144-02-S-S-RA.PAC
+    TSW-144-02-S-T.PAC
+    TSW-144-02-S-T-RA.PAC
+    TSW-145-02-S-D.PAC
+    TSW-145-02-S-D-RA.PAC
+    TSW-145-02-S-Q.PAC
+    TSW-145-02-S-Q-RA.PAC
+    TSW-145-02-S-S.PAC
+    TSW-145-02-S-S-RA.PAC
+    TSW-145-02-S-T.PAC
+    TSW-145-02-S-T-RA.PAC
+    TSW-146-02-S-D.PAC
+    TSW-146-02-S-D-RA.PAC
+    TSW-146-02-S-Q.PAC
+    TSW-146-02-S-Q-RA.PAC
+    TSW-146-02-S-S.PAC
+    TSW-146-02-S-S-RA.PAC
+    TSW-146-02-S-T.PAC
+    TSW-146-02-S-T-RA.PAC
+    TSW-147-02-S-D.PAC
+    TSW-147-02-S-D-RA.PAC
+    TSW-147-02-S-Q.PAC
+    TSW-147-02-S-Q-RA.PAC
+    TSW-147-02-S-S.PAC
+    TSW-147-02-S-S-RA.PAC
+    TSW-147-02-S-T.PAC
+    TSW-147-02-S-T-RA.PAC
+    TSW-148-02-S-D.PAC
+    TSW-148-02-S-D-RA.PAC
+    TSW-148-02-S-Q.PAC
+    TSW-148-02-S-Q-RA.PAC
+    TSW-148-02-S-S.PAC
+    TSW-148-02-S-S-RA.PAC
+    TSW-148-02-S-T.PAC
+    TSW-148-02-S-T-RA.PAC
+    TSW-149-02-S-D.PAC
+    TSW-149-02-S-D-RA.PAC
+    TSW-149-02-S-Q.PAC
+    TSW-149-02-S-Q-RA.PAC
+    TSW-149-02-S-S.PAC
+    TSW-149-02-S-S-RA.PAC
+    TSW-149-02-S-T.PAC
+    TSW-149-02-S-T-RA.PAC
+    TSW-150-02-S-D.PAC
+    TSW-150-02-S-D-RA.PAC
+    TSW-150-02-S-Q.PAC
+    TSW-150-02-S-Q-RA.PAC
+    TSW-150-02-S-S.PAC
+    TSW-150-02-S-S-RA.PAC
+    TSW-150-02-S-T.PAC
+    TSW-150-02-S-T-RA.PAC
+
+2010-05-17
+  * con-tycoelectronics.lbr: Eagle 5.9.2
+    finished: RJ11.DEV connected
+
+2010-05-17
+  * rcl.lbr: Eagle 5.9.2
+    corrected PAD names: TSM53YJ.PAC
+
+2010-05-10
+  * display-kingbright.lbr: Eagle 5.9.1
+    added:
+    TC20-11HWA.DEV
+
+2010-05-05
+  * diode.lbr: Eagle 5.9.1
+    added:
+    MBRA340T3.DEV
+    SMA.PAC
+
+2010-05-05
+  * national-semiconductor.lbr: Eagle 5.9.1
+    added:
+    LM2596.DEV
+    LP2950.DEV
+    LP2951.DEV
+    DIL08.PAC
+    H08C.PAC
+    LLP8.PAC
+    SO08.PAC
+    T05A.PAC
+    T05D.PAC
+    TO92.PAC
+    TO252.PAC
+    TO263-5.PAC
+    WG10A.PAC
+
+2010-05-05
+  * holtek.lbr: Eagle 5.9.1
+    added:
+    HT9170.DEV
+    SO18L.PAC
+
+2010-05-04
+  * display-kingbright.lbr: Eagle 5.9.1
+    added:
+    TA20-11HWA.DEV
+    TA20-11HWA.PAC
+
+2010-05-04
+  * freescale.lbr: Eagle 5.9.1
+    added:
+    MC9S08GT*A-32.DEV
+    MC9S08GT*A-42.DEV
+    MC9S08GT*A-44.DEV
+    MC9S08GT*A-48.DEV
+    QFN32.PAC
+    QFN48.PAC
+
+2010-05-03
+  * 751xx.lbr: Eagle 5.9.1
+    added:
+    75176A.DEV
+    DIL08.PAC
+    D_R-PDSO-G8.PAC
+
+2010-05-03
+  * atmel.lbr: Eagle 5.9.1
+    added:
+    ATMEGA644-*PU.DEV
+
+2010-05-03
+  * memory.lbr: Eagle 5.9.1
+    added:
+    FM93C66.DEV
+    DIL08.PAC
+    M8.PAC
+    TSSOP8.PAC
+
+2010-05-03
+  * st-microelectronics.lbr: Eagle 5.9.1
+    added:
+    FDIP32.PAC
+
+2010-04-30
+  * st-microelectronics.lbr: Eagle 5.9.0
+    added:
+    M27C4001.DEV
+    DIL32.PAC
+    LCC32.PAC
+    TSOP32.PAC
+
+2010-04-30
+  * micro-cyrod.lbr: Eagle 5.9.0
+    added:
+    CRD89C51RD1T.DEV
+    TQFP64L-10X10X2.0MM.PAC
+
+2010-04-29
+  * trafo.lbr: Eagle 5.9.0
+    added:
+    CTX02-14659.DEV
+    SP-67.DEV
+    CTX02-14659.PAC
+    SP-67.PAC
+
+2010-04-29
+  * rohm.lbr: Eagle 5.9.0
+    added:
+    EMX1.DEV
+    IMX1.DEV
+    UMX1N.DEV
+    EMT6.PAC
+    SMT6.PAC
+    UMT6.PAC
+
+2010-04-22
+  * diode.lbr: Eagle 5.8.1
+    added:
+    BAT54.DEV
+    BAT54A.DEV
+    BAT54C.DEV
+    BAT54S.DEV
+
+2010-04-13
+  * sensor-infratec.lbr: Eagle 5.8.0
+    added:
+    LME-346-F.DEV
+    TO39.PAC
+
+2010-04-12
+  * led.lbr: Eagle 5.8.0
+    added:
+    TLUV5300.DEV
+    TLUV5300.PAC
+
+2010-04-08
+  * con-faston.lbr: Eagle 5.8.0
+    added:
+    PIN1-2.DEV
+    62221.PAC
+
+2010-04-06
+  * xilinx-xc9.lbr: Eagle 5.8.0
+    added:
+    XC9536_44VQ.DEV
+    XC9536_44PLCC.DEV
+    PLCC44.PAC
+    SQFP-S-10X10-44.PAC
+
+2010-04-01
+  * infineon.lbr: Eagle 5.8.0
+    added:
+    BSP613P.DEV
+    BTS716G.DEV
+    PG-DSO-20.PAC
+    PG-SOT-223.PAC
+
+2010-03-31
+  * rectifier.lbr: Eagle 5.8.0
+    added:
+    B*S.DEV
+    DF*S.DEV
+    DFS.PAC
+    MBS.PAC
+
+2010-03-30
+  * silabs.lbr: Eagle 5.8.0
+    added:
+    SI570.DEV
+    SI571.DEV
+    8-PIN.PAC
+
+2010-03-29
+  * analog-devices.lbr: Eagle 5.8.0
+    added:
+    AD9854.DEV
+    AD9912.DEV
+
+2010-03-29
+  * inductors.lbr: Eagle 5.8.0
+    added:
+    CPH-E13/7/4-1S-6P.DEV
+    CPH-E13/7/4-1S-6P.PAC
+
 2010-03-29
   * con-molex.lbr: Eagle 5.8.0
     corrected: 679105700.PAC pins 18-52 moved X -0.3mm
@@ -402,11 +2965,10 @@ EAGLE Library ChangeLog
     HA5024.DEV
 
 2009-12-21
-  * : Eagle 5.6.3
+  * supply-dummy.lbr: Eagle 5.6.3
+  * special-pad.lbr: Eagle 5.6.3
+  * ground-junctions.lbr: Eagle 5.6.3
     deleted: (used layer 53/54)
-    supply-dummy.lbr
-    special-pad.lbr
-    ground-junctions.lbr
 
 2009-12-21
   * supply1.lbr: Eagle 5.6.3
