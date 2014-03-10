@@ -1,6 +1,206 @@
 EAGLE Library ChangeLog
 =======================
 
+2012-10-01
+  * texas.lbr: Eagle 6.2.3
+    added:
+    TLC4501.DEV
+    TLC4502.DEV
+
+2012-09-03
+  * dc-dc-converter.lbr: Eagle 6.2.2
+    added:
+    R-78C*-1.0.DEV
+    SIP3.PAC
+
+2012-09-03
+  * con-lumberg.lbr: Eagle 6.2.2
+    corrected pads: KLBR4.PAC
+
+2012-08-29
+  * switch.lbr: Eagle 6.2.3
+    added:
+    3PDT.DEV
+    3PDT.PAC
+
+2012-08-28
+  * relay.lbr: Eagle 6.2.2
+    added:
+    APF30212A.DEV
+    APF30212C.DEV
+    APF30212A.PAC
+    APF30212C.PAC
+
+2012-08-21
+  * relay.lbr: Eagle 6.2.2
+    corrected Set/Reset coil: DS2E-L-*.DEV
+
+2012-08-10
+  * switch-alps.lbr: Eagle 6.2.2
+    corrected symbol coordinate: EC12E_SW.DEV
+
+2012-08-09
+  * allegro.lbr: Eagle 6.2.2
+    Pads extended for Version 6:
+    ACS75050.PAC
+    CB-PFF.PAC
+    ACS758*.DEV
+    ACS750*CA-050.DEV
+
+2012-07-06
+  * 19inch.lbr: Eagle 6.2.2
+    corrected package variant : VG96P -> VG64P
+
+2012-07-09
+  * ftdichip.lbr: Eagle 6.2.2
+    added:
+    FT230X.DEV
+    QFN16.PAC
+    SSOP16.PAC
+
+2012-07-04
+  * st-microelectronics.lbr: Eagle 6.2.2
+    added:
+    STGIPS10K60A.DEV
+    SDIP-25L.PAC
+
+2012-06-13
+  * relay.lbr: Eagle 6.2.1
+    added:
+    JV*-KT.DEV
+    JV-KT.PAC
+
+2012-06-06
+  * intersil-techwell.lbr: Eagle 6.2.1
+    added:
+    TW9920.DEV
+    VFBGA100L-8X8.PAC
+
+2012-06-05
+  * relay.lbr: Eagle 6.2.1
+    added:
+    JW1A.DEV
+    JW1C.DEV
+    JW2A.DEV
+    JW2C.DEV
+    JW1A.PAC
+    JW1C.PAC
+    JW2A.PAC
+    JW2C.PAC
+
+2012-06-05
+  * texas-sn55-sn75.lbr: Eagle 6.2.1
+    added:
+    SN75451B.DEV
+    SN75452B.DEV
+    SN75453B.DEV
+    SN75454B.DEV
+    DIL08.PAC
+    D_R-PDSO-G8.PAC
+    PS_R-PDSO-G8.PAC
+
+2012-06-01
+  * transistor-power.lbr: Eagle 6.2.1
+    added:
+    IRF8313P.DEV
+
+2012-05-09
+  * con-subd.lbr: Eagle 6.2.1
+    added:
+    M09SMT.PAC
+    M15SMT.PAC
+    M25SMT.PAC
+    M37SMT.PAC
+
+2012-04-25
+  * philips-semiconductors.lbr: Eagle 6.2.1
+    added:
+    TDA1552Q.DEV
+    MULTIWAT-SIL13.PAC
+
+2012-04-19
+  * trafo-hammondmfg.lbr: Eagle 6.2.0
+    added:
+    166.DEV
+    C0H.PAC
+    C1H.PAC
+    C2H.PAC
+    C3H.PAC
+    C4H.PAC
+    C5H.PAC
+    C6H.PAC
+    C7H.PAC
+    C8H.PAC
+    C9H.PAC
+    C10H.PAC
+    C11H.PAC
+    C12H.PAC
+    C13H.PAC
+    C14H.PAC
+    C15H.PAC
+    C16H.PAC
+
+2012-04-19
+  * con-phoenix-350.lbr: Eagle 6.2.0
+    added:
+    MKKDS1/2-3,5.DEV
+    MKKDS1/3-3,5.DEV
+    MKKDS1/4-3,5.DEV
+    MKKDS1/5-3,5.DEV
+    MKKDS1/6-3,5.DEV
+    MKKDS1/7-3,5.DEV
+    MKKDS1/8-3,5.DEV
+    MKKDS1/9-3,5.DEV
+    MKKDS1/10-3,5.DEV
+    MKKDS1/11-3,5.DEV
+    MKKDS1/12-3,5.DEV
+    MKKDS1/13-3,5.DEV
+    MKKDS1/14-3,5.DEV
+    MKKDS1/15-3,5.DEV
+    MKKDS1/16-3,5.DEV
+    MKKDS1/2-3,5.PAC
+    MKKDS1/3-3,5.PAC
+    MKKDS1/4-3,5.PAC
+    MKKDS1/5-3,5.PAC
+    MKKDS1/6-3,5.PAC
+    MKKDS1/7-3,5.PAC
+    MKKDS1/8-3,5.PAC
+    MKKDS1/9-3,5.PAC
+    MKKDS1/10-3,5.PAC
+    MKKDS1/11-3,5.PAC
+    MKKDS1/12-3,5.PAC
+    MKKDS1/13-3,5.PAC
+    MKKDS1/14-3,5.PAC
+    MKKDS1/15-3,5.PAC
+    MKKDS1/16-3,5.PAC
+
+2012-04-18
+  * microwave.lbr: Eagle 6.2.0
+    added:
+    HMC641LC4.DEV
+
+2012-04-18
+  * con-omron.lbr: Eagle 6.2.0
+    added:
+    XF3B-0845-31A.DEV
+    XF3B-1945-31A.DEV
+    XF3B-2545-31A.DEV
+    XF3B-3545-31A.DEV
+    XF3B-5145-31A.DEV
+    XF3B-6745-31A.DEV
+    XF3B-8.PAC
+    XF3B-19.PAC
+    XF3B-25.PAC
+    XF3B-35.PAC
+    XF3B-51.PAC
+    XF3B-67.PAC
+
+2012-04-16
+  * lem.lbr: Eagle 6.2.0
+    added:
+    LA-*.DEV
+    LA25P.PAC
+
 2012-04-11
   * maxim.lbr: Eagle 6.1.5
     added:
@@ -63,7 +263,7 @@ EAGLE Library ChangeLog
     MPSA92
     MPSA92
 
-2012-03-15
+2012-03-16
   * optocoupler.lbr: Eagle 6.1.3
     added:
     PLT133/T9.DEV

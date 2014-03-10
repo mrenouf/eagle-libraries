@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="9" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -10825,6 +10825,528 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <text x="-17.78" y="3.048" size="1.27" layer="25">&gt;NAME</text>
 <text x="-6.096" y="-5.588" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="M37SMT">
+<description>&lt;b&gt;D-Sub Steckverbinder&lt;/b&gt; Abgewinkelte Messerleisten SMT, Einbauhöhe 3,6mm&lt;p&gt;
+Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
+<wire x1="27.559" y1="-17.526" x2="27.305" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="27.559" y1="-17.526" x2="28.067" y2="-17.018" width="0.1524" layer="21" curve="90"/>
+<wire x1="-28.067" y1="-17.018" x2="-27.559" y2="-17.526" width="0.1524" layer="21" curve="90"/>
+<wire x1="27.686" y1="-11.684" x2="27.686" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="27.686" y1="-11.684" x2="-27.686" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="-27.686" y1="-11.684" x2="-27.686" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="34.798" y1="-8.92" x2="28.575" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="34.798" y1="-8.92" x2="34.798" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="34.798" y1="-8.92" x2="34.75" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-34.798" y1="-11.684" x2="-34.798" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="-34.798" y1="-8.92" x2="-34.75" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="28.575" y1="-8.92" x2="28.575" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="28.575" y1="-8.92" x2="-28.575" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="28.575" y1="-8.158" x2="-28.575" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="-28.575" y1="-8.92" x2="-28.575" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="34.75" y1="3.016" x2="34.75" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-34.75" y1="3.016" x2="-34.75" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="-13.97" x2="-11.049" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-11.049" y1="-13.97" x2="-11.049" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-11.049" y1="-16.256" x2="-11.43" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="-16.256" x2="-11.43" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="-14.351" x2="-12.954" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-12.954" y1="-14.351" x2="-12.954" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-12.954" y1="-16.256" x2="-13.335" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="-16.256" x2="-13.335" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-9.271" y1="-13.97" x2="-6.985" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="-13.97" x2="-6.985" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="-16.256" x2="-7.366" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-7.366" y1="-16.256" x2="-7.366" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-7.366" y1="-14.351" x2="-8.89" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-14.351" x2="-8.89" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-16.256" x2="-9.271" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-9.271" y1="-16.256" x2="-9.271" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="11.049" y1="-13.97" x2="13.335" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="13.335" y1="-13.97" x2="13.335" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="13.335" y1="-16.256" x2="12.954" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="12.954" y1="-16.256" x2="12.954" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="12.954" y1="-14.351" x2="11.43" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="11.43" y1="-14.351" x2="11.43" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="11.43" y1="-16.256" x2="11.049" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="11.049" y1="-16.256" x2="11.049" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-28.575" y1="-8.92" x2="-34.798" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="-27.686" y1="-11.684" x2="-34.798" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="-28.067" y1="-12.319" x2="-28.067" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="-28.702" y1="-11.684" x2="-28.067" y2="-12.319" width="0.1524" layer="21" curve="-90"/>
+<wire x1="34.798" y1="-11.684" x2="27.686" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="28.067" y1="-12.319" x2="28.067" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="28.067" y1="-12.319" x2="28.702" y2="-11.684" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-17.272" y1="-13.97" x2="-14.986" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-14.986" y1="-13.97" x2="-14.986" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-14.986" y1="-16.256" x2="-15.367" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-15.367" y1="-16.256" x2="-15.367" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-15.367" y1="-14.351" x2="-16.891" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-16.891" y1="-14.351" x2="-16.891" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-16.891" y1="-16.256" x2="-17.272" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-17.272" y1="-16.256" x2="-17.272" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="14.986" y1="-13.97" x2="17.272" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="17.272" y1="-13.97" x2="17.272" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="17.272" y1="-16.256" x2="16.891" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="16.891" y1="-16.256" x2="16.891" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="16.891" y1="-14.351" x2="15.367" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="15.367" y1="-14.351" x2="15.367" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="15.367" y1="-16.256" x2="14.986" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="14.986" y1="-16.256" x2="14.986" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-21.209" y1="-13.97" x2="-18.923" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-18.923" y1="-13.97" x2="-18.923" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-18.923" y1="-16.256" x2="-19.304" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-19.304" y1="-16.256" x2="-19.304" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-19.304" y1="-14.351" x2="-20.828" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-20.828" y1="-14.351" x2="-20.828" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-20.828" y1="-16.256" x2="-21.209" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-21.209" y1="-16.256" x2="-21.209" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="18.923" y1="-13.97" x2="21.209" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="21.209" y1="-13.97" x2="21.209" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="21.209" y1="-16.256" x2="20.828" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="20.828" y1="-16.256" x2="20.828" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="20.828" y1="-14.351" x2="19.304" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="19.304" y1="-14.351" x2="19.304" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="19.304" y1="-16.256" x2="18.923" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="18.923" y1="-16.256" x2="18.923" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-13.97" x2="-2.794" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-13.97" x2="-2.794" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-16.256" x2="-3.175" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-16.256" x2="-3.175" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-14.351" x2="-4.699" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-4.699" y1="-14.351" x2="-4.699" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-4.699" y1="-16.256" x2="-5.08" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-16.256" x2="-5.08" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-13.97" x2="1.143" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-13.97" x2="1.143" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-16.256" x2="0.762" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-16.256" x2="0.762" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-14.351" x2="-0.762" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-14.351" x2="-0.762" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-16.256" x2="-1.143" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-16.256" x2="-1.143" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="-13.97" x2="5.08" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-13.97" x2="5.08" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-16.256" x2="4.699" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-16.256" x2="4.699" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-14.351" x2="3.175" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-14.351" x2="3.175" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-16.256" x2="2.794" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="-16.256" x2="2.794" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-13.97" x2="9.271" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="9.271" y1="-13.97" x2="9.271" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="9.271" y1="-16.256" x2="8.89" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="-16.256" x2="8.89" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="-14.351" x2="7.366" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="7.366" y1="-14.351" x2="7.366" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="7.366" y1="-16.256" x2="6.985" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-16.256" x2="6.985" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-27.305" y1="-12.192" x2="-27.305" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="-27.305" y1="-17.526" x2="-27.559" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="27.305" y1="-12.192" x2="27.305" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="27.305" y1="-17.526" x2="-27.305" y2="-17.526" width="0.1524" layer="21"/>
+<text x="21.59" y="5.715" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-30.7975" y="5.715" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-27.94" y="3.4925" size="1.27" layer="21" ratio="10">19</text>
+<text x="26.3525" y="3.4925" size="1.27" layer="21" ratio="10">1</text>
+<text x="-26.9875" y="-2.54" size="1.27" layer="21" ratio="10">37</text>
+<text x="25.0825" y="-2.2225" size="1.27" layer="21" ratio="10">20</text>
+<text x="-26.599" y="-15.104" size="1.27" layer="21" ratio="10">M37</text>
+<rectangle x1="-28.575" y1="-8.92" x2="28.575" y2="-8.158" layer="21"/>
+<rectangle x1="-34.798" y1="-11.684" x2="34.798" y2="-11.176" layer="21"/>
+<hole x="-30.85" y="0" drill="1.7"/>
+<hole x="30.85" y="0" drill="1.7"/>
+<smd name="1" x="24.84" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="20" x="23.46" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="2" x="22.08" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="3" x="19.32" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="4" x="16.56" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="5" x="13.8" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="6" x="11.04" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="7" x="8.28" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="8" x="5.52" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="9" x="2.76" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="10" x="0" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="11" x="-2.76" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="12" x="-5.52" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="13" x="-8.28" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="14" x="-11.04" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="15" x="-13.8" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="16" x="-16.56" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="17" x="-19.32" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="18" x="-22.08" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="19" x="-24.84" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="21" x="20.7" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="22" x="17.94" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="23" x="15.18" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="24" x="12.42" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="25" x="9.66" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="26" x="6.9" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="27" x="4.14" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="28" x="1.38" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="29" x="-1.38" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="30" x="-4.14" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="31" x="-6.9" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="32" x="-9.66" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="33" x="-12.42" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="34" x="-15.18" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="35" x="-17.94" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="36" x="-20.7" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="37" x="-23.46" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="S@2" x="-31.725" y="-2.625" dx="1" dy="1" layer="1"/>
+<smd name="S@1" x="31.725" y="-2.65" dx="1" dy="1" layer="1"/>
+<wire x1="-34.9275" y1="-8.1" x2="34.9275" y2="-8.1" width="0" layer="20"/>
+<polygon width="0.2" layer="1">
+<vertex x="-34.6075" y="-7.9375"/>
+<vertex x="-28.8" y="-7.9375"/>
+<vertex x="-28.8" y="-1.5875"/>
+<vertex x="-30.7975" y="-1.5875" curve="-180"/>
+<vertex x="-30.7975" y="1.5875"/>
+<vertex x="-28.775" y="1.5875"/>
+<vertex x="-28.775" y="3.325"/>
+<vertex x="-34.6075" y="3.325"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="34.6075" y="-7.9375"/>
+<vertex x="28.8" y="-7.9375"/>
+<vertex x="28.8" y="-1.5875"/>
+<vertex x="30.7975" y="-1.5875" curve="180"/>
+<vertex x="30.7975" y="1.5875"/>
+<vertex x="28.775" y="1.5875"/>
+<vertex x="28.775" y="3.325"/>
+<vertex x="34.6075" y="3.325"/>
+</polygon>
+<wire x1="34.75" y1="3.016" x2="-34.75" y2="3.016" width="0.1524" layer="21"/>
+</package>
+<package name="M25SMT">
+<description>&lt;b&gt;D-Sub Steckverbinder&lt;/b&gt; Abgewinkelte Messerleisten SMT, Einbauhöhe 3,6mm&lt;p&gt;
+Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
+<wire x1="19.279" y1="-17.526" x2="19.025" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="19.279" y1="-17.526" x2="19.787" y2="-17.018" width="0.1524" layer="21" curve="90"/>
+<wire x1="-19.787" y1="-17.018" x2="-19.279" y2="-17.526" width="0.1524" layer="21" curve="90"/>
+<wire x1="19.406" y1="-11.684" x2="19.406" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="19.406" y1="-11.684" x2="-19.406" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="-19.406" y1="-11.684" x2="-19.406" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="26.518" y1="-8.92" x2="20.295" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="26.518" y1="-8.92" x2="26.518" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="26.518" y1="-8.92" x2="26.47" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-26.518" y1="-11.684" x2="-26.518" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="-26.518" y1="-8.92" x2="-26.47" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="20.295" y1="-8.92" x2="20.295" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="20.295" y1="-8.92" x2="-20.295" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="20.295" y1="-8.158" x2="-20.295" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="-20.295" y1="-8.92" x2="-20.295" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="26.47" y1="3.016" x2="26.47" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-26.47" y1="3.016" x2="-26.47" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="2.769" y1="-13.97" x2="5.055" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="5.055" y1="-13.97" x2="5.055" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="5.055" y1="-16.256" x2="4.674" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="4.674" y1="-16.256" x2="4.674" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="4.674" y1="-14.351" x2="3.15" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="3.15" y1="-14.351" x2="3.15" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="3.15" y1="-16.256" x2="2.769" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="2.769" y1="-16.256" x2="2.769" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-20.295" y1="-8.92" x2="-26.518" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="-19.406" y1="-11.684" x2="-26.518" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="-19.787" y1="-12.319" x2="-19.787" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="-20.422" y1="-11.684" x2="-19.787" y2="-12.319" width="0.1524" layer="21" curve="-90"/>
+<wire x1="26.518" y1="-11.684" x2="19.406" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="19.787" y1="-12.319" x2="19.787" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="19.787" y1="-12.319" x2="20.422" y2="-11.684" width="0.1524" layer="21" curve="-90"/>
+<wire x1="6.706" y1="-13.97" x2="8.992" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="8.992" y1="-13.97" x2="8.992" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="8.992" y1="-16.256" x2="8.611" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="8.611" y1="-16.256" x2="8.611" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="8.611" y1="-14.351" x2="7.087" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="7.087" y1="-14.351" x2="7.087" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="7.087" y1="-16.256" x2="6.706" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="6.706" y1="-16.256" x2="6.706" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="10.643" y1="-13.97" x2="12.929" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="12.929" y1="-13.97" x2="12.929" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="12.929" y1="-16.256" x2="12.548" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="12.548" y1="-16.256" x2="12.548" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="12.548" y1="-14.351" x2="11.024" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="11.024" y1="-14.351" x2="11.024" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="11.024" y1="-16.256" x2="10.643" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="10.643" y1="-16.256" x2="10.643" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-13.36" y1="-13.97" x2="-11.074" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-11.074" y1="-13.97" x2="-11.074" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-11.074" y1="-16.256" x2="-11.455" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-11.455" y1="-16.256" x2="-11.455" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-11.455" y1="-14.351" x2="-12.979" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-12.979" y1="-14.351" x2="-12.979" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-12.979" y1="-16.256" x2="-13.36" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-13.36" y1="-16.256" x2="-13.36" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-9.423" y1="-13.97" x2="-7.137" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-7.137" y1="-13.97" x2="-7.137" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-7.137" y1="-16.256" x2="-7.518" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-7.518" y1="-16.256" x2="-7.518" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-7.518" y1="-14.351" x2="-9.042" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-9.042" y1="-14.351" x2="-9.042" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-9.042" y1="-16.256" x2="-9.423" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-9.423" y1="-16.256" x2="-9.423" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-5.486" y1="-13.97" x2="-3.2" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-3.2" y1="-13.97" x2="-3.2" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-3.2" y1="-16.256" x2="-3.581" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-3.581" y1="-16.256" x2="-3.581" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-3.581" y1="-14.351" x2="-5.105" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-5.105" y1="-14.351" x2="-5.105" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-5.105" y1="-16.256" x2="-5.486" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-5.486" y1="-16.256" x2="-5.486" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-1.295" y1="-13.97" x2="0.991" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="0.991" y1="-13.97" x2="0.991" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="0.991" y1="-16.256" x2="0.61" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="0.61" y1="-16.256" x2="0.61" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="0.61" y1="-14.351" x2="-0.914" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-0.914" y1="-14.351" x2="-0.914" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-0.914" y1="-16.256" x2="-1.295" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-1.295" y1="-16.256" x2="-1.295" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-19.025" y1="-12.192" x2="-19.025" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="-19.025" y1="-17.526" x2="-19.279" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="19.025" y1="-12.192" x2="19.025" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="19.025" y1="-17.526" x2="-19.025" y2="-17.526" width="0.1524" layer="21"/>
+<text x="13.6525" y="5.3975" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-22.5425" y="5.3975" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-19.685" y="3.4925" size="1.27" layer="21" ratio="10">13</text>
+<text x="18.0975" y="3.4925" size="1.27" layer="21" ratio="10">1</text>
+<text x="-18.812" y="-2.682" size="1.27" layer="21" ratio="10">25</text>
+<text x="17.153" y="-2.38" size="1.27" layer="21" ratio="10">14</text>
+<text x="-18.319" y="-15.104" size="1.27" layer="21" ratio="10">M25</text>
+<rectangle x1="-20.3" y1="-8.92" x2="20.275" y2="-8.158" layer="21"/>
+<rectangle x1="-26.55" y1="-11.684" x2="26.525" y2="-11.04" layer="21"/>
+<hole x="-22.57" y="0" drill="1.7"/>
+<hole x="22.57" y="0" drill="1.7"/>
+<smd name="1" x="16.56" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="14" x="15.18" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="2" x="13.8" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="3" x="11.04" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="4" x="8.28" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="5" x="5.52" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="6" x="2.76" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="7" x="0" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="8" x="-2.76" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="9" x="-5.52" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="10" x="-8.28" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="11" x="-11.04" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="12" x="-13.8" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="13" x="-16.56" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="S@2" x="-23.445" y="-2.625" dx="1" dy="1" layer="1"/>
+<smd name="S@1" x="23.445" y="-2.65" dx="1" dy="1" layer="1"/>
+<wire x1="-26.6475" y1="-8.1" x2="26.6475" y2="-8.1" width="0" layer="20"/>
+<polygon width="0.2" layer="1">
+<vertex x="-26.3275" y="-7.9375"/>
+<vertex x="-20.52" y="-7.9375"/>
+<vertex x="-20.52" y="-1.5875"/>
+<vertex x="-22.5175" y="-1.5875" curve="-180"/>
+<vertex x="-22.5175" y="1.5875"/>
+<vertex x="-20.495" y="1.5875"/>
+<vertex x="-20.495" y="3.325"/>
+<vertex x="-26.3275" y="3.325"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="26.3275" y="-7.9375"/>
+<vertex x="20.52" y="-7.9375"/>
+<vertex x="20.52" y="-1.5875"/>
+<vertex x="22.5175" y="-1.5875" curve="180"/>
+<vertex x="22.5175" y="1.5875"/>
+<vertex x="20.495" y="1.5875"/>
+<vertex x="20.495" y="3.325"/>
+<vertex x="26.3275" y="3.325"/>
+</polygon>
+<wire x1="26.47" y1="3.016" x2="-26.47" y2="3.016" width="0.1524" layer="21"/>
+<smd name="15" x="12.42" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="16" x="9.66" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="17" x="6.9" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="18" x="4.14" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="19" x="1.38" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="20" x="-1.38" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="21" x="-4.14" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="22" x="-6.9" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="23" x="-9.66" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="24" x="-12.42" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="25" x="-15.18" y="-1.975" dx="1" dy="2.8" layer="1"/>
+</package>
+<package name="M15SMT">
+<description>&lt;b&gt;D-Sub Steckverbinder&lt;/b&gt; Abgewinkelte Messerleisten SMT, Einbauhöhe 3,6mm&lt;p&gt;
+Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
+<wire x1="12.429" y1="-17.526" x2="12.175" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="12.429" y1="-17.526" x2="12.937" y2="-17.018" width="0.1524" layer="21" curve="90"/>
+<wire x1="-12.937" y1="-17.018" x2="-12.429" y2="-17.526" width="0.1524" layer="21" curve="90"/>
+<wire x1="12.556" y1="-11.684" x2="12.556" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="12.556" y1="-11.684" x2="-12.556" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="-12.556" y1="-11.684" x2="-12.556" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="19.668" y1="-8.92" x2="13.445" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="19.668" y1="-8.92" x2="19.668" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="19.668" y1="-8.92" x2="19.62" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-19.668" y1="-11.684" x2="-19.668" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="-19.668" y1="-8.92" x2="-19.62" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="13.445" y1="-8.92" x2="13.445" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="13.445" y1="-8.92" x2="-13.445" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="13.445" y1="-8.158" x2="-13.445" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="-13.445" y1="-8.92" x2="-13.445" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="19.62" y1="3.016" x2="19.62" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-19.62" y1="3.016" x2="-19.62" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-5.156" y1="-13.97" x2="-2.87" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-2.87" y1="-13.97" x2="-2.87" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-2.87" y1="-16.256" x2="-3.251" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-3.251" y1="-16.256" x2="-3.251" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-3.251" y1="-14.351" x2="-4.775" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-4.775" y1="-14.351" x2="-4.775" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-4.775" y1="-16.256" x2="-5.156" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-5.156" y1="-16.256" x2="-5.156" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-13.445" y1="-8.92" x2="-19.668" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="-12.556" y1="-11.684" x2="-19.668" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="-12.937" y1="-12.319" x2="-12.937" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="-13.572" y1="-11.684" x2="-12.937" y2="-12.319" width="0.1524" layer="21" curve="-90"/>
+<wire x1="19.668" y1="-11.684" x2="12.556" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="12.937" y1="-12.319" x2="12.937" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="12.937" y1="-12.319" x2="13.572" y2="-11.684" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.219" y1="-13.97" x2="1.067" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="1.067" y1="-13.97" x2="1.067" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="1.067" y1="-16.256" x2="0.686" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="0.686" y1="-16.256" x2="0.686" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="0.686" y1="-14.351" x2="-0.838" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="-0.838" y1="-14.351" x2="-0.838" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-0.838" y1="-16.256" x2="-1.219" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="-1.219" y1="-16.256" x2="-1.219" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="2.718" y1="-13.97" x2="5.004" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="5.004" y1="-13.97" x2="5.004" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="5.004" y1="-16.256" x2="4.623" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="4.623" y1="-16.256" x2="4.623" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="4.623" y1="-14.351" x2="3.099" y2="-14.351" width="0.1524" layer="21"/>
+<wire x1="3.099" y1="-14.351" x2="3.099" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="3.099" y1="-16.256" x2="2.718" y2="-16.256" width="0.1524" layer="21"/>
+<wire x1="2.718" y1="-16.256" x2="2.718" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-12.175" y1="-12.192" x2="-12.175" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="-12.175" y1="-17.526" x2="-12.429" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="12.175" y1="-12.192" x2="12.175" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="12.175" y1="-17.526" x2="-12.175" y2="-17.526" width="0.1524" layer="21"/>
+<text x="7.62" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-13.335" y="5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-12.065" y="3.4925" size="1.27" layer="21" ratio="10">8</text>
+<text x="11.43" y="3.4925" size="1.27" layer="21" ratio="10">1</text>
+<text x="-11.7475" y="-2.54" size="1.27" layer="21" ratio="10">15</text>
+<text x="10.4775" y="-2.54" size="1.27" layer="21" ratio="10">9</text>
+<text x="-11.469" y="-15.104" size="1.27" layer="21" ratio="10">M15</text>
+<rectangle x1="-13.45" y1="-8.92" x2="13.425" y2="-8.158" layer="21"/>
+<rectangle x1="-19.65" y1="-11.684" x2="19.675" y2="-11.04" layer="21"/>
+<hole x="-15.72" y="0" drill="1.7"/>
+<hole x="15.72" y="0" drill="1.7"/>
+<smd name="1" x="9.59" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="9" x="8.22" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="S@2" x="-16.595" y="-2.625" dx="1" dy="1" layer="1"/>
+<smd name="S@1" x="16.595" y="-2.65" dx="1" dy="1" layer="1"/>
+<wire x1="-19.7975" y1="-8.1" x2="19.7975" y2="-8.1" width="0" layer="20"/>
+<polygon width="0.2" layer="1">
+<vertex x="-19.4775" y="-7.9375"/>
+<vertex x="-13.67" y="-7.9375"/>
+<vertex x="-13.67" y="-1.5875"/>
+<vertex x="-15.6675" y="-1.5875" curve="-180"/>
+<vertex x="-15.6675" y="1.5875"/>
+<vertex x="-13.645" y="1.5875"/>
+<vertex x="-13.645" y="3.325"/>
+<vertex x="-19.4775" y="3.325"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="19.4775" y="-7.9375"/>
+<vertex x="13.67" y="-7.9375"/>
+<vertex x="13.67" y="-1.5875"/>
+<vertex x="15.6675" y="-1.5875" curve="180"/>
+<vertex x="15.6675" y="1.5875"/>
+<vertex x="13.645" y="1.5875"/>
+<vertex x="13.645" y="3.325"/>
+<vertex x="19.4775" y="3.325"/>
+</polygon>
+<wire x1="19.62" y1="3.016" x2="-19.62" y2="3.016" width="0.1524" layer="21"/>
+<smd name="2" x="6.85" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="3" x="4.11" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="4" x="1.37" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="5" x="-1.37" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="6" x="-4.11" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="7" x="-6.85" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="8" x="-9.59" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="10" x="5.48" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="11" x="2.74" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="12" x="0" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="13" x="-2.74" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="14" x="-5.48" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="15" x="-8.22" y="-1.975" dx="1" dy="2.8" layer="1"/>
+</package>
+<package name="M09SMT">
+<description>&lt;b&gt;D-Sub Steckverbinder&lt;/b&gt; Abgewinkelte Messerleisten SMT, Einbauhöhe 3,6mm&lt;p&gt;
+Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
+<wire x1="8.319" y1="-17.526" x2="8.065" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="8.319" y1="-17.526" x2="8.827" y2="-17.018" width="0.1524" layer="21" curve="90"/>
+<wire x1="-7.457" y1="-17.018" x2="-6.949" y2="-17.526" width="0.1524" layer="21" curve="90"/>
+<wire x1="8.446" y1="-11.684" x2="8.446" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="8.446" y1="-11.684" x2="-7.076" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="-7.076" y1="-11.684" x2="-7.076" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="15.558" y1="-8.92" x2="9.335" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="15.558" y1="-8.92" x2="15.558" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="15.558" y1="-8.92" x2="15.51" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-14.188" y1="-11.684" x2="-14.188" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="-14.188" y1="-8.92" x2="-14.14" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="9.335" y1="-8.92" x2="9.335" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="9.335" y1="-8.92" x2="-7.965" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="9.335" y1="-8.158" x2="-7.965" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="-7.965" y1="-8.92" x2="-7.965" y2="-8.158" width="0.1524" layer="21"/>
+<wire x1="15.51" y1="3.016" x2="15.51" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-14.14" y1="3.016" x2="-14.14" y2="-8.793" width="0.1524" layer="21"/>
+<wire x1="-7.965" y1="-8.92" x2="-14.188" y2="-8.92" width="0.1524" layer="21"/>
+<wire x1="-7.076" y1="-11.684" x2="-14.188" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="-7.457" y1="-12.319" x2="-7.457" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="-8.092" y1="-11.684" x2="-7.457" y2="-12.319" width="0.1524" layer="21" curve="-90"/>
+<wire x1="15.558" y1="-11.684" x2="8.446" y2="-11.684" width="0.1524" layer="21"/>
+<wire x1="8.827" y1="-12.319" x2="8.827" y2="-17.018" width="0.1524" layer="21"/>
+<wire x1="8.827" y1="-12.319" x2="9.462" y2="-11.684" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-6.695" y1="-12.192" x2="-6.695" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="-6.695" y1="-17.526" x2="-6.949" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="8.065" y1="-12.192" x2="8.065" y2="-17.526" width="0.1524" layer="21"/>
+<wire x1="8.065" y1="-17.526" x2="-6.695" y2="-17.526" width="0.1524" layer="21"/>
+<text x="3.51" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-7.855" y="5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-7.62" y="3.4925" size="1.27" layer="21" ratio="10">8</text>
+<text x="7.32" y="3.4925" size="1.27" layer="21" ratio="10">1</text>
+<text x="-7.62" y="-2.54" size="1.27" layer="21" ratio="10">15</text>
+<text x="6.3675" y="-2.54" size="1.27" layer="21" ratio="10">9</text>
+<text x="-5.989" y="-15.104" size="1.27" layer="21" ratio="10">M15</text>
+<rectangle x1="-7.9375" y1="-8.92" x2="9.325" y2="-8.158" layer="21"/>
+<rectangle x1="-14.175" y1="-11.684" x2="15.575" y2="-11.04" layer="21"/>
+<hole x="-10.24" y="0" drill="1.7"/>
+<hole x="11.61" y="0" drill="1.7"/>
+<smd name="1" x="5.48" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="6" x="4.11" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="S@2" x="-11.115" y="-2.625" dx="1" dy="1" layer="1"/>
+<smd name="S@1" x="12.485" y="-2.65" dx="1" dy="1" layer="1"/>
+<wire x1="-14.3175" y1="-8.1" x2="15.6875" y2="-8.1" width="0" layer="20"/>
+<polygon width="0.2" layer="1">
+<vertex x="-13.9975" y="-7.9375"/>
+<vertex x="-8.19" y="-7.9375"/>
+<vertex x="-8.19" y="-1.5875"/>
+<vertex x="-10.1875" y="-1.5875" curve="-180"/>
+<vertex x="-10.1875" y="1.5875"/>
+<vertex x="-8.165" y="1.5875"/>
+<vertex x="-8.165" y="3.325"/>
+<vertex x="-13.9975" y="3.325"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="15.3675" y="-7.9375"/>
+<vertex x="9.56" y="-7.9375"/>
+<vertex x="9.56" y="-1.5875"/>
+<vertex x="11.5575" y="-1.5875" curve="180"/>
+<vertex x="11.5575" y="1.5875"/>
+<vertex x="9.535" y="1.5875"/>
+<vertex x="9.535" y="3.325"/>
+<vertex x="15.3675" y="3.325"/>
+</polygon>
+<wire x1="15.51" y1="3.016" x2="-14.14" y2="3.016" width="0.1524" layer="21"/>
+<smd name="2" x="2.74" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="3" x="0" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="4" x="-2.74" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="5" x="-5.48" y="1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="7" x="1.37" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="8" x="-1.37" y="-1.975" dx="1" dy="2.8" layer="1"/>
+<smd name="9" x="-4.11" y="-1.975" dx="1" dy="2.8" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="F37">
@@ -13844,6 +14366,24 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 </technology>
 </technologies>
 </device>
+<device name="SMT" package="M09SMT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="G1" pad="S@1"/>
+<connect gate="G$1" pin="G2" pad="S@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="M15HP" prefix="X" uservalue="yes">
@@ -13879,6 +14419,30 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M15SMT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="G1" pad="S@1"/>
+<connect gate="G$1" pin="G2" pad="S@2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -13927,6 +14491,40 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M25SMT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="M" pin="G1" pad="S@1"/>
+<connect gate="M" pin="G2" pad="S@2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -14102,6 +14700,52 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M37SMT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="G1" pad="S@1"/>
+<connect gate="G$1" pin="G2" pad="S@2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -14723,6 +15367,24 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 </technology>
 </technologies>
 </device>
+<device name="SMT" package="M09SMT">
+<connects>
+<connect gate="-1" pin="M" pad="1"/>
+<connect gate="-2" pin="M" pad="2"/>
+<connect gate="-3" pin="M" pad="3"/>
+<connect gate="-4" pin="M" pad="4"/>
+<connect gate="-5" pin="M" pad="5"/>
+<connect gate="-6" pin="M" pad="6"/>
+<connect gate="-7" pin="M" pad="7"/>
+<connect gate="-8" pin="M" pad="8"/>
+<connect gate="-9" pin="M" pad="9"/>
+<connect gate="-G" pin="G1" pad="S@1"/>
+<connect gate="-G" pin="G2" pad="S@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="M09VPS" prefix="X" uservalue="yes">
@@ -14813,6 +15475,30 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M15SMT">
+<connects>
+<connect gate="-1" pin="M" pad="1"/>
+<connect gate="-10" pin="M" pad="10"/>
+<connect gate="-11" pin="M" pad="11"/>
+<connect gate="-12" pin="M" pad="12"/>
+<connect gate="-13" pin="M" pad="13"/>
+<connect gate="-14" pin="M" pad="14"/>
+<connect gate="-15" pin="M" pad="15"/>
+<connect gate="-2" pin="M" pad="2"/>
+<connect gate="-3" pin="M" pad="3"/>
+<connect gate="-4" pin="M" pad="4"/>
+<connect gate="-5" pin="M" pad="5"/>
+<connect gate="-6" pin="M" pad="6"/>
+<connect gate="-7" pin="M" pad="7"/>
+<connect gate="-8" pin="M" pad="8"/>
+<connect gate="-9" pin="M" pad="9"/>
+<connect gate="-G" pin="G1" pad="S@1"/>
+<connect gate="-G" pin="G2" pad="S@2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -14937,6 +15623,40 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M25SMT">
+<connects>
+<connect gate="-1" pin="M" pad="1"/>
+<connect gate="-10" pin="M" pad="10"/>
+<connect gate="-11" pin="M" pad="11"/>
+<connect gate="-12" pin="M" pad="12"/>
+<connect gate="-13" pin="M" pad="13"/>
+<connect gate="-14" pin="M" pad="14"/>
+<connect gate="-15" pin="M" pad="15"/>
+<connect gate="-16" pin="M" pad="16"/>
+<connect gate="-17" pin="M" pad="17"/>
+<connect gate="-18" pin="M" pad="18"/>
+<connect gate="-19" pin="M" pad="19"/>
+<connect gate="-2" pin="M" pad="2"/>
+<connect gate="-20" pin="M" pad="20"/>
+<connect gate="-21" pin="M" pad="21"/>
+<connect gate="-22" pin="M" pad="22"/>
+<connect gate="-23" pin="M" pad="23"/>
+<connect gate="-24" pin="M" pad="24"/>
+<connect gate="-25" pin="M" pad="25"/>
+<connect gate="-3" pin="M" pad="3"/>
+<connect gate="-4" pin="M" pad="4"/>
+<connect gate="-5" pin="M" pad="5"/>
+<connect gate="-6" pin="M" pad="6"/>
+<connect gate="-7" pin="M" pad="7"/>
+<connect gate="-8" pin="M" pad="8"/>
+<connect gate="-9" pin="M" pad="9"/>
+<connect gate="-G" pin="G1" pad="S@1"/>
+<connect gate="-G" pin="G2" pad="S@2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15105,6 +15825,52 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M37SMT">
+<connects>
+<connect gate="-1" pin="M" pad="1"/>
+<connect gate="-10" pin="M" pad="10"/>
+<connect gate="-11" pin="M" pad="11"/>
+<connect gate="-12" pin="M" pad="12"/>
+<connect gate="-13" pin="M" pad="13"/>
+<connect gate="-14" pin="M" pad="14"/>
+<connect gate="-15" pin="M" pad="15"/>
+<connect gate="-16" pin="M" pad="16"/>
+<connect gate="-17" pin="M" pad="17"/>
+<connect gate="-18" pin="M" pad="18"/>
+<connect gate="-19" pin="M" pad="19"/>
+<connect gate="-2" pin="M" pad="2"/>
+<connect gate="-20" pin="M" pad="20"/>
+<connect gate="-21" pin="M" pad="21"/>
+<connect gate="-22" pin="M" pad="22"/>
+<connect gate="-23" pin="M" pad="23"/>
+<connect gate="-24" pin="M" pad="24"/>
+<connect gate="-25" pin="M" pad="25"/>
+<connect gate="-26" pin="M" pad="26"/>
+<connect gate="-27" pin="M" pad="27"/>
+<connect gate="-28" pin="M" pad="28"/>
+<connect gate="-29" pin="M" pad="29"/>
+<connect gate="-3" pin="M" pad="3"/>
+<connect gate="-30" pin="M" pad="30"/>
+<connect gate="-31" pin="M" pad="31"/>
+<connect gate="-32" pin="M" pad="32"/>
+<connect gate="-33" pin="M" pad="33"/>
+<connect gate="-34" pin="M" pad="34"/>
+<connect gate="-35" pin="M" pad="35"/>
+<connect gate="-36" pin="M" pad="36"/>
+<connect gate="-37" pin="M" pad="37"/>
+<connect gate="-4" pin="M" pad="4"/>
+<connect gate="-5" pin="M" pad="5"/>
+<connect gate="-6" pin="M" pad="6"/>
+<connect gate="-7" pin="M" pad="7"/>
+<connect gate="-8" pin="M" pad="8"/>
+<connect gate="-9" pin="M" pad="9"/>
+<connect gate="-G" pin="G1" pad="S@1"/>
+<connect gate="-G" pin="G2" pad="S@2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -20910,6 +21676,22 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 </technology>
 </technologies>
 </device>
+<device name="SMT" package="M09SMT">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-1" pin="2" pad="2"/>
+<connect gate="-1" pin="3" pad="3"/>
+<connect gate="-1" pin="4" pad="4"/>
+<connect gate="-1" pin="5" pad="5"/>
+<connect gate="-1" pin="6" pad="6"/>
+<connect gate="-1" pin="7" pad="7"/>
+<connect gate="-1" pin="8" pad="8"/>
+<connect gate="-1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="M09?S" prefix="X" uservalue="yes">
@@ -21092,6 +21874,22 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M09SMT">
+<connects>
+<connect gate="-1" pin="M" pad="1"/>
+<connect gate="-2" pin="M" pad="2"/>
+<connect gate="-3" pin="M" pad="3"/>
+<connect gate="-4" pin="M" pad="4"/>
+<connect gate="-5" pin="M" pad="5"/>
+<connect gate="-6" pin="M" pad="6"/>
+<connect gate="-7" pin="M" pad="7"/>
+<connect gate="-8" pin="M" pad="8"/>
+<connect gate="-9" pin="M" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -21289,6 +22087,28 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M15SMT">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-1" pin="10" pad="10"/>
+<connect gate="-1" pin="11" pad="11"/>
+<connect gate="-1" pin="12" pad="12"/>
+<connect gate="-1" pin="13" pad="13"/>
+<connect gate="-1" pin="14" pad="14"/>
+<connect gate="-1" pin="15" pad="15"/>
+<connect gate="-1" pin="2" pad="2"/>
+<connect gate="-1" pin="3" pad="3"/>
+<connect gate="-1" pin="4" pad="4"/>
+<connect gate="-1" pin="5" pad="5"/>
+<connect gate="-1" pin="6" pad="6"/>
+<connect gate="-1" pin="7" pad="7"/>
+<connect gate="-1" pin="8" pad="8"/>
+<connect gate="-1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -21527,6 +22347,28 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M15SMT">
+<connects>
+<connect gate="-1" pin="M" pad="1"/>
+<connect gate="-10" pin="M" pad="10"/>
+<connect gate="-11" pin="M" pad="11"/>
+<connect gate="-12" pin="M" pad="12"/>
+<connect gate="-13" pin="M" pad="13"/>
+<connect gate="-14" pin="M" pad="14"/>
+<connect gate="-15" pin="M" pad="15"/>
+<connect gate="-2" pin="M" pad="2"/>
+<connect gate="-3" pin="M" pad="3"/>
+<connect gate="-4" pin="M" pad="4"/>
+<connect gate="-5" pin="M" pad="5"/>
+<connect gate="-6" pin="M" pad="6"/>
+<connect gate="-7" pin="M" pad="7"/>
+<connect gate="-8" pin="M" pad="8"/>
+<connect gate="-9" pin="M" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -21794,6 +22636,38 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M25SMT">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-1" pin="10" pad="10"/>
+<connect gate="-1" pin="11" pad="11"/>
+<connect gate="-1" pin="12" pad="12"/>
+<connect gate="-1" pin="13" pad="13"/>
+<connect gate="-1" pin="14" pad="14"/>
+<connect gate="-1" pin="15" pad="15"/>
+<connect gate="-1" pin="16" pad="16"/>
+<connect gate="-1" pin="17" pad="17"/>
+<connect gate="-1" pin="18" pad="18"/>
+<connect gate="-1" pin="19" pad="19"/>
+<connect gate="-1" pin="2" pad="2"/>
+<connect gate="-1" pin="20" pad="20"/>
+<connect gate="-1" pin="21" pad="21"/>
+<connect gate="-1" pin="22" pad="22"/>
+<connect gate="-1" pin="23" pad="23"/>
+<connect gate="-1" pin="24" pad="24"/>
+<connect gate="-1" pin="25" pad="25"/>
+<connect gate="-1" pin="3" pad="3"/>
+<connect gate="-1" pin="4" pad="4"/>
+<connect gate="-1" pin="5" pad="5"/>
+<connect gate="-1" pin="6" pad="6"/>
+<connect gate="-1" pin="7" pad="7"/>
+<connect gate="-1" pin="8" pad="8"/>
+<connect gate="-1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22122,6 +22996,38 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M25SMT">
+<connects>
+<connect gate="-1" pin="M" pad="1"/>
+<connect gate="-10" pin="M" pad="10"/>
+<connect gate="-11" pin="M" pad="11"/>
+<connect gate="-12" pin="M" pad="12"/>
+<connect gate="-13" pin="M" pad="13"/>
+<connect gate="-14" pin="M" pad="14"/>
+<connect gate="-15" pin="M" pad="15"/>
+<connect gate="-16" pin="M" pad="16"/>
+<connect gate="-17" pin="M" pad="17"/>
+<connect gate="-18" pin="M" pad="18"/>
+<connect gate="-19" pin="M" pad="19"/>
+<connect gate="-2" pin="M" pad="2"/>
+<connect gate="-20" pin="M" pad="20"/>
+<connect gate="-21" pin="M" pad="21"/>
+<connect gate="-22" pin="M" pad="22"/>
+<connect gate="-23" pin="M" pad="23"/>
+<connect gate="-24" pin="M" pad="24"/>
+<connect gate="-25" pin="M" pad="25"/>
+<connect gate="-3" pin="M" pad="3"/>
+<connect gate="-4" pin="M" pad="4"/>
+<connect gate="-5" pin="M" pad="5"/>
+<connect gate="-6" pin="M" pad="6"/>
+<connect gate="-7" pin="M" pad="7"/>
+<connect gate="-8" pin="M" pad="8"/>
+<connect gate="-9" pin="M" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22473,6 +23379,50 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M37SMT">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-1" pin="10" pad="10"/>
+<connect gate="-1" pin="11" pad="11"/>
+<connect gate="-1" pin="12" pad="12"/>
+<connect gate="-1" pin="13" pad="13"/>
+<connect gate="-1" pin="14" pad="14"/>
+<connect gate="-1" pin="15" pad="15"/>
+<connect gate="-1" pin="16" pad="16"/>
+<connect gate="-1" pin="17" pad="17"/>
+<connect gate="-1" pin="18" pad="18"/>
+<connect gate="-1" pin="19" pad="19"/>
+<connect gate="-1" pin="2" pad="2"/>
+<connect gate="-1" pin="20" pad="20"/>
+<connect gate="-1" pin="21" pad="21"/>
+<connect gate="-1" pin="22" pad="22"/>
+<connect gate="-1" pin="23" pad="23"/>
+<connect gate="-1" pin="24" pad="24"/>
+<connect gate="-1" pin="25" pad="25"/>
+<connect gate="-1" pin="26" pad="26"/>
+<connect gate="-1" pin="27" pad="27"/>
+<connect gate="-1" pin="28" pad="28"/>
+<connect gate="-1" pin="29" pad="29"/>
+<connect gate="-1" pin="3" pad="3"/>
+<connect gate="-1" pin="30" pad="30"/>
+<connect gate="-1" pin="31" pad="31"/>
+<connect gate="-1" pin="32" pad="32"/>
+<connect gate="-1" pin="33" pad="33"/>
+<connect gate="-1" pin="34" pad="34"/>
+<connect gate="-1" pin="35" pad="35"/>
+<connect gate="-1" pin="36" pad="36"/>
+<connect gate="-1" pin="37" pad="37"/>
+<connect gate="-1" pin="4" pad="4"/>
+<connect gate="-1" pin="5" pad="5"/>
+<connect gate="-1" pin="6" pad="6"/>
+<connect gate="-1" pin="7" pad="7"/>
+<connect gate="-1" pin="8" pad="8"/>
+<connect gate="-1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22909,6 +23859,50 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMT" package="M37SMT">
+<connects>
+<connect gate="-1" pin="M" pad="1"/>
+<connect gate="-10" pin="M" pad="10"/>
+<connect gate="-11" pin="M" pad="11"/>
+<connect gate="-12" pin="M" pad="12"/>
+<connect gate="-13" pin="M" pad="13"/>
+<connect gate="-14" pin="M" pad="14"/>
+<connect gate="-15" pin="M" pad="15"/>
+<connect gate="-16" pin="M" pad="16"/>
+<connect gate="-17" pin="M" pad="17"/>
+<connect gate="-18" pin="M" pad="18"/>
+<connect gate="-19" pin="M" pad="19"/>
+<connect gate="-2" pin="M" pad="2"/>
+<connect gate="-20" pin="M" pad="20"/>
+<connect gate="-21" pin="M" pad="21"/>
+<connect gate="-22" pin="M" pad="22"/>
+<connect gate="-23" pin="M" pad="23"/>
+<connect gate="-24" pin="M" pad="24"/>
+<connect gate="-25" pin="M" pad="25"/>
+<connect gate="-26" pin="M" pad="26"/>
+<connect gate="-27" pin="M" pad="27"/>
+<connect gate="-28" pin="M" pad="28"/>
+<connect gate="-29" pin="M" pad="29"/>
+<connect gate="-3" pin="M" pad="3"/>
+<connect gate="-30" pin="M" pad="30"/>
+<connect gate="-31" pin="M" pad="31"/>
+<connect gate="-32" pin="M" pad="32"/>
+<connect gate="-33" pin="M" pad="33"/>
+<connect gate="-34" pin="M" pad="34"/>
+<connect gate="-35" pin="M" pad="35"/>
+<connect gate="-36" pin="M" pad="36"/>
+<connect gate="-37" pin="M" pad="37"/>
+<connect gate="-4" pin="M" pad="4"/>
+<connect gate="-5" pin="M" pad="5"/>
+<connect gate="-6" pin="M" pad="6"/>
+<connect gate="-7" pin="M" pad="7"/>
+<connect gate="-8" pin="M" pad="8"/>
+<connect gate="-9" pin="M" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

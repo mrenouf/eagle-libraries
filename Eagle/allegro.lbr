@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -74,9 +74,7 @@ www.allegromicro.com&lt;br&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="ACS75050">
-<description>&lt;b&gt;Current Sensor&lt;/b&gt;&lt;p&gt;&lt;font color="red"&gt;
-In BRD, display layer 49 Reference and place VIAs with drill = 0,5mm on circles&lt;br&gt;
-In DRC, set Clearance same signals PAD to VIA = 0&lt;/font&gt;&lt;br&gt;
+<description>&lt;b&gt;Current Sensor&lt;/b&gt;&lt;p&gt;
 Source: www.allegromicro.com/datafile/0750-050.pdf</description>
 <wire x1="-7" y1="1" x2="-3" y2="1" width="0" layer="46"/>
 <wire x1="-3" y1="1" x2="-3" y2="-1" width="0" layer="46" curve="-180"/>
@@ -153,15 +151,80 @@ Source: www.allegromicro.com/datafile/0750-050.pdf</description>
 <circle x="-4.3333" y="2" radius="0.25" width="0.001" layer="49"/>
 <circle x="-5.6666" y="2" radius="0.25" width="0.001" layer="49"/>
 <circle x="-3.175" y="-16.225" radius="0.4776" width="0.2032" layer="21"/>
-<pad name="4" x="3" y="0" drill="2" diameter="5" shape="offset"/>
-<pad name="5" x="-3" y="0" drill="2" diameter="5" shape="offset" rot="R180"/>
-<pad name="IP+1" x="7" y="0" drill="2" diameter="4" shape="offset" rot="R180"/>
-<pad name="IP-1" x="-7" y="0" drill="2" diameter="4" shape="offset"/>
+<pad name="IP+@2" x="8.89" y="-0.635" drill="0.5" diameter="0.9"/>
+<pad name="IP-@2" x="-8.89" y="-0.635" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP+" x="7" y="0" drill="2" diameter="4" shape="offset" rot="R180"/>
+<pad name="IP-" x="-7" y="0" drill="2" diameter="4" shape="offset"/>
 <pad name="1" x="-1.91" y="-21.4" drill="0.8" diameter="1.5"/>
 <pad name="2" x="0" y="-21.4" drill="0.8" diameter="1.5"/>
 <pad name="3" x="1.91" y="-21.4" drill="0.8" diameter="1.5"/>
 <text x="-3.81" y="-8.255" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-13.335" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="IP-@3" x="-8.89" y="0.635" drill="0.5" diameter="0.9"/>
+<pad name="IP+@3" x="8.89" y="0.635" drill="0.5" diameter="0.9"/>
+<pad name="IP+@4" x="8.175" y="1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP+@5" x="7" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@6" x="5.675" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@7" x="4.325" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@8" x="3" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@9" x="1.825" y="1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP+@10" x="1.1" y="0.625" drill="0.5" diameter="0.9"/>
+<pad name="IP+@11" x="1.1" y="-0.625" drill="0.5" diameter="0.9"/>
+<pad name="IP+@12" x="1.825" y="-1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP+@13" x="3" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@14" x="4.325" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@15" x="5.675" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@16" x="7" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@17" x="8.175" y="-1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP-@4" x="-8.175" y="1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP-@5" x="-7" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP-@6" x="-5.675" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP-@7" x="-4.325" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP-@8" x="-3" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP-@9" x="-1.825" y="1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP-@10" x="-1.1" y="0.625" drill="0.5" diameter="0.9"/>
+<pad name="IP-@11" x="-1.1" y="-0.625" drill="0.5" diameter="0.9"/>
+<pad name="IP-@12" x="-1.825" y="-1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP-@13" x="-3" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP-@14" x="-4.35" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP-@15" x="-5.675" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP-@16" x="-7" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP-@17" x="-8.175" y="-1.625" drill="0.5" diameter="0.9"/>
+<polygon width="0.3" layer="1">
+<vertex x="-0.635" y="1.5875"/>
+<vertex x="-0.635" y="-1.5875" curve="-51.371965"/>
+<vertex x="-2.8575" y="-2.8575"/>
+<vertex x="-6.985" y="-2.8575" curve="-180"/>
+<vertex x="-6.985" y="2.8575"/>
+<vertex x="-2.8575" y="2.8575" curve="-54.193064"/>
+</polygon>
+<polygon width="0.3" layer="1">
+<vertex x="0.635" y="-1.5875"/>
+<vertex x="0.635" y="1.5875" curve="-51.371965"/>
+<vertex x="2.8575" y="2.8575"/>
+<vertex x="6.985" y="2.8575" curve="-180"/>
+<vertex x="6.985" y="-2.8575"/>
+<vertex x="2.8575" y="-2.8575" curve="-54.193064"/>
+</polygon>
+<polygon width="0.3" layer="16">
+<vertex x="-0.635" y="1.5875"/>
+<vertex x="-0.635" y="-1.5875" curve="-51.371965"/>
+<vertex x="-2.8575" y="-2.8575"/>
+<vertex x="-6.985" y="-2.8575" curve="-180"/>
+<vertex x="-6.985" y="2.8575"/>
+<vertex x="-2.8575" y="2.8575" curve="-54.193064"/>
+</polygon>
+<polygon width="0.3" layer="16">
+<vertex x="0.635" y="-1.5875"/>
+<vertex x="0.635" y="1.5875" curve="-51.371965"/>
+<vertex x="2.8575" y="2.8575"/>
+<vertex x="6.985" y="2.8575" curve="-180"/>
+<vertex x="6.985" y="-2.8575"/>
+<vertex x="2.8575" y="-2.8575" curve="-54.193064"/>
+</polygon>
+<rectangle x1="-0.3175" y1="-2.2225" x2="0.3175" y2="2.2225" layer="41"/>
+<rectangle x1="-0.3175" y1="-2.2225" x2="0.3175" y2="2.2225" layer="42"/>
+<rectangle x1="-0.3175" y1="-2.2225" x2="0.3175" y2="2.2225" layer="43"/>
 </package>
 <package name="ZIP23-SLA">
 <description>&lt;b&gt;Small molded power package&lt;/b&gt; ZIP-type 23-pin SLA package&lt;p&gt;
@@ -625,9 +688,7 @@ Source: www.allegromicro.com .. 3901.pdf</description>
 <rectangle x1="-1.25" y1="-0.9" x2="1.25" y2="0.9" layer="29"/>
 </package>
 <package name="CB-PFF">
-<description>&lt;b&gt;5-pin module, leadform PFF&lt;/b&gt;&lt;p&gt;&lt;font color="red"&gt;
-In BRD, display layer 49 Reference and place VIAs with drill = 0,5mm on circles&lt;br&gt;
-In DRC, set Clearance same signals PAD to VIA = 0&lt;/font&gt;&lt;br&gt;
+<description>&lt;b&gt;5-pin module, leadform PFF&lt;/b&gt;&lt;p&gt;
 Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</description>
 <wire x1="-7" y1="1" x2="-3" y2="1" width="0" layer="46"/>
 <wire x1="-3" y1="1" x2="-3" y2="-1" width="0" layer="46" curve="-180"/>
@@ -671,30 +732,6 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</desc
 <wire x1="-1.91" y1="-20.2" x2="-1.91" y2="-17.825" width="0.6" layer="21"/>
 <wire x1="1.91" y1="-21.4" x2="1.91" y2="-20.2" width="0.6" layer="51"/>
 <wire x1="1.91" y1="-20.2" x2="1.91" y2="-17.825" width="0.6" layer="21"/>
-<circle x="1.8243" y="-1.6181" radius="0.25" width="0.001" layer="49"/>
-<circle x="1.0978" y="-0.6181" radius="0.25" width="0.001" layer="49"/>
-<circle x="1.0978" y="0.6179" radius="0.25" width="0.001" layer="49"/>
-<circle x="1.8244" y="1.618" radius="0.25" width="0.001" layer="49"/>
-<circle x="3" y="2" radius="0.25" width="0.001" layer="49"/>
-<circle x="3" y="-2" radius="0.25" width="0.001" layer="49"/>
-<circle x="4.3333" y="-2" radius="0.25" width="0.001" layer="49"/>
-<circle x="5.6666" y="-2" radius="0.25" width="0.001" layer="49"/>
-<circle x="8.1757" y="1.6181" radius="0.25" width="0.001" layer="49"/>
-<circle x="8.9022" y="0.6181" radius="0.25" width="0.001" layer="49"/>
-<circle x="8.9022" y="-0.6179" radius="0.25" width="0.001" layer="49"/>
-<circle x="8.1756" y="-1.618" radius="0.25" width="0.001" layer="49"/>
-<circle x="7" y="-2" radius="0.25" width="0.001" layer="49"/>
-<circle x="7" y="2" radius="0.25" width="0.001" layer="49"/>
-<circle x="5.6667" y="2" radius="0.25" width="0.001" layer="49"/>
-<circle x="4.3334" y="2" radius="0.25" width="0.001" layer="49"/>
-<circle x="-8.1757" y="-1.6181" radius="0.25" width="0.001" layer="49"/>
-<circle x="-8.9022" y="-0.6181" radius="0.25" width="0.001" layer="49"/>
-<circle x="-8.9022" y="0.6179" radius="0.25" width="0.001" layer="49"/>
-<circle x="-8.1756" y="1.618" radius="0.25" width="0.001" layer="49"/>
-<circle x="-7" y="2" radius="0.25" width="0.001" layer="49"/>
-<circle x="-7" y="-2" radius="0.25" width="0.001" layer="49"/>
-<circle x="-5.6667" y="-2" radius="0.25" width="0.001" layer="49"/>
-<circle x="-4.3334" y="-2" radius="0.25" width="0.001" layer="49"/>
 <circle x="-1.8243" y="1.6181" radius="0.25" width="0.001" layer="49"/>
 <circle x="-1.0978" y="0.6181" radius="0.25" width="0.001" layer="49"/>
 <circle x="-1.0978" y="-0.6179" radius="0.25" width="0.001" layer="49"/>
@@ -703,16 +740,105 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</desc
 <circle x="-3" y="2" radius="0.25" width="0.001" layer="49"/>
 <circle x="-4.3333" y="2" radius="0.25" width="0.001" layer="49"/>
 <circle x="-5.6666" y="2" radius="0.25" width="0.001" layer="49"/>
+<circle x="-8.1757" y="-1.6181" radius="0.25" width="0.001" layer="49"/>
+<circle x="-8.9022" y="-0.6181" radius="0.25" width="0.001" layer="49"/>
+<circle x="-8.9022" y="0.6179" radius="0.25" width="0.001" layer="49"/>
+<circle x="-8.1756" y="1.618" radius="0.25" width="0.001" layer="49"/>
+<circle x="-7" y="2" radius="0.25" width="0.001" layer="49"/>
+<circle x="-7" y="-2" radius="0.25" width="0.001" layer="49"/>
+<circle x="-5.6667" y="-2" radius="0.25" width="0.001" layer="49"/>
+<circle x="-4.3334" y="-2" radius="0.25" width="0.001" layer="49"/>
+<circle x="8.1757" y="1.6181" radius="0.25" width="0.001" layer="49"/>
+<circle x="8.9022" y="0.6181" radius="0.25" width="0.001" layer="49"/>
+<circle x="8.9022" y="-0.6179" radius="0.25" width="0.001" layer="49"/>
+<circle x="8.1756" y="-1.618" radius="0.25" width="0.001" layer="49"/>
+<circle x="7" y="-2" radius="0.25" width="0.001" layer="49"/>
+<circle x="7" y="2" radius="0.25" width="0.001" layer="49"/>
+<circle x="5.6667" y="2" radius="0.25" width="0.001" layer="49"/>
+<circle x="4.3334" y="2" radius="0.25" width="0.001" layer="49"/>
+<circle x="1.8243" y="-1.6181" radius="0.25" width="0.001" layer="49"/>
+<circle x="1.0978" y="-0.6181" radius="0.25" width="0.001" layer="49"/>
+<circle x="1.0978" y="0.6179" radius="0.25" width="0.001" layer="49"/>
+<circle x="1.8244" y="1.618" radius="0.25" width="0.001" layer="49"/>
+<circle x="3" y="2" radius="0.25" width="0.001" layer="49"/>
+<circle x="3" y="-2" radius="0.25" width="0.001" layer="49"/>
+<circle x="4.3333" y="-2" radius="0.25" width="0.001" layer="49"/>
+<circle x="5.6666" y="-2" radius="0.25" width="0.001" layer="49"/>
 <circle x="-3.175" y="-16.225" radius="0.4776" width="0.2032" layer="21"/>
-<pad name="4" x="3" y="0" drill="2" diameter="5" shape="offset"/>
-<pad name="5" x="-3" y="0" drill="2" diameter="5" shape="offset" rot="R180"/>
-<pad name="IP+1" x="7" y="0" drill="2" diameter="4" shape="offset" rot="R180"/>
-<pad name="IP-1" x="-7" y="0" drill="2" diameter="4" shape="offset"/>
+<pad name="IP-@2" x="-8.89" y="0.635" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP+@2" x="8.89" y="0.635" drill="0.5" diameter="0.9"/>
+<pad name="IP+" x="7" y="0" drill="2" diameter="4" shape="offset" rot="R180"/>
+<pad name="IP-" x="-7" y="0" drill="2" diameter="4" shape="offset"/>
 <pad name="1" x="-1.91" y="-21.4" drill="0.8" diameter="1.5"/>
 <pad name="2" x="0" y="-21.4" drill="0.8" diameter="1.5"/>
 <pad name="3" x="1.91" y="-21.4" drill="0.8" diameter="1.5"/>
 <text x="-3.81" y="-8.255" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-13.335" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="IP+@3" x="8.89" y="-0.635" drill="0.5" diameter="0.9"/>
+<pad name="IP-@3" x="-8.89" y="-0.635" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP+@4" x="8.175" y="-1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP+@5" x="7" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@6" x="5.675" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@7" x="4.35" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@8" x="3" y="-2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@9" x="1.825" y="-1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP+@10" x="1.1" y="-0.625" drill="0.5" diameter="0.9"/>
+<pad name="IP+@11" x="1.1" y="0.625" drill="0.5" diameter="0.9"/>
+<pad name="IP+@12" x="1.825" y="1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP+@13" x="3" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@14" x="4.35" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@15" x="5.675" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@16" x="7" y="2" drill="0.5" diameter="0.9"/>
+<pad name="IP+@17" x="8.175" y="1.625" drill="0.5" diameter="0.9"/>
+<pad name="IP-@4" x="-8.175" y="-1.625" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@5" x="-7" y="-2" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@6" x="-5.675" y="-2" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@7" x="-4.325" y="-2" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@8" x="-3" y="-2" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@9" x="-1.825" y="-1.625" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@10" x="-1.1" y="-0.625" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@11" x="-1.1" y="0.625" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@12" x="-1.825" y="1.625" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@13" x="-3" y="2" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@14" x="-4.325" y="2" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@15" x="-5.675" y="2" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@16" x="-7" y="2" drill="0.5" diameter="0.9" rot="R180"/>
+<pad name="IP-@17" x="-8.175" y="1.625" drill="0.5" diameter="0.9" rot="R180"/>
+<polygon width="0.3" layer="1">
+<vertex x="-0.635" y="1.5875"/>
+<vertex x="-0.635" y="-1.5875" curve="-52.588927"/>
+<vertex x="-2.8575" y="-2.8575"/>
+<vertex x="-6.985" y="-2.8575" curve="-180"/>
+<vertex x="-6.985" y="2.8575"/>
+<vertex x="-2.8575" y="2.8575" curve="-50.290534"/>
+</polygon>
+<polygon width="0.3" layer="1">
+<vertex x="0.635" y="-1.5875"/>
+<vertex x="0.635" y="1.5875" curve="-52.588927"/>
+<vertex x="2.8575" y="2.8575"/>
+<vertex x="6.985" y="2.8575" curve="-180"/>
+<vertex x="6.985" y="-2.8575"/>
+<vertex x="2.8575" y="-2.8575" curve="-50.290534"/>
+</polygon>
+<polygon width="0.3" layer="16">
+<vertex x="-0.635" y="1.5875"/>
+<vertex x="-0.635" y="-1.5875" curve="-52.588927"/>
+<vertex x="-2.8575" y="-2.8575"/>
+<vertex x="-6.985" y="-2.8575" curve="-180"/>
+<vertex x="-6.985" y="2.8575"/>
+<vertex x="-2.8575" y="2.8575" curve="-50.290534"/>
+</polygon>
+<polygon width="0.3" layer="16">
+<vertex x="0.635" y="-1.5875"/>
+<vertex x="0.635" y="1.5875" curve="-52.588927"/>
+<vertex x="2.8575" y="2.8575"/>
+<vertex x="6.985" y="2.8575" curve="-180"/>
+<vertex x="6.985" y="-2.8575"/>
+<vertex x="2.8575" y="-2.8575" curve="-50.290534"/>
+</polygon>
+<rectangle x1="-0.3175" y1="-2.2225" x2="0.3175" y2="2.2225" layer="41"/>
+<rectangle x1="-0.3175" y1="-2.2225" x2="0.3175" y2="2.2225" layer="42"/>
+<rectangle x1="-0.3175" y1="-2.2225" x2="0.3175" y2="2.2225" layer="43"/>
 </package>
 <package name="SOT23-W">
 <description>&lt;b&gt;3-pin SOT23W&lt;/b&gt; LH&lt;p&gt;
@@ -1012,8 +1138,6 @@ Source: &lt;a href="http://www.allegromicro.com/Products/Motor-Driver-And-Interf
 <pin name="GND" x="10.16" y="-5.08" length="short" direction="pwr" rot="R180"/>
 <pin name="VCC" x="10.16" y="5.08" length="short" direction="pwr" rot="R180"/>
 <pin name="VOUT" x="10.16" y="0" length="short" direction="out" rot="R180"/>
-<pin name="IP-1" x="-5.08" y="-10.16" visible="off" length="short" direction="in" rot="R90"/>
-<pin name="IP+1" x="-5.08" y="10.16" visible="off" length="short" direction="in" rot="R270"/>
 </symbol>
 <symbol name="SLA7070M">
 <wire x1="-15.24" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
@@ -1442,41 +1566,6 @@ Source: &lt;a href="http://www.allegromicro.com/Products/Motor-Driver-And-Interf
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ACS750*CA-050" prefix="IC">
-<description>&lt;b&gt;Current Sensor&lt;/b&gt;&lt;p&gt;
-display layer 49 Reference in BRD and place VIAs on circles&lt;br&gt;
-Source: www.allegromicro.com/datafile/0750-050.pdf</description>
-<gates>
-<gate name="G$1" symbol="ACS750XCA-050" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ACS75050">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IP+" pad="4"/>
-<connect gate="G$1" pin="IP+1" pad="IP+1"/>
-<connect gate="G$1" pin="IP-" pad="5"/>
-<connect gate="G$1" pin="IP-1" pad="IP-1"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<technologies>
-<technology name="L">
-<attribute name="MF" value="ALLEGRO MICROSYSTEMS, INC." constant="no"/>
-<attribute name="MPN" value="ACS750LCA-050" constant="no"/>
-<attribute name="OC_FARNELL" value="1457176" constant="no"/>
-<attribute name="OC_NEWARK" value="61H4464" constant="no"/>
-</technology>
-<technology name="S">
-<attribute name="MF" value="ALLEGRO MICROSYSTEMS, INC." constant="no"/>
-<attribute name="MPN" value="ACS750SCA-050" constant="no"/>
-<attribute name="OC_FARNELL" value="1457175" constant="no"/>
-<attribute name="OC_NEWARK" value="81H6588" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SLA707*M" prefix="IC">
 <description>&lt;b&gt;UNIPOLAR STEPPER-MOTOR TRANSLATOR/DRIVERS&lt;/b&gt;&lt;p&gt;
 Output current: SLA7070M = 1.0 A, SLA7071M = 1.5 A, SLA7072M = 2.0 A, SLA7073M = 3.0 A&lt;br&gt;
@@ -1853,53 +1942,6 @@ Source: www.allegromicro.com .. 3901.pdf</description>
 <attribute name="MPN" value="A3901SEJTR-T" constant="no"/>
 <attribute name="OC_FARNELL" value="1651947" constant="no"/>
 <attribute name="OC_NEWARK" value="87K3379" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ACS758*" prefix="IC">
-<description>&lt;b&gt;Thermally Enhanced, Fully Integrated, Hall Effect-Based Linear Current Sensor&lt;/b&gt; with 100 micro Ohm Current Conductor&lt;p&gt;
-display layer 49 Reference in BRD and place VIAs on circles&lt;br&gt;
-Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</description>
-<gates>
-<gate name="G$1" symbol="ACS750XCA-050" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CB-PFF">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IP+" pad="4"/>
-<connect gate="G$1" pin="IP+1" pad="IP+1"/>
-<connect gate="G$1" pin="IP-" pad="5"/>
-<connect gate="G$1" pin="IP-1" pad="IP-1"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<technologies>
-<technology name="ECB-200B-PFF-T">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="ACS758ECB-200B-PFF-T" constant="no"/>
-<attribute name="OC_FARNELL" value="1718993" constant="no"/>
-<attribute name="OC_NEWARK" value="04R7127" constant="no"/>
-</technology>
-<technology name="KCB-150B-PFF-T">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="ACS758KCB-150B-PFF-T" constant="no"/>
-<attribute name="OC_FARNELL" value="1718995" constant="no"/>
-<attribute name="OC_NEWARK" value="04R7129" constant="no"/>
-</technology>
-<technology name="LCB-050B-PFF-T">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="ACS758LCB-050B-PFF-T" constant="no"/>
-<attribute name="OC_FARNELL" value="1718997" constant="no"/>
-<attribute name="OC_NEWARK" value="04R7131" constant="no"/>
-</technology>
-<technology name="LCB-100B-PFF-T">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="ACS758LCB-100B-PFF-T" constant="no"/>
-<attribute name="OC_FARNELL" value="1718998" constant="no"/>
-<attribute name="OC_NEWARK" value="04R7132" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2298,6 +2340,84 @@ Source: &lt;a href="http://www.allegromicro.com/Products/Motor-Driver-And-Interf
 <technologies>
 <technology name="KLP-T"/>
 <technology name="KLPTR-T"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACS750*CA-050" prefix="IC">
+<description>&lt;b&gt;Current Sensor&lt;/b&gt;&lt;p&gt;
+display layer 49 Reference in BRD and place VIAs on circles&lt;br&gt;
+Source: www.allegromicro.com/datafile/0750-050.pdf</description>
+<gates>
+<gate name="G$1" symbol="ACS750XCA-050" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ACS75050">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IP+" pad="IP+ IP+@2 IP+@3 IP+@4 IP+@5 IP+@6 IP+@7 IP+@8 IP+@9 IP+@10 IP+@11 IP+@12 IP+@13 IP+@14 IP+@15 IP+@16 IP+@17" route="any"/>
+<connect gate="G$1" pin="IP-" pad="IP- IP-@2 IP-@3 IP-@4 IP-@5 IP-@6 IP-@7 IP-@8 IP-@9 IP-@10 IP-@11 IP-@12 IP-@13 IP-@14 IP-@15 IP-@16 IP-@17" route="any"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="L">
+<attribute name="MF" value="ALLEGRO MICROSYSTEMS, INC." constant="no"/>
+<attribute name="MPN" value="ACS750LCA-050" constant="no"/>
+<attribute name="OC_FARNELL" value="1457176" constant="no"/>
+<attribute name="OC_NEWARK" value="61H4464" constant="no"/>
+</technology>
+<technology name="S">
+<attribute name="MF" value="ALLEGRO MICROSYSTEMS, INC." constant="no"/>
+<attribute name="MPN" value="ACS750SCA-050" constant="no"/>
+<attribute name="OC_FARNELL" value="1457175" constant="no"/>
+<attribute name="OC_NEWARK" value="81H6588" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACS758*" prefix="IC">
+<description>&lt;b&gt;Thermally Enhanced, Fully Integrated, Hall Effect-Based Linear Current Sensor&lt;/b&gt; with 100 micro Ohm Current Conductor&lt;p&gt;
+display layer 49 Reference in BRD and place VIAs on circles&lt;br&gt;
+Source: http://www.allegromicro.com/en/Products/Part_Numbers/0758/0758.pdf</description>
+<gates>
+<gate name="G$1" symbol="ACS750XCA-050" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CB-PFF">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IP+" pad="IP+ IP+@2 IP+@3 IP+@4 IP+@5 IP+@6 IP+@7 IP+@8 IP+@9 IP+@10 IP+@11 IP+@12 IP+@13 IP+@14 IP+@15 IP+@16 IP+@17" route="any"/>
+<connect gate="G$1" pin="IP-" pad="IP- IP-@2 IP-@3 IP-@4 IP-@5 IP-@6 IP-@7 IP-@8 IP-@9 IP-@10 IP-@11 IP-@12 IP-@13 IP-@14 IP-@15 IP-@16 IP-@17" route="any"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="ECB-200B-PFF-T">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="ACS758ECB-200B-PFF-T" constant="no"/>
+<attribute name="OC_FARNELL" value="1718993" constant="no"/>
+<attribute name="OC_NEWARK" value="04R7127" constant="no"/>
+</technology>
+<technology name="KCB-150B-PFF-T">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="ACS758KCB-150B-PFF-T" constant="no"/>
+<attribute name="OC_FARNELL" value="1718995" constant="no"/>
+<attribute name="OC_NEWARK" value="04R7129" constant="no"/>
+</technology>
+<technology name="LCB-050B-PFF-T">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="ACS758LCB-050B-PFF-T" constant="no"/>
+<attribute name="OC_FARNELL" value="1718997" constant="no"/>
+<attribute name="OC_NEWARK" value="04R7131" constant="no"/>
+</technology>
+<technology name="LCB-100B-PFF-T">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="ACS758LCB-100B-PFF-T" constant="no"/>
+<attribute name="OC_FARNELL" value="1718998" constant="no"/>
+<attribute name="OC_NEWARK" value="04R7132" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

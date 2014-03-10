@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5002,6 +5002,29 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <connect gate="G$1" pin="D" pad="5 6 7 8 TH"/>
 <connect gate="G$1" pin="G" pad="4"/>
 <connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRF8313P" prefix="Q">
+<description>&lt;b&gt;HEXFET(R) Power MOSFET&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.irf.com/product-info/datasheets/data/irf8313pbf.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="HEXFET_N" x="0" y="7.62"/>
+<gate name="B" symbol="HEXFET_N" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SO-08">
+<connects>
+<connect gate="A" pin="D" pad="5 6"/>
+<connect gate="A" pin="G" pad="4"/>
+<connect gate="A" pin="S" pad="3"/>
+<connect gate="B" pin="D" pad="7 8"/>
+<connect gate="B" pin="G" pad="2"/>
+<connect gate="B" pin="S" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

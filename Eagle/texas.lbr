@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -31756,6 +31756,27 @@ changed 2011-11-09</description>
 <text x="-10.16" y="8.89" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TLC450X">
+<pin name="+" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="-" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<rectangle x1="-4.572" y1="2.413" x2="-3.302" y2="2.667" layer="95"/>
+<rectangle x1="-4.572" y1="2.413" x2="-3.302" y2="2.667" layer="95" rot="R90"/>
+<rectangle x1="-4.572" y1="-2.667" x2="-3.302" y2="-2.413" layer="95"/>
+<text x="-5.08" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TLC450P">
+<description>OP-AMP power pins</description>
+<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<text x="-0.889" y="3.175" size="1.27" layer="95">V+</text>
+<text x="-0.762" y="-4.445" size="1.27" layer="95">V-</text>
+<text x="-3.937" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BQ2054PN" prefix="U">
@@ -43839,6 +43860,69 @@ Source: bq24022.pdf (www.ti.com)</description>
 <connect gate="G$1" pin="USB" pad="2"/>
 <connect gate="G$1" pin="VSS" pad="5"/>
 <connect gate="TH" pin="TH" pad="TH"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLC4502" prefix="IC">
+<description>&lt;b&gt;FAMILY OF SELF-CALIBRATING (Self-Cal TM) PRECISION CMOS RAIL-TO-RAIL OUTPUT OPERATIONAL AMPLIFIERS&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc4502.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="TLC450X" x="0" y="10.16"/>
+<gate name="B" symbol="TLC450X" x="0" y="-10.16"/>
+<gate name="P" symbol="TLC450P" x="20.32" y="0"/>
+</gates>
+<devices>
+<device name="JG" package="DIL08">
+<connects>
+<connect gate="A" pin="+" pad="3"/>
+<connect gate="A" pin="-" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+" pad="5"/>
+<connect gate="B" pin="-" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="P" pin="V+" pad="8"/>
+<connect gate="P" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="D_R-PDSO-G08">
+<connects>
+<connect gate="A" pin="+" pad="3"/>
+<connect gate="A" pin="-" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+" pad="5"/>
+<connect gate="B" pin="-" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="P" pin="V+" pad="8"/>
+<connect gate="P" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLC4501" prefix="IC">
+<description>&lt;b&gt;FAMILY OF SELF-CALIBRATING (Self-Cal TM) PRECISION CMOS RAIL-TO-RAIL OUTPUT OPERATIONAL AMPLIFIERS&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc4502.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="TLC450X" x="0" y="0"/>
+<gate name="P" symbol="TLC450P" x="15.24" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="D" package="D_R-PDSO-G08">
+<connects>
+<connect gate="A" pin="+" pad="7"/>
+<connect gate="A" pin="-" pad="4"/>
+<connect gate="A" pin="OUT" pad="6"/>
+<connect gate="P" pin="V+" pad="3"/>
+<connect gate="P" pin="V-" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

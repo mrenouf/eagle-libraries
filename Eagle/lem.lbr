@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -127,6 +127,44 @@ Source: &lt;a href="http://www.lem.com/docs/products/la%20100-p%20e.pdf"&gt; Dat
 <vertex x="1.905" y="-1.27"/>
 </polygon>
 </package>
+<package name="LA25P">
+<description>&lt;b&gt;Currant Transducer LA 25-P&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.lem.com/docs/products/la%2025-p%20e.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="-15.75" y1="7.934" x2="-17.25" y2="7.934" width="0.254" layer="21"/>
+<wire x1="-17.25" y1="7.934" x2="-18.25" y2="6.934" width="0.254" layer="21" curve="90"/>
+<wire x1="-18.25" y1="6.934" x2="-18.25" y2="-5.566" width="0.254" layer="21"/>
+<wire x1="-18.25" y1="-5.566" x2="-17.25" y2="-6.566" width="0.254" layer="21" curve="90"/>
+<wire x1="-17.25" y1="-6.566" x2="-15.75" y2="-6.566" width="0.254" layer="21"/>
+<wire x1="-15.75" y1="-6.566" x2="-6.35" y2="-6.566" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="-6.566" x2="6.35" y2="-6.566" width="0.254" layer="21"/>
+<wire x1="6.35" y1="-6.566" x2="15.75" y2="-6.566" width="0.254" layer="21"/>
+<wire x1="15.75" y1="-6.566" x2="17.25" y2="-6.566" width="0.254" layer="21"/>
+<wire x1="17.25" y1="-6.566" x2="18.25" y2="-5.566" width="0.254" layer="21" curve="90"/>
+<wire x1="18.25" y1="-5.566" x2="18.25" y2="6.934" width="0.254" layer="21"/>
+<wire x1="18.25" y1="6.934" x2="17.25" y2="7.934" width="0.254" layer="21" curve="90"/>
+<wire x1="17.25" y1="7.934" x2="15.75" y2="7.934" width="0.254" layer="21"/>
+<wire x1="15.75" y1="7.934" x2="6.35" y2="7.934" width="0.254" layer="21"/>
+<wire x1="6.35" y1="7.934" x2="-6.35" y2="7.934" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="7.934" x2="-15.75" y2="7.934" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="7.934" x2="-6.35" y2="-6.566" width="0.254" layer="21" style="shortdash"/>
+<wire x1="6.35" y1="7.934" x2="6.35" y2="-6.566" width="0.254" layer="21" style="shortdash"/>
+<pad name="V-" x="-8.89" y="0" drill="0.9" diameter="1.8" shape="octagon"/>
+<pad name="M" x="-13.97" y="0" drill="0.9" diameter="1.8" shape="octagon"/>
+<pad name="V+" x="13.97" y="0" drill="0.9" diameter="1.8" shape="octagon"/>
+<text x="-18.6112" y="8.1998" size="1.27" layer="25">&gt;NAME</text>
+<text x="-18.6112" y="-8.6034" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.254" layer="21">
+<vertex x="0" y="5.08"/>
+<vertex x="1.905" y="1.27"/>
+<vertex x="0.635" y="1.27"/>
+<vertex x="0.635" y="-3.175"/>
+<vertex x="-0.635" y="-3.175"/>
+<vertex x="-0.635" y="1.27"/>
+<vertex x="-1.905" y="1.27"/>
+</polygon>
+<wire x1="-15.75" y1="7.934" x2="-15.75" y2="-6.566" width="0.254" layer="21"/>
+<wire x1="15.75" y1="-6.566" x2="15.75" y2="7.934" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CURRENT-TRANSDUCER">
@@ -249,7 +287,7 @@ Source: www.lem.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LA-100P" prefix="IC">
+<deviceset name="LA-*" prefix="IC">
 <description>&lt;b&gt;Current Transducer&lt;/b&gt; LA 100P&lt;p&gt;
 For the electronic measurement of currents: DC, AC, pulsed...,&lt;br&gt;
 Source: &lt;a href="http://www.lem.com/docs/products/la%20100-p%20e.pdf"&gt; Data sheet &lt;/a&gt;</description>
@@ -257,7 +295,17 @@ Source: &lt;a href="http://www.lem.com/docs/products/la%20100-p%20e.pdf"&gt; Dat
 <gate name="G$1" symbol="LA100P" x="-5.08" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="LA100P">
+<device name="100P" package="LA100P">
+<connects>
+<connect gate="G$1" pin="M" pad="M"/>
+<connect gate="G$1" pin="V+" pad="V+"/>
+<connect gate="G$1" pin="V-" pad="V-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="25-P" package="LA25P">
 <connects>
 <connect gate="G$1" pin="M" pad="M"/>
 <connect gate="G$1" pin="V+" pad="V+"/>
