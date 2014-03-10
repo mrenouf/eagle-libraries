@@ -1,6 +1,363 @@
 EAGLE Library ChangeLog
 =======================
 
+2012-01-11
+  * transistor.lbr: Eagle 6.0.2
+    removed:
+    *-NPN-2C-.DEV
+    *-PNP-2C-.DEV
+    PNP2.SYM
+
+2011-12-28
+  * microchip.lbr: Eagle 6.0.2
+    added:
+    PIC16*F1516/18.DEV
+    PIC16*F1517/19.DEV
+    UQFN28_4X4MM.PAC
+    UQFN40ML5X5MM.PAC
+    PIC16*F1826/27.DEV
+
+2011-12-28
+  * plcc-socket.lbr: Eagle 6.0.2
+    added:
+    PLCC86_635.PAC
+    W9322.PAC
+    W9323.PAC
+    W9324.PAC
+    W9325.PAC
+    W9326.PAC
+    W9327.PAC
+    W9328.PAC
+
+2011-12-27
+  * con-harting.lbr: Eagle 6.0.2
+    added:
+    60010685132.PAC
+    60010685232.PAC
+
+2011-12-20
+  * micro-philips.lbr: Eagle 6.0.1
+    corrected package: HVQFN28.PAC
+
+2011-12-19
+  * con-garry.lbr: Eagle 6.0.1
+    added:
+    332-02.DEV
+    332-04.DEV
+    332-06.DEV
+    332-08.DEV
+    332-10.DEV
+    332-12.DEV
+    332-14.DEV
+    332-16.DEV
+    332-18.DEV
+    332-20.DEV
+    332-22.DEV
+    332-24.DEV
+    332-26.DEV
+    332-28.DEV
+    332-30.DEV
+    332-32.DEV
+    332-34.DEV
+    332-36.DEV
+    332-38.DEV
+    332-42.DEV
+    332-44.DEV
+    332-46.DEV
+    332-48.DEV
+    332-50.DEV
+    332-02.PAC
+    332-04.PAC
+    332-06.PAC
+    332-08.PAC
+    332-10.PAC
+    332-12.PAC
+    332-14.PAC
+    332-16.PAC
+    332-18.PAC
+    332-20.PAC
+    332-22.PAC
+    332-24.PAC
+    332-26.PAC
+    332-28.PAC
+    332-30.PAC
+    332-32.PAC
+    332-34.PAC
+    332-36.PAC
+    332-38.PAC
+    332-42.PAC
+    332-44.PAC
+    332-46.PAC
+    332-48.PAC
+    332-50.PAC
+
+2011-12-15
+  * con-tyco.lbr: Eagle 6.0.1
+    added:
+    D1200D-4.DEV
+    D1200D-6.DEV
+    D1200D-8.DEV
+    D1200D-10.DEV
+    D1200D-12.DEV
+    D1200D-16.DEV
+    D1200D-20.DEV
+    D1200D-4.PAC
+    D1200D-6.PAC
+    D1200D-8.PAC
+    D1200D-10.PAC
+    D1200D-12.PAC
+    D1200D-16.PAC
+    D1200D-20.PAC
+
+2011-12-05
+  * diode.lbr: Eagle 5.91.5
+    changed: all devices and symbols with multi connection pins and extended pattern
+
+2011-12-01
+  * quantum-research-group.lbr: Eagle 5.91.4
+    packages with extended pad:
+    ROTOR-QUANTUM-20MM.PAC
+    ROTOR_E1106_40MM.PAC
+
+2011-12-01
+  * lumiled.lbr: Eagle 5.91.4
+    changed: all devices and symbols with multi connection pins
+
+2011-12-01
+  * led.lbr: Eagle 5.91.4
+    changed: all devices and symbols with multi connection pins
+
+2011-11-25
+  * con-faston.lbr: Eagle 5.91.2
+    changed: all devices and symbols with multi connection pins
+
+2011-11-25
+  * led-lumiled.lbr: Eagle 5.91.2
+    changed: all devices and symbols with multi connection pins
+
+2011-11-25
+  * con-pulse.lbr: Eagle 5.91.2
+    moved text >NAME in JP011.SYM on (-500 -2300) mil
+
+2011-11-25
+  * con-molex.lbr: Eagle 5.91.2
+    changed: pin name in symbol AGND.SYM from A-GND@1 to AGND
+
+2011-11-25
+  * con-hirschmann.lbr: Eagle 5.91.2
+    changed: all devices and symbols with multi connection pins
+
+2011-11-25
+  * chipcard-siemens.lbr: Eagle 5.91.2
+    changed: all devices and symbols with multi connection pins
+
+2011-11-23
+  * transistor-small-signal.lbr: Eagle 5.91.2
+    changed: all devices and symbols with multi connection pins
+
+2011-11-23
+  * transistor-power.lbr: Eagle 5.91.2
+    changed: all devices and symbols with multi connection pins
+
+2011-11-23
+  * transistor-pnp.lbr: Eagle 5.91.2
+    changed: all devices and symbols with multi connection pins
+
+2011-11-23
+  * transistor-npn.lbr: Eagle 5.91.2
+     changed: all devices and symbols with multi connection pins
+
+2011-11-22
+  * transistor-fet.lbr: Eagle 5.91.2
+    changed: all devices and symbols with multi connection pins
+
+2011-11-22
+  * transistor.lbr: Eagle 5.91.2
+    changed: all devices and symbols with multi connection pins
+
+2011-11-16
+  * transistor-fet.lbr: Eagle 5.91.1
+    added:
+    2N4416.DEV
+
+2011-11-16
+  * transistor.lbr: Eagle 5.91.1
+    deleted: 2N4416.DEV
+
+2011-11-10
+  * texas.lbr: Eagle 5.91.1
+    added:
+    TPS62120.DEV
+    DCN-R-PDSO-G8.PAC
+    BQ24022.DEV
+    changed package (pad extension): DRC-S-PVSON-N10.PAC
+
+2011-11-02
+  * microchip.lbr: Eagle 5.11.2
+    renamed: TQFP100.PAC to TQFP100-14X14.PAC
+    added:
+    DSPIC33FJ256GP710.DEV
+    TQFP100-12X12.PAC
+
+2011-11-02
+  * trimble.lbr: Eagle 5.11.2
+    added:
+    A1919_AARDVARK.DEV
+    B1919_BUFFALO.DEV
+    C1011_CONDOR.DEV
+    C1216_CONDOR.DEV
+    C1722_CONDOR.DEV
+    C1919A_CONDOR.DEV
+    C1919B_CONDOR.DEV
+    C1919C_CONDOR.DEV
+
+2011-10-21
+  * atmel.lbr: Eagle 5.11.2
+    corrected pin direction: 250X0.SYM
+
+2011-10-06
+  * switch-reed.lbr: Eagle 5.11.2
+    added:
+    REED-SWITCH-NO-NC.DEV
+    REED-SWITCH-.DEV
+    CT10-A2.PAC
+    CT10-G1.PAC
+    CT10-G4.PAC
+    MK6-4.PAC
+    MK6-5.PAC
+    MK6-6.PAC
+    MK6-7.PAC
+    MK6-8-A.PAC
+    MK6-8-C.PAC
+    MK6-10.PAC
+    MK15.PAC
+
+2011-10-05
+  * transistor-power.lbr: Eagle 5.11.2
+    added:
+    BSC340N08NS3G.DEV
+    PG-TDSON-8.PAC
+
+2011-10-04
+  * linear.lbr: Eagle 5.11.2
+    corrected connection: TL331.DEV
+
+2011-09-30
+  * led.lbr: Eagle 5.11.2
+    added:
+    ML-E.DEV
+    ML-E.PAC
+
+2011-09-30
+  * transistor-fet.lbr: Eagle 5.11.2
+    corrected: FDD4141.DEV connection Drain, Source
+
+2011-09-28
+  * texas.lbr: Eagle 5.11.2
+    added:
+    SWRA092B.DEV
+    SWRA092B.PAC
+
+2011-09-28
+  * inductors.lbr: Eagle 5.11.2
+    added:
+    BML15H.DEV
+    0402.PAC
+
+2011-09-28
+  * crystal.lbr: Eagle 5.11.2
+    added:
+    FA-.DEV
+    FC-12M.DEV
+    FA-20H.PAC
+    FA-128.PAC
+    FC-12M.PAC
+
+2011-09-27
+  * lem.lbr: Eagle 5.11.2
+    added:
+    LA-100P.DEV
+    LA100P.PAC
+
+2011-09-27
+  * johanson-technology.lbr: Eagle 5.11.2
+    added:
+    2450BM15A0002.DEV
+    2450BM15A0002.PAC
+
+2011-09-26
+  * linear.lbr: Eagle 5.11.2
+    added: LM2902.DEV Variant PT
+    SSOP14.PAC
+
+2011-09-26
+  * con-amp.lbr: Eagle 5.11.2
+    added:
+    966140-5F.DEV
+    966140-5F.PAC
+
+2011-09-23
+  * con-lumberg.lbr: Eagle 5.11.2
+    corrected pad 1 and 3 (swaped): 1503_02.PAC
+
+2011-09-20
+  * texas.lbr: Eagle 5.11.2
+    added:
+    CC2540.DEV
+
+2011-09-16
+  * belton-engineering.lbr: Eagle 5.11.2
+    added:
+    VT9.DEV
+    VT9-PT.PAC
+    VT9-PT-C.PAC
+
+2011-09-15
+  * led.lbr: Eagle 5.11.2
+    added:
+    SPHWHTHAD605S0W0U4.DEV
+    SPHWHTHAD605S0W0U4.PAC
+
+2011-09-15
+  * national-semiconductor.lbr: Eagle 5.11.2
+    added:
+    LM13600.DEV
+    DIL16.PAC
+    SO16.PAC
+    SO16DW.PAC
+
+2011-09-15
+  * mitsubishi-semiconductor.lbr: Eagle 5.11.2
+    added:
+    M5218.DEV
+    SOP8.PAC
+
+2011-09-15
+  * toshiba.lbr: Eagle 5.11.2
+    added:
+    TA7136AP.DEV
+    SIP7-P-2.54.PAC
+
+2011-09-08
+  * traco-electronic.lbr: Eagle 5.11.2
+    added:
+    TES3.DEV
+    TES3-.DEV
+    TES3.PAC
+
+2011-09-01
+  * national-semiconductor.lbr: Eagle 5.11.1
+    added:
+    LM391.DEV
+    DIL18.PAC
+    PLCC20S.PAC
+
+2011-09-01
+  * st-microelectronics.lbr: Eagle 5.11.1
+    added:
+    L5973D.DEV
+    HSOP8.PAC
+
 2011-08-22
   * con-lumberg.lbr: Eagle 5.11.1
     corrected pad and hole position: 1501_06.PAC
